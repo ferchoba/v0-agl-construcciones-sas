@@ -87,8 +87,8 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 Para producción en Vercel:
 
 \`\`\`env
-NEXT_PUBLIC_API_URL=https://tu-dominio.vercel.app/api
-NEXT_PUBLIC_SITE_URL=https://tu-dominio.vercel.app
+NEXT_PUBLIC_API_URL=https://v0-agl-construcciones-sas.vercel.app/api
+NEXT_PUBLIC_SITE_URL=https://v0-agl-construcciones-sas.vercel.app
 \`\`\`
 
 ## Estructura del Proyecto
