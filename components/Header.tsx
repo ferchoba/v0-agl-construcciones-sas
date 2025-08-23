@@ -17,8 +17,6 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
     { label: "Servicios", href: "/servicios" },
     { label: "Proyectos", href: "/proyectos" },
     { label: "Quiénes Somos", href: "/quienes-somos" },
-    { label: "Contacto", href: "/contacto" },
-    { label: "Cotización", href: "/cotizacion" },
   ]
 
   return (
@@ -30,8 +28,6 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
             <span className="text-xl font-bold text-white">AGL</span>
             <span className="text-sm text-gray-400 leading-tight">
               CONSTRUCCIONES
-              <br />
-              SAS
             </span>
           </Link>
 
@@ -61,7 +57,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                 size="sm"
                 className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
               >
-                Construcción
+                Cotización
               </Button>
             </Link>
             <Link href="/contacto">
@@ -102,7 +98,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                     size="sm"
                     className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
                   >
-                    Construcción
+                    Cotización
                   </Button>
                 </Link>
                 <Link href="/contacto">
