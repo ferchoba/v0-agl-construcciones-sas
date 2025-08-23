@@ -53,7 +53,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
         <Link href={`/proyectos/${project.slug}`}>
           <Button className="w-full bg-green-600 hover:bg-green-700 text-white" size="sm">
-            Ver Detalles
+            {t("projects.view_details")}
           </Button>
         </Link>
       </div>

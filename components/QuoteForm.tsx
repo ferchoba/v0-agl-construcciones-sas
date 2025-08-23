@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea"
 import type { QuoteFormData, QuoteFormErrors } from "@/types/quote"
 import { validateQuoteForm } from "@/lib/form-validation"
 import { submitQuoteRequest, serviceOptions, budgetOptions } from "@/lib/quote-api"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 interface QuoteFormState {
   data: QuoteFormData
@@ -17,6 +18,8 @@ interface QuoteFormState {
 }
 
 export default function QuoteForm() {
+  const { t, tx } = useLanguage()
+  const vdict = tx("quote_form.validation")
   const [formState, setFormState] = useState<QuoteFormState>({
     data: {
       fullName: "",
@@ -43,7 +46,7 @@ export default function QuoteForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
-    const errors = validateQuoteForm(formState.data)
+    const errors = validateQuoteForm(formState.data, vdict)
 
     if (Object.keys(errors).length > 0) {
       setFormState((prev) => ({ ...prev, errors }))
@@ -95,10 +98,10 @@ export default function QuoteForm() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-white mb-2">¡Cotización enviada!</h3>
-          <p className="text-gray-400 mb-6">Gracias por tu solicitud. Te contactaremos en las próximas 24 horas.</p>
+          <h3 className="text-xl font-semibold text-white mb-2">{t("quote_form.success.title")}</h3>
+          <p className="text-gray-400 mb-6">{t("quote_form.success.description")}</p>
           <Button onClick={() => setFormState((prev) => ({ ...prev, isSubmitted: false }))} variant="outline">
-            Solicitar otra cotización
+            {t("quote_form.success.another")}
           </Button>
         </div>
       </div>
@@ -109,24 +112,22 @@ export default function QuoteForm() {
     <div className="max-w-4xl mx-auto px-4">
       <div className="bg-gray-800 rounded-lg p-8">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-white mb-2">Formulario de Cotización</h2>
-          <p className="text-gray-400">
-            Completa los siguientes datos y nos pondremos en contacto contigo en las próximas 24 horas
-          </p>
+          <h2 className="text-2xl font-bold text-white mb-2">{t("quote_form.form_title")}</h2>
+          <p className="text-gray-400">{t("quote_form.form_subtitle")}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-8">
           {/* Personal Information Section */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Información Personal</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">{t("quote_form.form_title")}</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Nombre completo <span className="text-red-500">*</span>
+                  {t("quote_form.fields.fullName.label")} <span className="text-red-500">*</span>
                 </label>
                 <Input
                   type="text"
-                  placeholder="Tu nombre completo"
+                  placeholder={t("quote_form.fields.fullName.placeholder")}
                   value={formState.data.fullName}
                   onChange={(e) => handleInputChange("fullName", e.target.value)}
                   className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
@@ -136,11 +137,11 @@ export default function QuoteForm() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Email <span className="text-red-500">*</span>
+                  {t("quote_form.fields.email.label")} <span className="text-red-500">*</span>
                 </label>
                 <Input
                   type="email"
-                  placeholder="tu@email.com"
+                  placeholder={t("quote_form.fields.email.placeholder")}
                   value={formState.data.email}
                   onChange={(e) => handleInputChange("email", e.target.value)}
                   className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
@@ -151,11 +152,11 @@ export default function QuoteForm() {
 
             <div className="mt-6">
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                Teléfono <span className="text-red-500">*</span>
+                {t("quote_form.fields.phone.label")} <span className="text-red-500">*</span>
               </label>
               <Input
                 type="tel"
-                placeholder="Tu teléfono"
+                placeholder={t("quote_form.fields.phone.placeholder")}
                 value={formState.data.phone}
                 onChange={(e) => handleInputChange("phone", e.target.value)}
                 className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
@@ -166,20 +167,20 @@ export default function QuoteForm() {
 
           {/* Project Details Section */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Detalles del Proyecto</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">{t("quote_form.form_title")}</h3>
 
             <div className="mb-6">
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                Tipo de servicio <span className="text-red-500">*</span>
+                {t("quote_form.fields.serviceType.label")} <span className="text-red-500">*</span>
               </label>
               <select
                 value={formState.data.serviceType}
                 onChange={(e) => handleInputChange("serviceType", e.target.value)}
                 className="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-3 py-2 focus:border-green-600 focus:ring-green-600 focus:outline-none"
               >
-                {serviceOptions.map((option) => (
+                {serviceOptions.map((option, idx) => (
                   <option key={option.value} value={option.value}>
-                    {option.label}
+                    {tx(`quote_form.options.serviceOptions.${idx}.label`) ?? option.label}
                   </option>
                 ))}
               </select>
@@ -190,10 +191,10 @@ export default function QuoteForm() {
 
             <div className="mb-6">
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                Descripción del proyecto <span className="text-red-500">*</span>
+                {t("quote_form.fields.projectDescription.label")} <span className="text-red-500">*</span>
               </label>
               <Textarea
-                placeholder="Describe tu proyecto, dimensiones, ubicación, detalles específicos, etc."
+                placeholder={t("quote_form.fields.projectDescription.placeholder")}
                 rows={4}
                 value={formState.data.projectDescription}
                 onChange={(e) => handleInputChange("projectDescription", e.target.value)}
@@ -207,16 +208,16 @@ export default function QuoteForm() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Presupuesto estimado <span className="text-red-500">*</span>
+                  {t("quote_form.fields.budgetRange.label")} <span className="text-red-500">*</span>
                 </label>
                 <select
                   value={formState.data.budgetRange}
                   onChange={(e) => handleInputChange("budgetRange", e.target.value)}
                   className="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-3 py-2 focus:border-green-600 focus:ring-green-600 focus:outline-none"
                 >
-                  {budgetOptions.map((option) => (
+                  {budgetOptions.map((option, idx) => (
                     <option key={option.value} value={option.value}>
-                      {option.label}
+                      {tx(`quote_form.options.budgetOptions.${idx}.label`) ?? option.label}
                     </option>
                   ))}
                 </select>
@@ -227,7 +228,7 @@ export default function QuoteForm() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Fecha preferida de inicio <span className="text-red-500">*</span>
+                  {t("quote_form.fields.preferredDate.label")} <span className="text-red-500">*</span>
                 </label>
                 <Input
                   type="date"
@@ -247,11 +248,11 @@ export default function QuoteForm() {
             disabled={formState.isSubmitting}
             className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
           >
-            {formState.isSubmitting ? "Enviando..." : "Solicitar Cotización"}
+            {formState.isSubmitting ? t("quote_form.submit.submitting") : t("quote_form.submit.idle")}
           </Button>
 
           <p className="text-xs text-gray-500 text-center">
-            Al enviar este formulario, aceptas nuestra política de privacidad y el tratamiento de tus datos personales
+            {t("quote_form.privacy")}
           </p>
         </form>
       </div>

@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   title: "AGL Construcciones SAS - Transformamos sus espacios con calidad excepcional",
   description: "Especialistas en remodelación y construcción de espacios residenciales, comerciales y de oficina.",
   generator: "v0.app",
+  alternates: {
+    languages: {
+      "es": "/",
+      "en": "/"
+    }
+  }
 }
 
 export default function RootLayout({

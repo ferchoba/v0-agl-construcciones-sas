@@ -1,94 +1,121 @@
-import type { ContactFormData, ContactFormErrors, QuoteFormData, QuoteFormErrors } from "@/types/contact"
+import type { ContactFormData, ContactFormErrors } from "@/types/contact"
+import type { QuoteFormData, QuoteFormErrors } from "@/types/quote"
 
-export function validateContactForm(data: ContactFormData): ContactFormErrors {
+export interface ContactValidationDict {
+  name_required: string
+  name_min: string
+  email_required: string
+  email_invalid: string
+  phone_required: string
+  phone_invalid: string
+  message_required: string
+  message_min: string
+}
+
+export interface QuoteValidationDict {
+  fullName_required: string
+  fullName_min: string
+  email_required: string
+  email_invalid: string
+  phone_required: string
+  phone_invalid: string
+  serviceType_required: string
+  projectDescription_required: string
+  projectDescription_min: string
+  budgetRange_required: string
+  preferredDate_required: string
+  preferredDate_invalid: string
+}
+
+export function validateContactForm(data: ContactFormData, dict: ContactValidationDict): ContactFormErrors {
   const errors: ContactFormErrors = {}
 
   // Validate name
   if (!data.name.trim()) {
-    errors.name = "El nombre es requerido"
+    errors.name = dict.name_required
   } else if (data.name.trim().length < 2) {
-    errors.name = "El nombre debe tener al menos 2 caracteres"
+    errors.name = dict.name_min
   }
 
   // Validate email
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   if (!data.email.trim()) {
-    errors.email = "El email es requerido"
+    errors.email = dict.email_required
   } else if (!emailRegex.test(data.email)) {
-    errors.email = "Ingresa un email válido"
+    errors.email = dict.email_invalid
   }
 
   // Validate phone
   const phoneRegex = /^[+]?[0-9\s\-$$$$]{10,}$/
   if (!data.phone.trim()) {
-    errors.phone = "El teléfono es requerido"
+    errors.phone = dict.phone_required
   } else if (!phoneRegex.test(data.phone)) {
-    errors.phone = "Ingresa un teléfono válido"
+    errors.phone = dict.phone_invalid
   }
 
   // Validate message
   if (!data.message.trim()) {
-    errors.message = "El mensaje es requerido"
+    errors.message = dict.message_required
   } else if (data.message.trim().length < 10) {
-    errors.message = "El mensaje debe tener al menos 10 caracteres"
+    errors.message = dict.message_min
   }
 
   return errors
 }
 
-export function validateQuoteForm(data: QuoteFormData): QuoteFormErrors {
+export function validateQuoteForm(data: QuoteFormData, dict: QuoteValidationDict): QuoteFormErrors {
   const errors: QuoteFormErrors = {}
 
   // Validate full name
   if (!data.fullName.trim()) {
-    errors.fullName = "El nombre completo es requerido"
+    errors.fullName = dict.fullName_required
   } else if (data.fullName.trim().length < 2) {
-    errors.fullName = "El nombre debe tener al menos 2 caracteres"
+    errors.fullName = dict.fullName_min
   }
 
   // Validate email
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   if (!data.email.trim()) {
-    errors.email = "El email es requerido"
+    errors.email = dict.email_required
   } else if (!emailRegex.test(data.email)) {
-    errors.email = "Ingresa un email válido"
+    errors.email = dict.email_invalid
   }
 
   // Validate phone
   const phoneRegex = /^[+]?[0-9\s\-()]{10,}$/
   if (!data.phone.trim()) {
-    errors.phone = "El teléfono es requerido"
+    errors.phone = dict.phone_required
   } else if (!phoneRegex.test(data.phone)) {
-    errors.phone = "Ingresa un teléfono válido"
+    errors.phone = dict.phone_invalid
   }
 
   // Validate service type
   if (!data.serviceType) {
-    errors.serviceType = "Selecciona un tipo de servicio"
+    errors.serviceType = dict.serviceType_required
   }
 
   // Validate project description
   if (!data.projectDescription.trim()) {
-    errors.projectDescription = "La descripción del proyecto es requerida"
+    errors.projectDescription = dict.projectDescription_required
   } else if (data.projectDescription.trim().length < 20) {
-    errors.projectDescription = "La descripción debe tener al menos 20 caracteres"
+    errors.projectDescription = dict.projectDescription_min
   }
 
   // Validate budget range
   if (!data.budgetRange) {
-    errors.budgetRange = "Selecciona un rango de presupuesto"
+    errors.budgetRange = dict.budgetRange_required
   }
 
   // Validate preferred date
   if (!data.preferredDate) {
-    errors.preferredDate = "Selecciona una fecha preferida"
+    errors.preferredDate = dict.preferredDate_required
   } else {
     const selectedDate = new Date(data.preferredDate)
     const today = new Date()
     today.setHours(0, 0, 0, 0)
 
     if (selectedDate < today) {
-      errors.preferredDate = "La fecha debe ser hoy o posterior"
+      errors.preferredDate = dict.preferredDate_invalid
     }
   }
 

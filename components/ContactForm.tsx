@@ -12,7 +12,7 @@ import { submitContactForm } from "@/lib/contact-api"
 import { useLanguage } from "@/lib/LanguageProvider"
 
 export default function ContactForm() {
-  const { t } = useLanguage()
+  const { t, tx } = useLanguage()
   const [formState, setFormState] = useState<ContactFormState>({
     data: {
       name: "",
@@ -36,7 +36,7 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
-    const errors = validateContactForm(formState.data)
+    const errors = validateContactForm(formState.data, tx("contact_form.validation"))
 
     if (Object.keys(errors).length > 0) {
       setFormState((prev) => ({ ...prev, errors }))

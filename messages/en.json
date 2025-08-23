@@ -128,6 +128,61 @@
       "No-commitment estimates"
     ]
   },
+  "quote_form": {
+    "page_title": "Request a Quote",
+    "page_subtitle": "Get a personalized quote for your construction or remodeling project",
+    "form_title": "Quote Form",
+    "form_subtitle": "Fill in the following details and we will contact you within 24 hours",
+    "fields": {
+      "fullName": { "label": "Full name", "placeholder": "Your full name" },
+      "email": { "label": "Email", "placeholder": "your@email.com" },
+      "phone": { "label": "Phone", "placeholder": "Your phone" },
+      "serviceType": { "label": "Service type" },
+      "projectDescription": { "label": "Project description", "placeholder": "Describe your project, dimensions, location, specific details, etc." },
+      "budgetRange": { "label": "Estimated budget" },
+      "preferredDate": { "label": "Preferred start date" }
+    },
+    "options": {
+      "serviceOptions": [
+        { "value": "", "label": "Select a service" },
+        { "value": "demoliciones", "label": "Demolitions" },
+        { "value": "cimentacion", "label": "Foundation" },
+        { "value": "estructura", "label": "Structure" },
+        { "value": "mamposteria", "label": "Masonry" },
+        { "value": "panetes", "label": "Plastering" },
+        { "value": "acabados", "label": "Finishes" },
+        { "value": "estuco-pintura", "label": "Stucco and Paint" },
+        { "value": "drywall", "label": "Drywall" },
+        { "value": "enchapes", "label": "Tile Installation" }
+      ],
+      "budgetOptions": [
+        { "value": "", "label": "Select a range" },
+        { "value": "0-5000000", "label": "Less than $5,000,000" },
+        { "value": "5000000-10000000", "label": "$5,000,000 - $10,000,000" },
+        { "value": "10000000-20000000", "label": "$10,000,000 - $20,000,000" },
+        { "value": "20000000-50000000", "label": "$20,000,000 - $50,000,000" },
+        { "value": "50000000+", "label": "More than $50,000,000" }
+      ]
+    },
+    "submit": { "idle": "Request Quote", "submitting": "Sending..." },
+    "success": { "title": "Quote sent!", "description": "Thank you for your request. We will contact you within 24 hours.", "another": "Request another quote" },
+    "error": { "generic": "Error sending quote. Please try again." },
+    "privacy": "By submitting this form, you accept our privacy policy and the processing of your personal data",
+    "validation": {
+      "fullName_required": "Full name is required",
+      "fullName_min": "Name must have at least 2 characters",
+      "email_required": "Email is required",
+      "email_invalid": "Please enter a valid email",
+      "phone_required": "Phone is required",
+      "phone_invalid": "Please enter a valid phone number",
+      "serviceType_required": "Select a service type",
+      "projectDescription_required": "Project description is required",
+      "projectDescription_min": "Description must have at least 20 characters",
+      "budgetRange_required": "Select a budget range",
+      "preferredDate_required": "Select a preferred date",
+      "preferredDate_invalid": "Date must be today or later"
+    }
+  },
   "services_home": {
     "demoliciones": {
       "title": "DEMOLITIONS",
@@ -153,45 +208,250 @@
       "MAMPOSTERÍA": "MASONRY",
       "ACABADOS": "FINISHES"
     },
-    "completed_at": "Completed on:"
-,
-    "details": {
+    "completed_at": "Completed on:",
+    "detailsTitle": "Project Description",
+    "workScopeTitle": "Work Scope",
+    "techSpecsTitle": "Technical Specifications",
+    "resultsTitle": "Results",
+    "tech": {
+      "areaLabel": "Finishing area",
+      "apartmentsLabel": "Number of apartments",
+      "floorTypesLabel": "Floor types",
+      "specialFinishesLabel": "Special finishes"
+    },
+    "detailsCardTitle": "Project Details",
+    "serviceTypeLabel": "Service type:",
+    "imagesLabel": "Images:",
+    "imagesUnit": "photos",
+    "view_details": "View Details",
+    "view_service_label": "View service:",
+    "total_projects_label": "Showing {count} projects in total",
+    "items": {
       "altos-de-tundama": {
         "title": "ALTOS DE TUNDAMA",
         "description": "Comprehensive finishing project for the Altos de Tundama residential complex...",
-        "completionDate": "December 14, 2024",
-        "heroImage": { "alt": "Altos de Tundama building - Main view" },
-        "thumbnails": [
-          { "alt": "Side view of the building" },
-          { "alt": "Facade details" },
-          { "alt": "Common area" }
-        ],
-        "workScope": [
-          "Installation of ceramic and porcelain floors",
-          "Tiling in bathrooms and kitchens",
-          "Wood carpentry",
-          "Interior and exterior painting",
-          "Installation of doors and windows"
-        ],
-        "technicalSpecs": {
-          "area": "3,500 m²",
-          "floorTypes": "Porcelain and ceramic",
-          "specialFinishes": "Integrated kitchens"
-        },
-        "results": "A project that combines structural solidity, functionality and aesthetics..."
+        "completedDate": "December 14, 2024",
+        "location": "Tundama"
+      },
+      "universidad-santo-tomas-tunja": {
+        "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
+        "description": "Structural masonry construction for a new 3-story academic block. Specialized work on load-bearing walls, exposed brick facades, and decorative architectural elements combining functionality with modern institutional design.",
+        "completedDate": "November 19, 2024",
+        "location": "Tunja"
+      },
+      "entreparques": {
+        "title": "ENTREPARQUES",
+        "description": "Masonry development for a 15-story residential tower. Construction of partition walls, ventilated facades, and complementary structural elements using advanced techniques and high-resistance materials to ensure durability and aesthetics.",
+        "completedDate": "October 14, 2024",
+        "location": "Bogotá"
+      },
+      "mega-colegio-san-marcos-funza": {
+        "title": "MEGA COLEGIO SAN MARCOS FUNZA",
+        "description": "Reinforced concrete structure for a large-scale educational complex. Includes columns, beams, slabs, and special structural elements designed to support large spans and loads, complying with current seismic regulations.",
+        "completedDate": "September 6, 2024",
+        "location": "Funza"
+      },
+      "urbanizacion-hacienda-los-lagos": {
+        "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
+        "description": "Deep foundation for a residential development of 120 homes. Excavation, piling, and construction of strip footings with integrated drainage systems. Specialized technical work in soils with high geotechnical complexity.",
+        "completedDate": "August 1, 2024",
+        "location": "Bogotá"
+      },
+      "urbanza": {
+        "title": "URBANZA",
+        "description": "Foundation for a residential complex of twin towers. Construction of deep foundations with large-diameter piles, foundation beams, and retention systems for deep excavations in a dense urban area.",
+        "completedDate": "July 19, 2024",
+        "location": "Bogotá"
+      },
+      "edificio-0097": {
+        "title": "EDIFICIO 0097",
+        "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
+        "completedDate": "June 29, 2024",
+        "location": "Bogotá"
       }
     },
-    "categories": {
-      "ACABADOS": "FINISHES",
-      "MAMPOSTERÍA": "MASONRY",
-      "ESTRUCTURA": "STRUCTURE",
-      "CIMENTACIÓN": "FOUNDATION"
-    },
+    "details": {
+      "altos-de-tundama": {
+          "title": "ALTOS DE TUNDAMA",
+          "description": "Comprehensive finishing project for the Altos de Tundama residential complex...",
+          "completionDate": "December 14, 2024",
+          "heroImage": { "alt": "Altos de Tundama building - Main view" },
+          "thumbnails": [
+            { "alt": "Side view of the building" },
+            { "alt": "Facade details" },
+            { "alt": "Common area" }
+          ],
+          "workScope": [
+            "Installation of ceramic and porcelain floors",
+            "Tiling in bathrooms and kitchens",
+            "Wood carpentry",
+            "Interior and exterior painting",
+            "Installation of doors and windows"
+          ],
+          "technicalSpecs": {
+            "area": "3,500 m²",
+            "floorTypes": "Porcelain and ceramic",
+            "specialFinishes": "Integrated kitchens"
+          },
+          "results": "A project that combines structural solidity, functionality and aesthetics..."
+        },
+      "universidad-santo-tomas-tunja": {
+          "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
+          "description": "Structural masonry construction for a new 3-story academic block. Specialized work on load-bearing walls, exposed brick facades, and decorative architectural elements combining functionality with modern institutional design.",
+          "completionDate": "November 19, 2024",
+          "heroImage": { "alt": "Universidad Santo Tomas de Tunja - Academic block construction" },
+          "thumbnails": [
+            { "alt": "Main facade under construction" },
+            { "alt": "Masonry details" },
+            { "alt": "Internal structure" }
+          ],
+          "workScope": [
+            "Construction of structural load-bearing walls",
+            "Exposed brick facades",
+            "Decorative architectural elements",
+            "Confined masonry",
+            "Special institutional finishes"
+          ],
+          "technicalSpecs": {
+            "area": "2,800 m²",
+            "floorTypes": "Polished concrete",
+            "specialFinishes": "Architectural brick facade"
+          },
+          "results": "Modern academic block combining structural strength with institutional architectural design, complying with all educational and seismic regulations."
+        },
+        "entreparques": {
+          "title": "ENTREPARQUES",
+          "description": "Masonry development for a 15-story residential tower. Construction of partition walls, ventilated facades, and complementary structural elements using advanced techniques and high-resistance materials to ensure durability and aesthetics.",
+          "completionDate": "October 14, 2024",
+          "heroImage": { "alt": "Entreparques Tower - Construction view" },
+          "thumbnails": [
+            { "alt": "Tower under construction" },
+            { "alt": "Ventilated facade" },
+            { "alt": "Construction details" }
+          ],
+          "workScope": [
+            "Interior partition walls",
+            "Ventilated facades",
+            "Complementary structural masonry",
+            "Decorative elements",
+            "Special high-rise finishes"
+          ],
+          "technicalSpecs": {
+            "area": "8,500 m²",
+            "floorTypes": "Rectified porcelain tile",
+            "specialFinishes": "Ventilated facade"
+          },
+          "results": "High-quality residential tower setting new standards in vertical construction, combining advanced masonry techniques with contemporary design."
+        },
+        "mega-colegio-san-marcos-funza": {
+          "title": "MEGA COLEGIO SAN MARCOS FUNZA",
+          "description": "Reinforced concrete structure for a large-scale educational complex. Includes columns, beams, slabs, and special structural elements designed to support large spans and loads, complying with current seismic regulations.",
+          "completionDate": "September 6, 2024",
+          "heroImage": { "alt": "Mega Colegio San Marcos Funza - Structure under construction" },
+          "thumbnails": [
+            { "alt": "Concrete structure" },
+            { "alt": "Columns and beams" },
+            { "alt": "Special slabs" }
+          ],
+          "workScope": [
+            "Reinforced concrete columns",
+            "Long-span beams",
+            "Special lightweight slabs",
+            "Seismic structural elements",
+            "Structures for large spaces"
+          ],
+          "technicalSpecs": {
+            "area": "12,000 m²",
+            "floorTypes": "Industrial concrete",
+            "specialFinishes": "Seismic-resistant structure"
+          },
+          "results": "Educational complex with a state-of-the-art structure enabling large open spaces, meeting the highest standards of seismic safety and educational functionality."
+        },
+        "urbanizacion-hacienda-los-lagos": {
+          "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
+          "description": "Deep foundation for a residential development of 120 homes. Excavation, piling, and construction of strip footings with integrated drainage systems. Specialized technical work in soils with high geotechnical complexity.",
+          "completionDate": "August 1, 2024",
+          "heroImage": { "alt": "Urbanización Hacienda Los Lagos - Foundation works" },
+          "thumbnails": [
+            { "alt": "Deep excavations" },
+            { "alt": "Specialized piling" },
+            { "alt": "Strip footings" }
+          ],
+          "workScope": [
+            "Controlled deep excavation",
+            "Large-diameter piling",
+            "Strip footings",
+            "Integrated drainage systems",
+            "Specialized geotechnical studies"
+          ],
+          "technicalSpecs": {
+            "area": "15,000 m²",
+            "floorTypes": "Deep foundation",
+            "specialFinishes": "Integrated drainage system"
+          },
+          "results": "Residential development with high-quality foundations ensuring long-term stability for 120 homes, overcoming the site's geotechnical challenges."
+        },
+        "urbanza": {
+          "title": "URBANZA",
+          "description": "Foundation for a residential complex of twin towers. Construction of deep foundations with large-diameter piles, foundation beams, and retention systems for deep excavations in a dense urban area.",
+          "completionDate": "July 19, 2024",
+          "heroImage": { "alt": "Urbanza - Twin towers foundation" },
+          "thumbnails": [
+            { "alt": "Large-diameter piles" },
+            { "alt": "Foundation beams" },
+            { "alt": "Retention systems" }
+          ],
+          "workScope": [
+            "Large-diameter piles",
+            "Foundation beams",
+            "Retention systems",
+            "Deep urban excavations",
+            "Foundation for twin towers"
+          ],
+          "technicalSpecs": {
+            "area": "6,800 m²",
+            "floorTypes": "Specialized deep foundation",
+            "specialFinishes": "Urban retention system"
+          },
+          "results": "Robust foundation for twin towers enabling safe construction in a dense urban area, using advanced piling and retention technology."
+        },
+        "edificio-0097": {
+          "title": "EDIFICIO 0097",
+          "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
+          "completionDate": "June 29, 2024",
+          "heroImage": { "alt": "Edificio 0097 - Reinforced concrete structure" },
+          "thumbnails": [
+            { "alt": "Moment-resisting frames" },
+            { "alt": "Lightweight slabs" },
+            { "alt": "Structural stairs" }
+          ],
+          "workScope": [
+            "Moment-resisting frames",
+            "Lightweight slabs",
+            "Structural stairs",
+            "Special elements",
+            "Integrated architectural finishes"
+          ],
+          "technicalSpecs": {
+            "area": "4,200 m²",
+            "floorTypes": "Lightweight slabs",
+            "specialFinishes": "Integrated architectural finishes"
+          },
+          "results": "Residential building with an optimized structure combining construction efficiency with architectural quality, providing functional and safe spaces for 64 apartments."
+        }
+      },
+      "categories": {
+        "ACABADOS": "FINISHES",
+        "MAMPOSTERÍA": "MASONRY",
+        "ESTRUCTURA": "STRUCTURE",
+        "CIMENTACIÓN": "FOUNDATION"
+      },
     "serviceTypes": {
       "ACABADOS": "FINISHES",
       "MAMPOSTERÍA": "MASONRY",
       "ESTRUCTURA": "STRUCTURE",
       "CIMENTACIÓN": "FOUNDATION"
-    }
+    },
+    "back_to_projects": "View all projects"
   }
 }

@@ -13,6 +13,7 @@ export function ProjectsGrid() {
   const [activeFilter, setActiveFilter] = useState<ProjectCategory | "Todos">("Todos")
 
   const { t, tx } = useLanguage()
+  const totalLabel = t("projects.total_projects_label")
 
   const filteredProjects = useMemo(() => {
     return getProjectsByCategory(activeFilter).map((p) => getTranslatedProject(p, tx))
@@ -29,7 +30,7 @@ export function ProjectsGrid() {
           totalCount={projectsData.length}
         />
 
-        <p className="text-gray-400 text-sm mb-8">Mostrando {filteredProjects.length} proyectos en total</p>
+        <p className="text-gray-400 text-sm mb-8">{totalLabel.replace("{count}", String(filteredProjects.length))}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project) => (
