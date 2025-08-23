@@ -2,19 +2,20 @@
 
 import { Button } from "@/components/ui/button"
 import { Phone, Mail } from "lucide-react"
+import Link from "next/link"
 
 interface FooterProps {
   className?: string
 }
 
-export default function Footer({ className = "" }: FooterProps) {
+const FooterComponent = ({ className = "" }: FooterProps) => {
   const quickLinks = [
-    { label: "Inicio", href: "#" },
-    { label: "Servicios", href: "#servicios" },
-    { label: "Proyectos", href: "#proyectos" },
-    { label: "Quiénes Somos", href: "#nosotros" },
-    { label: "Contacto", href: "#contacto" },
-    { label: "Cotización", href: "#cotizacion" },
+    { label: "Inicio", href: "/" },
+    { label: "Servicios", href: "/servicios" },
+    { label: "Proyectos", href: "/proyectos" },
+    { label: "Quiénes Somos", href: "/quienes-somos" },
+    { label: "Contacto", href: "/contacto" },
+    { label: "Cotización", href: "/cotizacion" },
   ]
 
   const handleWhatsApp = () => {
@@ -47,9 +48,9 @@ export default function Footer({ className = "" }: FooterProps) {
             <ul className="space-y-2 text-sm text-gray-400">
               {quickLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="hover:text-green-400 transition-colors duration-200">
+                  <Link href={link.href} className="hover:text-green-400 transition-colors duration-200">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -87,3 +88,6 @@ export default function Footer({ className = "" }: FooterProps) {
     </footer>
   )
 }
+
+export { FooterComponent as default }
+export const Footer = FooterComponent

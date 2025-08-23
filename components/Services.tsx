@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Building2, FileText, Paintbrush } from "lucide-react"
+import Link from "next/link"
 
 interface ServicesProps {
   className?: string
@@ -57,12 +58,14 @@ export default function Services({ className = "" }: ServicesProps) {
         </div>
 
         <div className="text-center">
-          <Button
-            variant="outline"
-            className="border-gray-600 text-white hover:bg-gray-800 hover:border-green-400 px-8 py-3 bg-transparent transition-all duration-200"
-          >
-            Ver Todos los Servicios
-          </Button>
+          <Link href="/servicios">
+            <Button
+              variant="outline"
+              className="border-gray-600 text-white hover:bg-gray-800 hover:border-green-400 px-8 py-3 bg-transparent transition-all duration-200"
+            >
+              Ver Todos los Servicios
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

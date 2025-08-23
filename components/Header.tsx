@@ -9,16 +9,16 @@ interface HeaderProps {
   className?: string
 }
 
-export default function Header({ className = "" }: HeaderProps) {
+const HeaderComponent = ({ className = "" }: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navigationItems = [
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "/servicios" },
-    { label: "Proyectos", href: "#proyectos" },
-    { label: "Quiénes Somos", href: "#nosotros" },
-    { label: "Contacto", href: "#contacto" },
-    { label: "Cotización", href: "#cotizacion" },
+    { label: "Proyectos", href: "/proyectos" },
+    { label: "Quiénes Somos", href: "/quienes-somos" },
+    { label: "Contacto", href: "/contacto" },
+    { label: "Cotización", href: "/cotizacion" },
   ]
 
   return (
@@ -55,21 +55,24 @@ export default function Header({ className = "" }: HeaderProps) {
               </Link>
             </div>
 
-            {/* CTA Buttons */}
-            <Button
-              variant="outline"
-              size="sm"
-              className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
-            >
-              Construcción
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
-            >
-              Contacto
-            </Button>
+            <Link href="/cotizacion">
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
+              >
+                Construcción
+              </Button>
+            </Link>
+            <Link href="/contacto">
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
+              >
+                Contacto
+              </Button>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -93,20 +96,24 @@ export default function Header({ className = "" }: HeaderProps) {
                 </Link>
               ))}
               <div className="flex items-center space-x-4 pt-2">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
-                >
-                  Construcción
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
-                >
-                  Contacto
-                </Button>
+                <Link href="/cotizacion">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
+                  >
+                    Construcción
+                  </Button>
+                </Link>
+                <Link href="/contacto">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
+                  >
+                    Contacto
+                  </Button>
+                </Link>
               </div>
             </div>
           </nav>
@@ -115,3 +122,6 @@ export default function Header({ className = "" }: HeaderProps) {
     </header>
   )
 }
+
+export { HeaderComponent as default }
+export const Header = HeaderComponent

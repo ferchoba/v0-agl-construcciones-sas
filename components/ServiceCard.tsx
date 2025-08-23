@@ -2,6 +2,7 @@ import type { Service } from "@/types/services"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 interface ServiceCardProps {
   service: Service
@@ -54,16 +55,20 @@ export function ServiceCard({ service }: ServiceCardProps) {
           )}
 
           <div className="flex gap-3">
-            <Button className="bg-green-600 hover:bg-green-700 text-white flex-1" size="sm">
-              Leer Más
-            </Button>
-            <Button
-              variant="outline"
-              className="border-gray-600 text-gray-300 hover:bg-gray-700 flex-1 bg-transparent"
-              size="sm"
-            >
-              Solicitar Cotización
-            </Button>
+            <Link href={`/servicios/${service.id}`} className="flex-1">
+              <Button className="bg-green-600 hover:bg-green-700 text-white w-full" size="sm">
+                Leer Más
+              </Button>
+            </Link>
+            <Link href="/cotizacion" className="flex-1">
+              <Button
+                variant="outline"
+                className="border-gray-600 text-gray-300 hover:bg-gray-700 w-full bg-transparent"
+                size="sm"
+              >
+                Solicitar Cotización
+              </Button>
+            </Link>
           </div>
         </div>
       </CardContent>
