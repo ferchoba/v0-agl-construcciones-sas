@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import type { ProjectCategory } from "@/types/projects"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 interface ProjectFilterProps {
   onFilterChange: (category: ProjectCategory | "Todos") => void
@@ -18,17 +19,19 @@ export function ProjectFilter({ onFilterChange, projectCounts, totalCount }: Pro
     onFilterChange(category)
   }
 
+  const { t } = useLanguage()
+
   const filters = [
-    { label: "Todos", category: "Todos" as const, count: totalCount },
-    { label: "CIMENTACIÓN", category: "CIMENTACIÓN" as const, count: projectCounts.CIMENTACIÓN || 0 },
-    { label: "ESTRUCTURA", category: "ESTRUCTURA" as const, count: projectCounts.ESTRUCTURA || 0 },
-    { label: "MAMPOSTERÍA", category: "MAMPOSTERÍA" as const, count: projectCounts.MAMPOSTERÍA || 0 },
-    { label: "ACABADOS", category: "ACABADOS" as const, count: projectCounts.ACABADOS || 0 },
+    { label: t("projects.filters.all",), category: "Todos" as const, count: totalCount },
+    { label: t("projects.filters.CIMENTACIÓN",), category: "CIMENTACIÓN" as const, count: projectCounts.CIMENTACIÓN || 0 },
+    { label: t("projects.filters.ESTRUCTURA",), category: "ESTRUCTURA" as const, count: projectCounts.ESTRUCTURA || 0 },
+    { label: t("projects.filters.MAMPOSTERÍA",), category: "MAMPOSTERÍA" as const, count: projectCounts.MAMPOSTERÍA || 0 },
+    { label: t("projects.filters.ACABADOS",), category: "ACABADOS" as const, count: projectCounts.ACABADOS || 0 },
   ]
 
   return (
     <div className="mb-8">
-      <h2 className="text-lg font-medium text-white mb-4">Filtrar por tipo de servicio</h2>
+      <h2 className="text-lg font-medium text-white mb-4">{t("projects.filter_title",)}</h2>
 
       <div className="flex flex-wrap gap-3 mb-6">
         {filters.map((filter) => (

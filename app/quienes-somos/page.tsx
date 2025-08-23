@@ -19,8 +19,8 @@ export default function QuienesSomosPage() {
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Nuestra Historia y Compromiso</h1>
-          <p className="text-xl text-gray-400">Conoce más sobre AGL CONSTRUCCIONES SAS</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">AGL CONSTRUCCIONES SAS</h1>
+          <p className="text-xl text-gray-400">{`—`}</p>
         </div>
       </section>
 

@@ -12,6 +12,7 @@ interface LanguageContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
   t: (key: string) => string;
+  tx: (key: string) => any;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -42,33 +43,35 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     }
   };
 
-  // Translation function
-  const t = (key: string): string => {
+  // Translation accessors
+  const tx = (key: string): any => {
     const keys = key.split('.');
     let value: any = messages[locale];
-    
     for (const k of keys) {
       if (value && typeof value === 'object' && k in value) {
         value = value[k];
       } else {
-        // Fallback to Spanish if key not found
         value = messages.es;
-        for (const fallbackKey of keys) {
-          if (value && typeof value === 'object' && fallbackKey in value) {
-            value = value[fallbackKey];
+        for (const fk of keys) {
+          if (value && typeof value === 'object' && fk in value) {
+            value = value[fk];
           } else {
-            return key; // Return key if not found
+            return undefined;
           }
         }
         break;
       }
     }
-    
+    return value;
+  };
+
+  const t = (key: string): string => {
+    const value = tx(key);
     return typeof value === 'string' ? value : key;
   };
 
   return (
-    <LanguageContext.Provider value={{ locale, setLocale: handleSetLocale, t }}>
+    <LanguageContext.Provider value={{ locale, setLocale: handleSetLocale, t, tx }}>
       {children}
     </LanguageContext.Provider>
   );

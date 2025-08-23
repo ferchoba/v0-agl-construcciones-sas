@@ -57,6 +57,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
           <div className="flex gap-3">
             <Link href={`/servicios/${service.id}`} className="flex-1">
               <Button className="bg-green-600 hover:bg-green-700 text-white w-full" size="sm">
+                {/* UI text via t() handled in parent grid if needed; keeping Spanish default here */}
                 Leer Más
               </Button>
             </Link>

@@ -141,5 +141,18 @@
       "title": "ACABADOS",
       "description": "Transformamos espacios en bruto en lugares funcionales y estéticos."
     }
+  },
+  "projects": {
+    "title": "Nuestros Proyectos",
+    "subtitle": "Conoce algunos de nuestros proyectos destacados",
+    "filter_title": "Filtrar por tipo de servicio",
+    "filters": {
+      "all": "Todos",
+      "CIMENTACIÓN": "CIMENTACIÓN",
+      "ESTRUCTURA": "ESTRUCTURA",
+      "MAMPOSTERÍA": "MAMPOSTERÍA",
+      "ACABADOS": "ACABADOS"
+    },
+    "completed_at": "Completado en:"
   }
 }

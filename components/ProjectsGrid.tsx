@@ -1,17 +1,22 @@
 "use client"
 
+
 import { useState, useMemo } from "react"
 import { ProjectCard } from "./ProjectCard"
 import { ProjectFilter } from "./ProjectFilter"
 import { projectsData, getProjectsByCategory, getProjectCounts } from "@/lib/projects-data"
 import type { ProjectCategory } from "@/types/projects"
+import { useLanguage } from "@/lib/LanguageProvider"
+import { getTranslatedProject } from "@/lib/translation-helpers"
 
 export function ProjectsGrid() {
   const [activeFilter, setActiveFilter] = useState<ProjectCategory | "Todos">("Todos")
 
+  const { t, tx } = useLanguage()
+
   const filteredProjects = useMemo(() => {
-    return getProjectsByCategory(activeFilter)
-  }, [activeFilter])
+    return getProjectsByCategory(activeFilter).map((p) => getTranslatedProject(p, tx))
+  }, [activeFilter, tx])
 
   const projectCounts = useMemo(() => getProjectCounts(), [])
 

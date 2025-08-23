@@ -141,5 +141,18 @@
       "title": "FINISHES",
       "description": "We transform raw spaces into functional and aesthetic places."
     }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Discover some of our featured projects",
+    "filter_title": "Filter by service type",
+    "filters": {
+      "all": "All",
+      "CIMENTACIÓN": "FOUNDATION",
+      "ESTRUCTURA": "STRUCTURE",
+      "MAMPOSTERÍA": "MASONRY",
+      "ACABADOS": "FINISHES"
+    },
+    "completed_at": "Completed on:"
   }
 }

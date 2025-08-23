@@ -1,7 +1,10 @@
+"use client"
+
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import type { Project } from "@/types/projects"
 import Link from "next/link"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 interface ProjectCardProps {
   project: Project
@@ -15,6 +18,7 @@ const categoryColors = {
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
+  const { t } = useLanguage()
   return (
     <div className="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 hover:border-gray-600 transition-colors">
       <div className="relative">
@@ -45,7 +49,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <div className="p-6">
         <h3 className="text-lg font-semibold text-white mb-2">{project.title}</h3>
         <p className="text-gray-400 text-sm mb-4 line-clamp-2">{project.description}</p>
-        <p className="text-gray-500 text-xs mb-4">Completado en: {project.completedDate}</p>
+        <p className="text-gray-500 text-xs mb-4">{t("projects.completed_at",)} {project.completedDate}</p>
 
         <Link href={`/proyectos/${project.slug}`}>
           <Button className="w-full bg-green-600 hover:bg-green-700 text-white" size="sm">
