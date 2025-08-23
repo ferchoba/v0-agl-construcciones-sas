@@ -154,5 +154,44 @@
       "ACABADOS": "ACABADOS"
     },
     "completed_at": "Completado en:"
+,
+    "details": {
+      "altos-de-tundama": {
+        "title": "ALTOS DE TUNDAMA",
+        "description": "Proyecto integral de acabados para el conjunto residencial Altos de Tundama...",
+        "completionDate": "14 de diciembre de 2024",
+        "heroImage": { "alt": "Edificio Altos de Tundama - Vista principal" },
+        "thumbnails": [
+          { "alt": "Vista lateral del edificio" },
+          { "alt": "Detalles de fachada" },
+          { "alt": "Área común" }
+        ],
+        "workScope": [
+          "Instalación de pisos cerámicos y porcelanato",
+          "Enchapes en baños y cocinas",
+          "Carpintería en madera",
+          "Pintura interior y exterior",
+          "Instalación de puertas y ventanas"
+        ],
+        "technicalSpecs": {
+          "area": "3.500 m²",
+          "floorTypes": "Porcelanato y cerámica",
+          "specialFinishes": "Cocinas integrales"
+        },
+        "results": "Un proyecto que combina solidez estructural, funcionalidad y estética..."
+      }
+    },
+    "categories": {
+      "ACABADOS": "ACABADOS",
+      "MAMPOSTERÍA": "MAMPOSTERÍA",
+      "ESTRUCTURA": "ESTRUCTURA",
+      "CIMENTACIÓN": "CIMENTACIÓN"
+    },
+    "serviceTypes": {
+      "ACABADOS": "ACABADOS",
+      "MAMPOSTERÍA": "MAMPOSTERÍA",
+      "ESTRUCTURA": "ESTRUCTURA",
+      "CIMENTACIÓN": "CIMENTACIÓN"
+    }
   }
 }

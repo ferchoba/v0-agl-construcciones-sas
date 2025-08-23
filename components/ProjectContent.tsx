@@ -1,3 +1,5 @@
+"use client"
+
 import type { ProjectContentProps } from "@/types/project-detail"
 
 export function ProjectContent({ project }: ProjectContentProps) {

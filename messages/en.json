@@ -154,5 +154,44 @@
       "ACABADOS": "FINISHES"
     },
     "completed_at": "Completed on:"
+,
+    "details": {
+      "altos-de-tundama": {
+        "title": "ALTOS DE TUNDAMA",
+        "description": "Comprehensive finishing project for the Altos de Tundama residential complex...",
+        "completionDate": "December 14, 2024",
+        "heroImage": { "alt": "Altos de Tundama building - Main view" },
+        "thumbnails": [
+          { "alt": "Side view of the building" },
+          { "alt": "Facade details" },
+          { "alt": "Common area" }
+        ],
+        "workScope": [
+          "Installation of ceramic and porcelain floors",
+          "Tiling in bathrooms and kitchens",
+          "Wood carpentry",
+          "Interior and exterior painting",
+          "Installation of doors and windows"
+        ],
+        "technicalSpecs": {
+          "area": "3,500 m²",
+          "floorTypes": "Porcelain and ceramic",
+          "specialFinishes": "Integrated kitchens"
+        },
+        "results": "A project that combines structural solidity, functionality and aesthetics..."
+      }
+    },
+    "categories": {
+      "ACABADOS": "FINISHES",
+      "MAMPOSTERÍA": "MASONRY",
+      "ESTRUCTURA": "STRUCTURE",
+      "CIMENTACIÓN": "FOUNDATION"
+    },
+    "serviceTypes": {
+      "ACABADOS": "FINISHES",
+      "MAMPOSTERÍA": "MASONRY",
+      "ESTRUCTURA": "STRUCTURE",
+      "CIMENTACIÓN": "FOUNDATION"
+    }
   }
 }

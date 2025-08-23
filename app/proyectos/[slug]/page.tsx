@@ -50,6 +50,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
     { label: project.title, href: `/proyectos/${project.slug}` },
   ]
 
+  // Nota: Para multilenguaje en detalle de proyecto, los componentes de contenido usan i18n en cliente
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />

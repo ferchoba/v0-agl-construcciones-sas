@@ -1,13 +1,19 @@
+"use client"
+
 import Image from "next/image"
 import type { ProjectHeroProps } from "@/types/project-detail"
+import { useLanguage } from "@/lib/LanguageProvider"
+
 
 export function ProjectHero({ project }: ProjectHeroProps) {
+  const { t } = useLanguage()
+
   return (
     <div className="space-y-6">
       {/* Project Badge and Date */}
       <div className="flex items-center gap-4 text-sm">
         <span className="bg-green-600 text-white px-3 py-1 rounded-md font-medium">{project.category}</span>
-        <span className="text-gray-400">Completado en: {project.completionDate}</span>
+        <span className="text-gray-400">{t("projects.completed_at")}{" "}{project.completionDate}</span>
       </div>
 
       {/* Project Title */}

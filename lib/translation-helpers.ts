@@ -55,3 +55,42 @@ export function getTranslatedProject(project: Project, tx: (key: string) => any)
     location: resolveTx(tx, `${base}.location`, project.location ?? ""),
   };
 }
+
+
+// Project detail (projects-content.ts)
+import type { ProjectDetail } from "@/types/project-detail";
+export function getTranslatedProjectDetail(detail: ProjectDetail, tx: (key: string) => any): ProjectDetail {
+  const base = `projects.details.${detail.slug}`;
+  const catKey = `projects.categories.${detail.category}`;
+  return {
+    ...detail,
+    title: resolveTx(tx, `${base}.title`, detail.title),
+    description: resolveTx(tx, `${base}.description`, detail.description),
+    category: resolveTx(tx, catKey, detail.category) as any,
+    completionDate: resolveTx(tx, `${base}.completionDate`, detail.completionDate),
+    heroImage: {
+      ...detail.heroImage,
+      alt: resolveTx(tx, `${base}.heroImage.alt`, detail.heroImage.alt),
+    },
+    thumbnails: detail.thumbnails.map((t, i) => ({
+      ...t,
+      alt: resolveTx(tx, `${base}.thumbnails.${i}.alt`, t.alt),
+    })),
+    workScope: resolveTx(tx, `${base}.workScope`, detail.workScope),
+    technicalSpecs: {
+      ...detail.technicalSpecs,
+      area: detail.technicalSpecs.area
+        ? resolveTx(tx, `${base}.technicalSpecs.area`, detail.technicalSpecs.area)
+        : detail.technicalSpecs.area,
+      apartments: detail.technicalSpecs.apartments,
+      floorTypes: detail.technicalSpecs.floorTypes
+        ? resolveTx(tx, `${base}.technicalSpecs.floorTypes`, detail.technicalSpecs.floorTypes)
+        : detail.technicalSpecs.floorTypes,
+      specialFinishes: detail.technicalSpecs.specialFinishes
+        ? resolveTx(tx, `${base}.technicalSpecs.specialFinishes`, detail.technicalSpecs.specialFinishes)
+        : detail.technicalSpecs.specialFinishes,
+    },
+    results: resolveTx(tx, `${base}.results`, detail.results),
+    serviceType: resolveTx(tx, `projects.serviceTypes.${detail.serviceType}`, detail.serviceType) as any,
+  };
+}
