@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import Link from "next/link"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 interface HeaderProps {
   className?: string
@@ -11,12 +12,13 @@ interface HeaderProps {
 
 const HeaderComponent = ({ className = "" }: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { locale, setLocale, t } = useLanguage()
 
   const navigationItems = [
-    { label: "Inicio", href: "/" },
-    { label: "Servicios", href: "/servicios" },
-    { label: "Proyectos", href: "/proyectos" },
-    { label: "Quiénes Somos", href: "/quienes-somos" },
+    { label: t("navigation.home"), href: "/" },
+    { label: t("navigation.services"), href: "/servicios" },
+    { label: t("navigation.projects"), href: "/proyectos" },
+    { label: t("navigation.about"), href: "/quienes-somos" },
   ]
 
   return (
@@ -44,11 +46,27 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
             ))}
             {/* Language Toggle */}
             <div className="flex items-center space-x-2">
-              <span className="text-sm text-green-400 font-medium">ES</span>
+              <button
+                onClick={() => setLocale('es')}
+                className={`text-sm font-medium transition-colors ${
+                  locale === 'es'
+                    ? 'text-green-400'
+                    : 'text-gray-400 hover:text-green-400'
+                }`}
+              >
+                ES
+              </button>
               <span className="text-sm text-gray-400">|</span>
-              <Link href="#" className="text-sm text-gray-400 hover:text-green-400 transition-colors">
+              <button
+                onClick={() => setLocale('en')}
+                className={`text-sm font-medium transition-colors ${
+                  locale === 'en'
+                    ? 'text-green-400'
+                    : 'text-gray-400 hover:text-green-400'
+                }`}
+              >
                 EN
-              </Link>
+              </button>
             </div>
 
             <Link href="/cotizacion">
@@ -57,7 +75,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                 size="sm"
                 className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
               >
-                Cotización
+                {t("navigation.quote")}
               </Button>
             </Link>
             <Link href="/contacto">
@@ -66,7 +84,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                 size="sm"
                 className="border-gray-600 text-white hover:bg-gray-800 bg-transparent hover:border-green-400"
               >
-                Contacto
+                {t("navigation.contact")}
               </Button>
             </Link>
           </nav>
@@ -98,7 +116,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                     size="sm"
                     className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
                   >
-                    Cotización
+                    {t("navigation.quote")}
                   </Button>
                 </Link>
                 <Link href="/contacto">
@@ -107,9 +125,34 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                     size="sm"
                     className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
                   >
-                    Contacto
+                    {t("navigation.contact")}
                   </Button>
                 </Link>
+              </div>
+
+              {/* Mobile Language Toggle */}
+              <div className="flex items-center space-x-4 pt-4 border-t border-gray-700 mt-4">
+                <span className="text-sm text-gray-400">Idioma:</span>
+                <button
+                  onClick={() => setLocale('es')}
+                  className={`text-sm font-medium transition-colors ${
+                    locale === 'es'
+                      ? 'text-green-400'
+                      : 'text-gray-400 hover:text-green-400'
+                  }`}
+                >
+                  Español
+                </button>
+                <button
+                  onClick={() => setLocale('en')}
+                  className={`text-sm font-medium transition-colors ${
+                    locale === 'en'
+                      ? 'text-green-400'
+                      : 'text-gray-400 hover:text-green-400'
+                  }`}
+                >
+                  English
+                </button>
               </div>
             </div>
           </nav>

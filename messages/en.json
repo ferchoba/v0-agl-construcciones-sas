@@ -1,0 +1,145 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About Us",
+    "contact": "Contact",
+    "quote": "Quote"
+  },
+  "hero": {
+    "title": "We transform your spaces with exceptional quality",
+    "description": "Specialists in remodeling and construction of residential, commercial and office spaces. We make your vision a reality with personalized solutions.",
+    "cta_quote": "Request Quote",
+    "cta_projects": "View Projects"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions to transform your spaces",
+    "view_all": "View All Services",
+    "page_title": "Our Services",
+    "page_subtitle": "Complete construction, remodeling and finishing services",
+    "read_more": "Read More",
+    "request_quote": "Request Quote",
+    "back_to_services": "View all services"
+  },
+  "statistics": {
+    "title": "Why choose AGL CONSTRUCCIONES SAS?",
+    "experience": "Years of experience in the sector",
+    "quality": "High quality materials",
+    "team": "Expert professional team",
+    "warranty": "Warranty on all our work"
+  },
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Contact us today for a free consultation",
+    "button": "Contact Now"
+  },
+  "footer": {
+    "company_description": "We transform spaces with exceptional quality. Specialists in remodeling and construction.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Information",
+    "whatsapp_button": "WhatsApp",
+    "copyright": "© 2025 AGL CONSTRUCCIONES SAS. All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "terms_conditions": "Terms and Conditions"
+  },
+  "contact_form": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you with your project",
+    "fields": {
+      "name": {
+        "label": "Full name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "your@email.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+57 300 123 4567"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your project..."
+      }
+    },
+    "submit_button": "Send Message",
+    "success_message": "Message sent successfully! We'll contact you soon.",
+    "error_message": "Error sending message. Please try again.",
+    "validation": {
+      "name_required": "Name is required",
+      "email_required": "Email is required",
+      "email_invalid": "Please enter a valid email",
+      "phone_required": "Phone is required",
+      "message_required": "Message is required"
+    }
+  },
+  "company": {
+    "name": "AGL CONSTRUCCIONES SAS",
+    "description": "We are a company specialized in remodeling and construction of residential, commercial and office spaces. With years of experience in the sector, we have established ourselves as leaders in space transformation.",
+    "mission": "Transform spaces with exceptional quality, providing personalized solutions that exceed our clients' expectations.",
+    "values": {
+      "quality": {
+        "title": "Quality",
+        "description": "We use premium materials and specialized techniques"
+      },
+      "commitment": {
+        "title": "Commitment",
+        "description": "We meet agreed timelines and budgets"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We incorporate the latest trends in design and construction"
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "We build lasting relationships with our clients"
+      }
+    },
+    "why_choose_us": {
+      "title": "Why choose us?",
+      "description": "With more than 10 years of experience, we have completed hundreds of successful projects. Our team of expert professionals guarantees exceptional results in every project.",
+      "experience": "10 years of experience",
+      "cta": "Contact us today for a free consultation and discover how we can transform your space."
+    }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "services": "Our Services",
+    "projects": "Projects",
+    "about": "About Us",
+    "contact": "Contact",
+    "quote": "Quote",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  },
+  "cta_sidebar": {
+    "title": "Interested in this service?",
+    "description": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+    "button_quote": "Request Quote",
+    "button_contact": "Contact Us",
+    "benefits_title": "Why choose us?",
+    "benefits": [
+      "More than 10 years of experience",
+      "High quality materials",
+      "Warranty on all work",
+      "No-commitment estimates"
+    ]
+  },
+  "services_home": {
+    "demoliciones": {
+      "title": "DEMOLITIONS",
+      "description": "Safe demolitions and secure and efficient dismantling of structures."
+    },
+    "estructura": {
+      "title": "STRUCTURE",
+      "description": "Construction and skeleton of your building with precision and maximum safety."
+    },
+    "acabados": {
+      "title": "FINISHES",
+      "description": "We transform raw spaces into functional and aesthetic places."
+    }
+  }
+}

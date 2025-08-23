@@ -1,0 +1,145 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Quiénes Somos",
+    "contact": "Contacto",
+    "quote": "Cotización"
+  },
+  "hero": {
+    "title": "Transformamos sus espacios con calidad excepcional",
+    "description": "Especialistas en remodelación y construcción de espacios residenciales, comerciales y de oficina. Hacemos realidad su visión con soluciones personalizadas.",
+    "cta_quote": "Solicitar Cotización",
+    "cta_projects": "Ver Proyectos"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones completas para transformar sus espacios",
+    "view_all": "Ver Todos los Servicios",
+    "page_title": "Nuestros Servicios",
+    "page_subtitle": "Servicios completos de construcción, remodelación y acabados",
+    "read_more": "Leer Más",
+    "request_quote": "Solicitar Cotización",
+    "back_to_services": "Ver todos los servicios"
+  },
+  "statistics": {
+    "title": "¿Por qué elegir AGL CONSTRUCCIONES SAS?",
+    "experience": "Años de experiencia en el sector",
+    "quality": "Materiales de alta calidad",
+    "team": "Equipo de profesionales expertos",
+    "warranty": "Garantía en todos nuestros trabajos"
+  },
+  "cta": {
+    "title": "¿Listo para comenzar su proyecto?",
+    "description": "Contáctenos hoy mismo para una consulta gratuita",
+    "button": "Contactar Ahora"
+  },
+  "footer": {
+    "company_description": "Transformamos espacios con calidad excepcional. Especialistas en remodelación y construcción.",
+    "quick_links": "Enlaces Rápidos",
+    "contact_info": "Información de Contacto",
+    "whatsapp_button": "WhatsApp",
+    "copyright": "© 2025 AGL CONSTRUCCIONES SAS. Todos los derechos reservados.",
+    "privacy_policy": "Política de Privacidad",
+    "terms_conditions": "Términos y Condiciones"
+  },
+  "contact_form": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte con tu proyecto",
+    "fields": {
+      "name": {
+        "label": "Nombre completo",
+        "placeholder": "Ingresa tu nombre completo"
+      },
+      "email": {
+        "label": "Correo electrónico",
+        "placeholder": "tu@email.com"
+      },
+      "phone": {
+        "label": "Teléfono",
+        "placeholder": "+57 300 123 4567"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos sobre tu proyecto..."
+      }
+    },
+    "submit_button": "Enviar Mensaje",
+    "success_message": "¡Mensaje enviado exitosamente! Te contactaremos pronto.",
+    "error_message": "Error al enviar el mensaje. Inténtalo nuevamente.",
+    "validation": {
+      "name_required": "El nombre es requerido",
+      "email_required": "El correo electrónico es requerido",
+      "email_invalid": "Ingresa un correo electrónico válido",
+      "phone_required": "El teléfono es requerido",
+      "message_required": "El mensaje es requerido"
+    }
+  },
+  "company": {
+    "name": "AGL CONSTRUCCIONES SAS",
+    "description": "Somos una empresa especializada en remodelación y construcción de espacios residenciales, comerciales y de oficina. Con años de experiencia en el sector, nos hemos consolidado como líderes en transformación de espacios.",
+    "mission": "Transformar espacios con calidad excepcional, brindando soluciones personalizadas que superen las expectativas de nuestros clientes.",
+    "values": {
+      "quality": {
+        "title": "Calidad",
+        "description": "Utilizamos materiales de primera y técnicas especializadas"
+      },
+      "commitment": {
+        "title": "Compromiso",
+        "description": "Cumplimos con los tiempos y presupuestos acordados"
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Incorporamos las últimas tendencias en diseño y construcción"
+      },
+      "trust": {
+        "title": "Confianza",
+        "description": "Construimos relaciones duraderas con nuestros clientes"
+      }
+    },
+    "why_choose_us": {
+      "title": "¿Por qué elegirnos?",
+      "description": "Con más de 10 años de experiencia, hemos completado cientos de proyectos exitosos. Nuestro equipo de profesionales expertos garantiza resultados excepcionales en cada proyecto.",
+      "experience": "10 años de experiencia",
+      "cta": "Contáctanos hoy mismo para una consulta gratuita y descubre cómo podemos transformar tu espacio."
+    }
+  },
+  "breadcrumb": {
+    "home": "Inicio",
+    "services": "Nuestros Servicios",
+    "projects": "Proyectos",
+    "about": "Quiénes Somos",
+    "contact": "Contacto",
+    "quote": "Cotización",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones"
+  },
+  "cta_sidebar": {
+    "title": "¿Interesado en este servicio?",
+    "description": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+    "button_quote": "Solicitar Cotización",
+    "button_contact": "Contáctanos",
+    "benefits_title": "¿Por qué elegirnos?",
+    "benefits": [
+      "Más de 10 años de experiencia",
+      "Materiales de alta calidad",
+      "Garantía en todos los trabajos",
+      "Presupuestos sin compromiso"
+    ]
+  },
+  "services_home": {
+    "demoliciones": {
+      "title": "DEMOLICIONES",
+      "description": "Demoliciones seguras y desmantelamiento seguro y eficiente de estructuras."
+    },
+    "estructura": {
+      "title": "ESTRUCTURA",
+      "description": "Levantamiento y esqueleto de su edificación con precisión y máxima seguridad."
+    },
+    "acabados": {
+      "title": "ACABADOS",
+      "description": "Transformamos espacios en bruto en lugares funcionales y estéticos."
+    }
+  }
+}

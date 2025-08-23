@@ -9,8 +9,10 @@ import { Textarea } from "@/components/ui/textarea"
 import type { ContactFormData, ContactFormState } from "@/types/contact"
 import { validateContactForm } from "@/lib/form-validation"
 import { submitContactForm } from "@/lib/contact-api"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 export default function ContactForm() {
+  const { t } = useLanguage()
   const [formState, setFormState] = useState<ContactFormState>({
     data: {
       name: "",
@@ -64,7 +66,7 @@ export default function ContactForm() {
       setFormState((prev) => ({
         ...prev,
         isSubmitting: false,
-        errors: { message: "Error al enviar el mensaje. Inténtalo de nuevo." },
+        errors: { message: t("contact_form.error_message") },
       }))
     }
   }
@@ -78,7 +80,7 @@ export default function ContactForm() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-white mb-2">¡Mensaje enviado!</h3>
+          <h3 className="text-xl font-semibold text-white mb-2">{t("contact_form.success_message")}</h3>
           <p className="text-gray-400 mb-6">Gracias por contactarnos. Te responderemos pronto.</p>
           <Button onClick={() => setFormState((prev) => ({ ...prev, isSubmitted: false }))} variant="outline">
             Enviar otro mensaje
@@ -92,18 +94,18 @@ export default function ContactForm() {
     <div className="max-w-2xl mx-auto px-4">
       <div className="bg-gray-800 rounded-lg p-8">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-white mb-2">Contacto General</h2>
-          <p className="text-gray-400">¿Tienes alguna pregunta? Escríbenos</p>
+          <h2 className="text-2xl font-bold text-white mb-2">{t("contact_form.title")}</h2>
+          <p className="text-gray-400">{t("contact_form.subtitle")}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-2">
-              Nombre completo <span className="text-red-500">*</span>
+              {t("contact_form.fields.name.label")} <span className="text-red-500">*</span>
             </label>
             <Input
               type="text"
-              placeholder="Tu nombre completo"
+              placeholder={t("contact_form.fields.name.placeholder")}
               value={formState.data.name}
               onChange={(e) => handleInputChange("name", e.target.value)}
               className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
@@ -113,11 +115,11 @@ export default function ContactForm() {
 
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-2">
-              Email <span className="text-red-500">*</span>
+              {t("contact_form.fields.email.label")} <span className="text-red-500">*</span>
             </label>
             <Input
               type="email"
-              placeholder="tu@email.com"
+              placeholder={t("contact_form.fields.email.placeholder")}
               value={formState.data.email}
               onChange={(e) => handleInputChange("email", e.target.value)}
               className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
@@ -127,11 +129,11 @@ export default function ContactForm() {
 
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-2">
-              Teléfono <span className="text-red-500">*</span>
+              {t("contact_form.fields.phone.label")} <span className="text-red-500">*</span>
             </label>
             <Input
               type="tel"
-              placeholder="Tu teléfono"
+              placeholder={t("contact_form.fields.phone.placeholder")}
               value={formState.data.phone}
               onChange={(e) => handleInputChange("phone", e.target.value)}
               className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
@@ -141,10 +143,10 @@ export default function ContactForm() {
 
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-2">
-              Mensaje <span className="text-red-500">*</span>
+              {t("contact_form.fields.message.label")} <span className="text-red-500">*</span>
             </label>
             <Textarea
-              placeholder="Cuéntanos qué podemos ayudarte"
+              placeholder={t("contact_form.fields.message.placeholder")}
               rows={4}
               value={formState.data.message}
               onChange={(e) => handleInputChange("message", e.target.value)}
@@ -158,7 +160,7 @@ export default function ContactForm() {
             disabled={formState.isSubmitting}
             className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
           >
-            {formState.isSubmitting ? "Enviando..." : "Enviar Mensaje"}
+            {formState.isSubmitting ? "Enviando..." : t("contact_form.submit_button")}
           </Button>
 
           <p className="text-xs text-gray-500 text-center">

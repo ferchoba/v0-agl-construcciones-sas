@@ -1,33 +1,37 @@
 "use client"
 
+import { useLanguage } from "@/lib/LanguageProvider"
+
 interface StatisticsProps {
   className?: string
 }
 
-const statistics = [
-  {
-    value: "10+",
-    label: "Años de experiencia en el sector",
-  },
-  {
-    value: "100%",
-    label: "Materiales de alta calidad",
-  },
-  {
-    value: "24/7",
-    label: "Equipo de profesionales expertos",
-  },
-  {
-    value: "1 Año",
-    label: "Garantía en todos nuestros trabajos",
-  },
-]
-
 export default function Statistics({ className = "" }: StatisticsProps) {
+  const { t } = useLanguage()
+
+  const statistics = [
+    {
+      value: "10+",
+      label: t("statistics.experience"),
+    },
+    {
+      value: "100%",
+      label: t("statistics.quality"),
+    },
+    {
+      value: "24/7",
+      label: t("statistics.team"),
+    },
+    {
+      value: "1 Año",
+      label: t("statistics.warranty"),
+    },
+  ]
+
   return (
     <section className={`py-20 px-4 bg-gray-900 ${className}`}>
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-white">¿Por qué elegir AGL CONSTRUCCIONES SAS?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-white">{t("statistics.title")}</h2>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {statistics.map((stat, index) => (
