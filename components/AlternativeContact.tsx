@@ -1,28 +1,31 @@
+"use client"
+
 import { Mail, Phone, MapPin } from "lucide-react"
 import type { ContactMethod } from "@/types/contact"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 const contactMethods: ContactMethod[] = [
   {
     id: "email",
     type: "email",
-    title: "Email",
-    value: "info@aglconstrucciones.com",
+    title: "contact.email_title",
+    value: "contact.email_value",
     icon: "mail",
     href: "mailto:info@aglconstrucciones.com",
   },
   {
     id: "whatsapp",
     type: "whatsapp",
-    title: "WhatsApp",
-    value: "+57 301 257 1215",
+    title: "contact.whatsapp_title",
+    value: "contact.whatsapp_value",
     icon: "phone",
     href: "https://wa.me/573012571215",
   },
   {
     id: "location",
     type: "location",
-    title: "Ubicación",
-    value: "Algeciras, Huila, Colombia",
+    title: "contact.location_title",
+    value: "contact.location_value",
     icon: "location",
   },
 ]
@@ -41,10 +44,11 @@ const getIcon = (iconName: string) => {
 }
 
 export default function AlternativeContact() {
+  const { t } = useLanguage()
   return (
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl font-bold text-white text-center mb-12">Otras formas de contacto</h2>
+        <h2 className="text-2xl font-bold text-white text-center mb-12">{t("contact.alternative_contact_title")}</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {contactMethods.map((method) => (
@@ -53,7 +57,7 @@ export default function AlternativeContact() {
                 <div className="text-gray-400">{getIcon(method.icon)}</div>
               </div>
 
-              <h3 className="text-lg font-semibold text-white mb-2">{method.title}</h3>
+              <h3 className="text-lg font-semibold text-white mb-2">{t(method.title)}</h3>
 
               {method.href ? (
                 <a
@@ -62,10 +66,10 @@ export default function AlternativeContact() {
                   rel={method.type === "whatsapp" ? "noopener noreferrer" : undefined}
                   className="text-gray-400 hover:text-green-600 transition-colors"
                 >
-                  {method.value}
+                  {t(method.value)}
                 </a>
               ) : (
-                <p className="text-gray-400">{method.value}</p>
+                <p className="text-gray-400">{t(method.value)}</p>
               )}
             </div>
           ))}

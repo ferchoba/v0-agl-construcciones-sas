@@ -5,7 +5,10 @@
     "projects": "Proyectos",
     "about": "Quiénes Somos",
     "contact": "Contacto",
-    "quote": "Cotización"
+    "quote": "Cotización",
+    "language_label": "Idioma:",
+    "language_es": "Español",
+    "language_en": "English"
   },
   "hero": {
     "title": "Transformamos sus espacios con calidad excepcional",
@@ -21,7 +24,292 @@
     "page_subtitle": "Servicios completos de construcción, remodelación y acabados",
     "read_more": "Leer Más",
     "request_quote": "Solicitar Cotización",
-    "back_to_services": "Ver todos los servicios"
+    "back_to_services": "Ver todos los servicios",
+    "work_types_title": "Tipos de trabajo incluidos",
+    "list": {
+      "demoliciones": {
+        "title": "DEMOLICIONES",
+        "description": "Servicio profesional para el desmantelamiento seguro y eficiente de estructuras. Garantizamos un proceso controlado, cumpliendo normativas y preparando el terreno para nuevos proyectos.",
+        "features": ["Demoliciones parciales", "Planificación técnica", "Demolición controlada", "Gestión de residuos"]
+      },
+      "cimentacion": {
+        "title": "CIMENTACIÓN",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "estructura": {
+        "title": "ESTRUCTURA",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "mamposteria": {
+        "title": "MAMPOSTERÍA",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "panetes": {
+        "title": "PAÑETES",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "acabados": {
+        "title": "ACABADOS",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "estuco-pintura": {
+        "title": "ESTUCO Y PINTURA",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "drywall": {
+        "title": "DRYWALL",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      },
+      "enchapes": {
+        "title": "INSTALACIÓN DE ENCHAPES",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+      }
+    },
+    "details": {
+      "demoliciones": {
+        "title": "DEMOLICIONES",
+        "description": "Servicio profesional para el desmantelamiento seguro y eficiente de estructuras. Garantizamos un proceso controlado, cumpliendo normativas y preparando el terreno para nuevos proyectos.",
+        "detailedDescription": "Nuestro servicio de demoliciones está diseñado para cubrir desde intervenciones parciales hasta el derribo completo de edificaciones, garantizando siempre la máxima seguridad y eficiencia en cada etapa del proceso. Antes de iniciar cualquier trabajo, realizamos un análisis técnico detallado que nos permite definir la estrategia más adecuada según las características de la construcción, el entorno y las necesidades específicas del cliente.\n\nPara llevar a cabo los trabajos, contamos con maquinaria especializada y aplicamos técnicas de demolición controlada, lo que permite minimizar el impacto en áreas colindantes y asegurar un desarrollo seguro de las actividades. Paralelamente, gestionamos los residuos generados en cumplimiento con las normativas ambientales vigentes, de modo que el sitio se mantenga limpio, ordenado y libre de riesgos.\n\nNuestro equipo de profesionales se encarga de que el terreno quede completamente despejado y en condiciones óptimas para la fase siguiente de la obra, como la cimentación o nuevas construcciones. Además, trabajamos bajo estrictos estándares de calidad, respetando los plazos acordados y priorizando tanto la seguridad de los trabajadores como la protección del entorno.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Demoliciones parciales y totales.",
+          "Análisis técnico previo y planificación estratégica.",
+          "Uso de maquinaria especializada y técnicas de demolición controlada.",
+          "Desmonte de estructuras internas y externas.",
+          "Retiro y clasificación de materiales de desecho.",
+          "Preparación del terreno para nuevas fases constructivas.",
+          "Señalización, cerramiento y control de seguridad en obra.",
+          "Manejo, cargue, transporte y disposición de escombros."
+        ],
+        "heroImageAlt": "Demolición controlada con maquinaria y equipo de seguridad",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "DEMOLICIONES"
+      },
+      "cimentacion": {
+        "title": "CIMENTACIÓN",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "CIMENTACIÓN"
+      },
+      "estructura": {
+        "title": "ESTRUCTURA",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "ESTRUCTURA"
+      },
+      "mamposteria": {
+        "title": "MAMPOSTERÍA",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "MAMPOSTERÍA"
+      },
+      "panetes": {
+        "title": "PAÑETES",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "PAÑETES"
+      },
+      "acabados": {
+        "title": "ACABADOS",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "ACABADOS"
+      },
+      "estuco-pintura": {
+        "title": "ESTUCO Y PINTURA",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "ESTUCO Y PINTURA"
+      },
+      "drywall": {
+        "title": "DRYWALL",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "DRYWALL"
+      },
+      "enchapes": {
+        "title": "INSTALACIÓN DE ENCHAPES",
+        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
+        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "benefits": [
+          "Máxima seguridad en cada etapa del proceso.",
+          "Cumplimiento estricto de normativas legales y ambientales.",
+          "Minimización del impacto en el entorno y en edificaciones cercanas.",
+          "Gestión eficiente y responsable de residuos.",
+          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
+          "Garantía de cumplimiento de plazos y estándares de calidad."
+        ],
+        "serviceTypes": [
+          "Estudios de suelos y análisis geotécnico.",
+          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
+          "Construcción de cimentaciones profundas: pilotes y caissons.",
+          "Instalación de losas de cimentación para cargas distribuidas.",
+          "Construcción de muros de contención y sistemas de drenaje.",
+          "Mejoramiento y estabilización de suelos cuando sea necesario.",
+          "Control de calidad en materiales y procesos constructivos."
+        ],
+        "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
+        "ctaTitle": "¿Interesado en este servicio?",
+        "ctaDescription": "Solicita una cotización gratuita y sin compromiso. Nuestro equipo te contactará en menos de 24 horas.",
+        "breadcrumbCurrent": "INSTALACIÓN DE ENCHAPES"
+      }
+    }
   },
   "statistics": {
     "title": "¿Por qué elegir AGL CONSTRUCCIONES SAS?",
@@ -43,6 +331,17 @@
     "copyright": "© 2025 AGL CONSTRUCCIONES SAS. Todos los derechos reservados.",
     "privacy_policy": "Política de Privacidad",
     "terms_conditions": "Términos y Condiciones"
+  },
+  "contact": {
+    "page_title": "Contáctanos",
+    "page_subtitle": "Estamos aquí para ayudarte con tu proyecto",
+    "alternative_contact_title": "Otras formas de contacto",
+    "email_title": "Email",
+    "email_value": "info@aglconstrucciones.com",
+    "whatsapp_title": "WhatsApp",
+    "whatsapp_value": "+57 301 257 1215",
+    "location_title": "Ubicación",
+    "location_value": "Algeciras, Huila, Colombia"
   },
   "contact_form": {
     "title": "Contáctanos",
@@ -66,8 +365,12 @@
       }
     },
     "submit_button": "Enviar Mensaje",
+    "submit_submitting": "Enviando...",
     "success_message": "¡Mensaje enviado exitosamente! Te contactaremos pronto.",
+    "success_subtitle": "Gracias por contactarnos. Te responderemos pronto.",
+    "success_another": "Enviar otro mensaje",
     "error_message": "Error al enviar el mensaje. Inténtalo nuevamente.",
+    "privacy": "Al enviar este formulario, aceptas nuestra política de privacidad y el tratamiento de tus datos personales",
     "validation": {
       "name_required": "El nombre es requerido",
       "email_required": "El correo electrónico es requerido",

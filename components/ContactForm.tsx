@@ -81,9 +81,9 @@ export default function ContactForm() {
             </svg>
           </div>
           <h3 className="text-xl font-semibold text-white mb-2">{t("contact_form.success_message")}</h3>
-          <p className="text-gray-400 mb-6">Gracias por contactarnos. Te responderemos pronto.</p>
+          <p className="text-gray-400 mb-6">{t("contact_form.success_subtitle")}</p>
           <Button onClick={() => setFormState((prev) => ({ ...prev, isSubmitted: false }))} variant="outline">
-            Enviar otro mensaje
+            {t("contact_form.success_another")}
           </Button>
         </div>
       </div>
@@ -160,11 +160,11 @@ export default function ContactForm() {
             disabled={formState.isSubmitting}
             className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
           >
-            {formState.isSubmitting ? "Enviando..." : t("contact_form.submit_button")}
+            {formState.isSubmitting ? t("contact_form.submit_submitting") : t("contact_form.submit_button")}
           </Button>
 
           <p className="text-xs text-gray-500 text-center">
-            Al enviar este formulario, aceptas nuestra política de privacidad y el tratamiento de tus datos personales
+            {t("contact_form.privacy")}
           </p>
         </form>
       </div>

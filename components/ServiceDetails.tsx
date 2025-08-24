@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import { useLanguage } from "@/lib/LanguageProvider"
 
 interface ServiceDetailsProps {
   title: string
@@ -8,6 +9,7 @@ interface ServiceDetailsProps {
 }
 
 export function ServiceDetails({ title, detailedDescription, serviceTypes }: ServiceDetailsProps) {
+  const { t } = useLanguage()
   const paragraphs = detailedDescription.split("\n\n")
 
   return (
@@ -24,7 +26,7 @@ export function ServiceDetails({ title, detailedDescription, serviceTypes }: Ser
       </div>
 
       <div>
-        <h3 className="text-2xl font-bold text-white mb-6">Tipos de Cimentación</h3>
+        <h3 className="text-2xl font-bold text-white mb-6">{t("services.work_types_title")}</h3>
         <ul className="space-y-2">
           {serviceTypes.map((type, index) => (
             <li key={index} className="text-gray-300 leading-relaxed">
@@ -40,7 +42,7 @@ export function ServiceDetails({ title, detailedDescription, serviceTypes }: Ser
           className="inline-flex items-center text-green-500 hover:text-green-400 transition-colors"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />
-          Ver todos los servicios
+          {t("services.back_to_services")}
         </Link>
       </div>
     </div>

@@ -3,8 +3,7 @@ import { Footer } from "@/components/Footer"
 import QuoteForm from "@/components/QuoteForm"
 import BenefitsSection from "@/components/BenefitsSection"
 import type { Metadata } from "next"
-import { LanguageProvider } from "@/lib/LanguageProvider"
-import { headers } from "next/headers"
+import QuotePageHero from "@/components/QuotePageHero"
 
 export const metadata: Metadata = {
   title: "Solicitar Cotización - AGL Construcciones SAS",
@@ -18,14 +17,7 @@ export default function CotizacionPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">{/* t("quote_form.page_title") en cliente */}Solicitar Cotización</h1>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">{/* t("quote_form.page_subtitle") en cliente */}
-            Obtén una cotización personalizada para tu proyecto de construcción o remodelación
-          </p>
-        </div>
-      </section>
+      <QuotePageHero />
 
       {/* Quote Form Section */}
       <section className="pb-16">

@@ -3,6 +3,7 @@ import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
 import ContactForm from "@/components/ContactForm"
 import AlternativeContact from "@/components/AlternativeContact"
+import ContactPageHero from "@/components/ContactPageHero"
 
 export const metadata: Metadata = {
   title: "Contacto - AGL Construcciones SAS",
@@ -18,12 +19,7 @@ export default function ContactoPage() {
 
       <main>
         {/* Hero Section */}
-        <section className="pt-24 pb-16 px-4">
-          <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Contáctanos</h1>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">Estamos aquí para ayudarte con tu proyecto</p>
-          </div>
-        </section>
+        <ContactPageHero />
 
         {/* Contact Form Section */}
         <section className="py-16">

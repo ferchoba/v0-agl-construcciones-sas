@@ -5,7 +5,10 @@
     "projects": "Projects",
     "about": "About Us",
     "contact": "Contact",
-    "quote": "Quote"
+    "quote": "Quote",
+    "language_label": "Language:",
+    "language_es": "Spanish",
+    "language_en": "English"
   },
   "hero": {
     "title": "We transform your spaces with exceptional quality",
@@ -21,7 +24,300 @@
     "page_subtitle": "Complete construction, remodeling and finishing services",
     "read_more": "Read More",
     "request_quote": "Request Quote",
-    "back_to_services": "View all services"
+    "back_to_services": "View all services",
+    "work_types_title": "Types of Work Included",
+    "list": {
+      "demoliciones": {
+        "title": "DEMOLITIONS",
+        "description": "Professional service for safe and efficient structural dismantling. We guarantee a controlled process, complying with regulations and preparing the site for new projects.",
+        "features": ["Partial demolitions", "Technical planning", "Controlled demolition", "Waste management"]
+      },
+      "cimentacion": {
+        "title": "FOUNDATION",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "estructura": {
+        "title": "STRUCTURE",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "mamposteria": {
+        "title": "MASONRY",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "panetes": {
+        "title": "PLASTERING",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "acabados": {
+        "title": "FINISHES",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "estuco-pintura": {
+        "title": "STUCCO AND PAINT",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "drywall": {
+        "title": "DRYWALL",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      },
+      "enchapes": {
+        "title": "TILE INSTALLATION",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "features": ["Shallow foundations", "Deep foundations", "Mat foundations", "Retaining walls"]
+      }
+    },
+    "details": {
+      "demoliciones": {
+        "title": "DEMOLITIONS",
+        "description": "Professional service for safe and efficient structural dismantling. We guarantee a controlled process, complying with regulations and preparing the site for new projects.",
+        "detailedDescription": "Our demolition service covers everything from partial dismantling to the complete teardown of buildings, ensuring maximum safety and efficiency at every stage of the process. Before beginning any work, we carry out a comprehensive technical analysis to determine the most appropriate strategy based on the characteristics of the structure, the surrounding environment, and the client’s specific requirements.\n\nTo execute the work, we rely on specialized machinery and apply controlled demolition techniques, which help minimize the impact on neighboring areas while ensuring the safe progress of the project. At the same time, we manage all waste in compliance with current environmental regulations, keeping the site clean, orderly, and risk-free.\n\nOur team of experts ensures that the land is fully cleared and prepared for the next stage of the project, such as foundations or new construction. We adhere strictly to agreed timelines and quality standards, prioritizing both worker safety and environmental protection.",
+        "benefits": [
+          "Certified operational safety and regulatory compliance",
+          "Technical planning that reduces time and unforeseen events",
+          "Minimization of impacts (noise, dust, vibration)",
+          "Comprehensive waste management and removal logistics",
+          "Delivery of a site in optimal condition for new construction",
+          "Guaranteed adherence to deadlines and quality standards"
+        ],
+        "serviceTypes": [
+          "Selective manual demolition (walls, slabs, partitions, tiles)",
+          "Mechanical demolition with specialized equipment",
+          "Cutting and removal of structural elements as per design",
+          "Dismantling of roofs, carpentry, finishes and fixed furniture",
+          "Management of permits, licenses and environmental plans",
+          "Signage, fencing and onsite safety control",
+          "Handling, loading, transportation and disposal of debris",
+          "Site cleaning and preparation for subsequent phases"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "DEMOLITIONS"
+      },
+      "cimentacion": {
+        "title": "FOUNDATION",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Construction workers on-site performing foundation work.",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "FOUNDATION"
+      },
+      "estructura": {
+        "title": "STRUCTURE",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "STRUCTURE"
+      },
+      "mamposteria": {
+        "title": "MASONRY",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "MASONRY"
+      },
+      "panetes": {
+        "title": "PLASTERING",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "PLASTERING"
+      },
+      "acabados": {
+        "title": "FINISHES",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "FINISHES"
+      },
+      "estuco-pintura": {
+        "title": "STUCCO AND PAINT",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "STUCCO AND PAINT"
+      },
+      "drywall": {
+        "title": "DRYWALL",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "DRYWALL"
+      },
+      "enchapes": {
+        "title": "TILE INSTALLATION",
+        "description": "We build the solid and durable foundations your building needs. We create safe and stable foundations, calculated to guarantee the longevity of your project.",
+        "detailedDescription": "Foundations are the essential base of any safe and long-lasting construction, as they are responsible for properly transferring the structure’s loads to the ground. Our foundation services cover everything from the initial soil studies to the execution of both shallow and deep foundations, fully adapting to the geotechnical characteristics of the terrain and the structural requirements of each project.\n\nWe apply modern construction techniques and use high-quality materials to guarantee the stability, strength, and durability of the structure over time. Our team of specialists performs rigorous quality control at every stage of the process, including excavation, reinforcement placement, concrete pouring, and curing. This ensures that each foundation meets all technical specifications and current building codes.\n\nThrough this comprehensive approach, we provide solutions that not only support the building safely but also help prevent future issues such as differential settlements, leaks, or structural failures, giving our clients the confidence of having a solid and reliable base.",
+        "benefits": [
+          "Guaranteed long-term structural safety and stability",
+          "Adaptation to the specific characteristics of the terrain",
+          "Strict compliance with technical standards and building codes",
+          "Use of high-quality materials and modern construction methods",
+          "Reduced risk of settlements and structural failures",
+          "Expert supervision at all stages of the process",
+          "Delivery of foundations ready to efficiently support subsequent phases of construction"
+        ],
+        "serviceTypes": [
+          "Soil studies and geotechnical analysis",
+          "Execution of shallow foundations: isolated, strip, and combined footings",
+          "Construction of deep foundations: piles and caissons",
+          "Installation of mat foundations for distributed loads",
+          "Construction of retaining walls and drainage systems",
+          "Soil improvement and stabilization when required",
+          "Quality control of materials and construction processes"
+        ],
+        "heroImageAlt": "Controlled demolition with machinery and safety equipment",
+        "ctaTitle": "Interested in this service?",
+        "ctaDescription": "Request a free quote with no commitment. Our team will contact you in less than 24 hours.",
+        "breadcrumbCurrent": "TILE INSTALLATION"
+      }
+    }
   },
   "statistics": {
     "title": "Why choose AGL CONSTRUCCIONES SAS?",
@@ -43,6 +339,17 @@
     "copyright": "© 2025 AGL CONSTRUCCIONES SAS. All rights reserved.",
     "privacy_policy": "Privacy Policy",
     "terms_conditions": "Terms and Conditions"
+  },
+  "contact": {
+    "page_title": "Contact Us",
+    "page_subtitle": "We're here to help you with your project",
+    "alternative_contact_title": "Other ways to contact us",
+    "email_title": "Email",
+    "email_value": "info@aglconstrucciones.com",
+    "whatsapp_title": "WhatsApp",
+    "whatsapp_value": "+57 301 257 1215",
+    "location_title": "Location",
+    "location_value": "Algeciras, Huila, Colombia"
   },
   "contact_form": {
     "title": "Contact Us",
@@ -66,8 +373,12 @@
       }
     },
     "submit_button": "Send Message",
+    "submit_submitting": "Sending...",
     "success_message": "Message sent successfully! We'll contact you soon.",
+    "success_subtitle": "Thank you for contacting us. We'll get back to you soon.",
+    "success_another": "Send another message",
     "error_message": "Error sending message. Please try again.",
+    "privacy": "By submitting this form, you accept our privacy policy and the processing of your personal data",
     "validation": {
       "name_required": "Name is required",
       "email_required": "Email is required",

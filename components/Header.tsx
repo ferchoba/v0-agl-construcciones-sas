@@ -132,7 +132,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
 
               {/* Mobile Language Toggle */}
               <div className="flex items-center space-x-4 pt-4 border-t border-gray-700 mt-4">
-                <span className="text-sm text-gray-400">Idioma:</span>
+                <span className="text-sm text-gray-400">{t("navigation.language_label")}</span>
                 <button
                   onClick={() => setLocale('es')}
                   className={`text-sm font-medium transition-colors ${
@@ -141,7 +141,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                       : 'text-gray-400 hover:text-green-400'
                   }`}
                 >
-                  Español
+                  {t("navigation.language_es")}
                 </button>
                 <button
                   onClick={() => setLocale('en')}
@@ -151,7 +151,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                       : 'text-gray-400 hover:text-green-400'
                   }`}
                 >
-                  English
+                  {t("navigation.language_en")}
                 </button>
               </div>
             </div>
