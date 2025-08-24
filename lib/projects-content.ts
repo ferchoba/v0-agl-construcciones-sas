@@ -9,7 +9,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Proyecto integral de acabados para el conjunto residencial Altos de Tundama, incluyendo pisos, enchapes, carpintería, pintura y todos los detalles finales que dan vida al proyecto.",
     heroImage: {
-      src: "/projects/altos-tundama-main.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128196/img1_g1fpyl.jpg",
       alt: "Edificio Altos de Tundama - Vista principal",
       width: 800,
       height: 600,
@@ -60,7 +60,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
     heroImage: {
-      src: "/projects/universidad-santo-tomas.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128643/img1_gq88im.jpg",
       alt: "Universidad Santo Tomas de Tunja - Construcción del bloque académico",
       width: 800,
       height: 600,
@@ -111,7 +111,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
     heroImage: {
-      src: "/projects/entreparques.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128765/img1_tdleuv.jpg",
       alt: "Torre Entreparques - Vista de la construcción",
       width: 800,
       height: 600,
@@ -162,7 +162,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
     heroImage: {
-      src: "/projects/mega-colegio-funza.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129094/img1_bno9v7.jpg",
       alt: "Mega Colegio San Marcos Funza - Estructura en construcción",
       width: 800,
       height: 600,
@@ -213,7 +213,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
     heroImage: {
-      src: "/projects/hacienda-los-lagos.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129209/img1_bm3to1.jpg",
       alt: "Urbanización Hacienda Los Lagos - Trabajos de cimentación",
       width: 800,
       height: 600,
@@ -264,7 +264,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
     heroImage: {
-      src: "/projects/urbanza.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129315/img1_evruea.jpg",
       alt: "Urbanza - Cimentación de torres gemelas",
       width: 800,
       height: 600,
@@ -315,7 +315,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     heroImage: {
-      src: "/projects/edificio-0097.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129367/img1_r0sznd.jpg",
       alt: "Edificio 0097 - Estructura en concreto reforzado",
       width: 800,
       height: 600,

@@ -7,7 +7,7 @@ export const projectsData: Project[] = [
     description:
       "Proyecto integral de acabados para conjunto residencial de 48 apartamentos. Incluye instalación de pisos cerámicos, enchapes en baños y cocinas, pintura interior y exterior, carpintería en madera y acabados finos que transformaron espacios modernos y funcionales.",
     category: "ACABADOS",
-    image: "/projects/altos-tundama.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128196/img1_g1fpyl.jpg",
     completedDate: "14 de diciembre de 2024",
     location: "Tundama",
     slug: "altos-de-tundama",
@@ -18,7 +18,7 @@ export const projectsData: Project[] = [
     description:
       "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
     category: "MAMPOSTERÍA",
-    image: "/projects/universidad-santo-tomas.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128643/img1_gq88im.jpg",
     completedDate: "19 de noviembre de 2024",
     location: "Tunja",
     slug: "universidad-santo-tomas-tunja",
@@ -29,7 +29,7 @@ export const projectsData: Project[] = [
     description:
       "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
     category: "MAMPOSTERÍA",
-    image: "/projects/entreparques.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128765/img1_tdleuv.jpg",
     completedDate: "14 de octubre de 2024",
     location: "Bogotá",
     slug: "entreparques",
@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
     description:
       "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
     category: "ESTRUCTURA",
-    image: "/projects/mega-colegio-funza.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129094/img1_bno9v7.jpg",
     completedDate: "6 de septiembre de 2024",
     location: "Funza",
     slug: "mega-colegio-san-marcos-funza",
@@ -51,7 +51,7 @@ export const projectsData: Project[] = [
     description:
       "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
     category: "CIMENTACIÓN",
-    image: "/projects/hacienda-los-lagos.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129209/img1_bm3to1.jpg",
     completedDate: "1 de agosto de 2024",
     location: "Bogotá",
     slug: "urbanizacion-hacienda-los-lagos",
@@ -62,7 +62,7 @@ export const projectsData: Project[] = [
     description:
       "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
     category: "CIMENTACIÓN",
-    image: "/projects/urbanza.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129315/img1_evruea.jpg",
     completedDate: "19 de julio de 2024",
     location: "Bogotá",
     slug: "urbanza",
@@ -73,7 +73,7 @@ export const projectsData: Project[] = [
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     category: "ESTRUCTURA",
-    image: "/projects/edificio-0097.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129367/img1_r0sznd.jpg",
     completedDate: "29 de junio de 2024",
     location: "Bogotá",
     slug: "edificio-0097",
