@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useLanguage } from "@/lib/LanguageProvider"
@@ -11,29 +12,52 @@ interface HeroProps {
 export default function Hero({ className = "" }: HeroProps) {
   const { t, locale } = useLanguage()
 
+  // Imagen del hero desde Cloudinary con transformaciones recomendadas
+  const heroImageSrc = "https://res.cloudinary.com/dq5joejf7/image/upload/f_auto,q_auto,c_fill,ar_16:9,w_1600/v1755995489/imgReferencia1200x600_oc4ir6.png"
+
   return (
-    <section className={`py-20 px-4 bg-background ${className}`}>
-      <div className="container mx-auto text-center max-w-4xl">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-foreground">
-          {t("hero.title")}
-        </h1>
-        <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          {t("hero.description")}
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href={`/${locale}/cotizacion`}>
-            <Button className="bg-primary hover:bg-[#212529] text-primary-foreground px-8 py-3 text-base font-medium transition-colors duration-200">
-              {t("hero.cta_quote")}
-            </Button>
-          </Link>
-          <Link href={`/${locale}/proyectos`}>
-            <Button
-              variant="outline"
-              className="border-border text-foreground hover:bg-muted hover:border-primary px-8 py-3 bg-transparent text-base font-medium transition-all duration-200"
-            >
-              {t("hero.cta_projects")}
-            </Button>
-          </Link>
+    <section className={`py-16 md:py-20 px-4 bg-background ${className}`}>
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+          {/* Columna izquierda: título */}
+          <div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
+              {t("hero.title")}
+            </h1>
+          </div>
+
+          {/* Columna derecha: descripción y botones */}
+          <div>
+            <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
+              {t("hero.description")}
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <Link href={`/${locale}/cotizacion`}>
+                <Button className="px-8 py-3 text-base">
+                  {t("hero.cta_quote")}
+                </Button>
+              </Link>
+              <Link href={`/${locale}/proyectos`}>
+                <Button variant="outline" className="px-8 py-3 text-base">
+                  {t("hero.cta_projects")}
+                </Button>
+              </Link>
+            </div>
+          </div>
+
+          {/* Fila inferior: imagen a todo el ancho */}
+          <div className="md:col-span-2">
+            <div className="relative w-full overflow-hidden rounded-lg aspect-[16/9]">
+              <Image
+                src={heroImageSrc}
+                alt={t("hero.title")}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1200px"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
