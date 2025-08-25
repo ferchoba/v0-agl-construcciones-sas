@@ -48,28 +48,28 @@ export default function AlternativeContact() {
   return (
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl font-bold text-white text-center mb-12">{t("contact.alternative_contact_title")}</h2>
+        <h2 className="text-2xl font-bold text-foreground text-center mb-12">{t("contact.alternative_contact_title")}</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {contactMethods.map((method) => (
             <div key={method.id} className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-800 rounded-full mb-4">
-                <div className="text-gray-400">{getIcon(method.icon)}</div>
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-muted rounded-full mb-4">
+                <div className="text-muted-foreground">{getIcon(method.icon)}</div>
               </div>
 
-              <h3 className="text-lg font-semibold text-white mb-2">{t(method.title)}</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-2">{t(method.title)}</h3>
 
               {method.href ? (
                 <a
                   href={method.href}
                   target={method.type === "whatsapp" ? "_blank" : undefined}
                   rel={method.type === "whatsapp" ? "noopener noreferrer" : undefined}
-                  className="text-gray-400 hover:text-green-600 transition-colors"
+                  className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   {t(method.value)}
                 </a>
               ) : (
-                <p className="text-gray-400">{t(method.value)}</p>
+                <p className="text-muted-foreground">{t(method.value)}</p>
               )}
             </div>
           ))}

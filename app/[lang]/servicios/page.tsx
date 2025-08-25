@@ -28,7 +28,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-background">
       <Header />
       <main>
         <ServicesGrid />

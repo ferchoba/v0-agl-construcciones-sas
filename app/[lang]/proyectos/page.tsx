@@ -29,7 +29,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-background">
       <Header />
       <main className="container mx-auto px-4 py-8">
         <ProjectsHero />

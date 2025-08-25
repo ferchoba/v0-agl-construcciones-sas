@@ -31,7 +31,7 @@ export function ProjectFilter({ onFilterChange, projectCounts, totalCount }: Pro
 
   return (
     <div className="mb-8">
-      <h2 className="text-lg font-medium text-white mb-4">{t("projects.filter_title",)}</h2>
+      <h2 className="text-lg font-medium text-foreground mb-4">{t("projects.filter_title",)}</h2>
 
       <div className="flex flex-wrap gap-3 mb-6">
         {filters.map((filter) => (
@@ -43,8 +43,8 @@ export function ProjectFilter({ onFilterChange, projectCounts, totalCount }: Pro
             className={`
               ${
                 activeFilter === filter.category
-                  ? "bg-green-600 hover:bg-green-700 text-white border-green-600"
-                  : "bg-gray-800 hover:bg-gray-700 text-gray-300 border-gray-600"
+                  ? "bg-primary hover:bg-[#212529] text-primary-foreground border-primary"
+                  : "bg-card hover:bg-muted text-muted-foreground border-border"
               }
             `}
           >

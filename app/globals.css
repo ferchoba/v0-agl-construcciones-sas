@@ -3,81 +3,99 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Nueva paleta de colores AGL Construcciones */
+  /* Fondos */
+  --background: #FFFFFF;                    /* Fondo principal de la página */
+  --card: #FFFFFF;                         /* Fondo de tarjetas */
+  --popover: #FFFFFF;                      /* Fondo de popovers */
+  --muted: #F8F9FA;                        /* Secciones con ligero destaque */
 
-  /* Adding AGL Construcciones brand colors */
-  --agl-green: oklch(0.646 0.222 142.5);
-  --agl-green-hover: oklch(0.576 0.222 142.5);
-  --agl-dark: oklch(0.145 0 0);
-  --agl-gray: oklch(0.269 0 0);
-  --agl-gray-light: oklch(0.374 0 0);
+  /* Textos */
+  --foreground: #212529;                   /* Párrafos y texto general */
+  --card-foreground: #212529;              /* Texto en tarjetas */
+  --popover-foreground: #212529;           /* Texto en popovers */
+  --secondary-foreground: #212529;         /* Texto secundario */
+  --accent-foreground: #212529;            /* Texto de acento */
+  --muted-foreground: #6C757D;             /* Metadatos, placeholders, texto secundario */
+
+  /* Elementos de UI */
+  --primary: #343A40;                      /* Botones primarios (CTA) y elementos interactivos */
+  --primary-foreground: #FFFFFF;           /* Texto sobre botones primarios */
+  --border: #E9ECEF;                       /* Bordes sutiles para inputs y tarjetas */
+  --input: #E9ECEF;                        /* Bordes de inputs */
+
+  /* Colores secundarios y de apoyo */
+  --secondary: #F8F9FA;                    /* Fondos secundarios */
+  --accent: #F8F9FA;                       /* Fondos de acento */
+  --ring: #343A40;                         /* Color de focus ring */
+
+  /* Estados destructivos (mantener funcionalidad) */
+  --destructive: #DC3545;                  /* Rojo para errores */
+  --destructive-foreground: #FFFFFF;       /* Texto sobre destructivo */
+
+  /* Charts (mantener para compatibilidad) */
+  --chart-1: #343A40;
+  --chart-2: #6C757D;
+  --chart-3: #212529;
+  --chart-4: #E9ECEF;
+  --chart-5: #F8F9FA;
+
+  /* Configuración de bordes */
+  --radius: 0.625rem;
+
+  /* Sidebar (actualizado para nueva paleta) */
+  --sidebar: #F8F9FA;
+  --sidebar-foreground: #212529;
+  --sidebar-primary: #343A40;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F8F9FA;
+  --sidebar-accent-foreground: #212529;
+  --sidebar-border: #E9ECEF;
+  --sidebar-ring: #343A40;
+
+  /* Variables AGL actualizadas con nueva paleta */
+  --agl-primary: #343A40;                  /* Color primario AGL */
+  --agl-primary-hover: #212529;            /* Estado hover primario */
+  --agl-secondary: #6C757D;                /* Color secundario AGL */
+  --agl-light: #F8F9FA;                    /* Color claro AGL */
+  --agl-border: #E9ECEF;                   /* Bordes AGL */
+  --agl-background: #FFFFFF;               /* Fondo AGL */
 }
 
+/* Tema oscuro simplificado para compatibilidad */
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  --background: #212529;
+  --foreground: #FFFFFF;
+  --card: #343A40;
+  --card-foreground: #FFFFFF;
+  --popover: #343A40;
+  --popover-foreground: #FFFFFF;
+  --primary: #FFFFFF;
+  --primary-foreground: #212529;
+  --secondary: #6C757D;
+  --secondary-foreground: #FFFFFF;
+  --muted: #343A40;
+  --muted-foreground: #E9ECEF;
+  --accent: #343A40;
+  --accent-foreground: #FFFFFF;
+  --destructive: #DC3545;
+  --destructive-foreground: #FFFFFF;
+  --border: #6C757D;
+  --input: #6C757D;
+  --ring: #E9ECEF;
+  --chart-1: #FFFFFF;
+  --chart-2: #E9ECEF;
+  --chart-3: #6C757D;
+  --chart-4: #343A40;
+  --chart-5: #212529;
+  --sidebar: #343A40;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #FFFFFF;
+  --sidebar-primary-foreground: #212529;
+  --sidebar-accent: #6C757D;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #6C757D;
+  --sidebar-ring: #E9ECEF;
 }
 
 @theme inline {
@@ -118,12 +136,13 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
-  /* Adding AGL brand color tokens */
-  --color-agl-green: var(--agl-green);
-  --color-agl-green-hover: var(--agl-green-hover);
-  --color-agl-dark: var(--agl-dark);
-  --color-agl-gray: var(--agl-gray);
-  --color-agl-gray-light: var(--agl-gray-light);
+  /* Variables AGL actualizadas */
+  --color-agl-primary: var(--agl-primary);
+  --color-agl-primary-hover: var(--agl-primary-hover);
+  --color-agl-secondary: var(--agl-secondary);
+  --color-agl-light: var(--agl-light);
+  --color-agl-border: var(--agl-border);
+  --color-agl-background: var(--agl-background);
 }
 
 @layer base {

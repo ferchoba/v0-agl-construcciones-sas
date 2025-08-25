@@ -30,9 +30,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 bg-background">
         <PrivacyPolicy />
       </main>
       <Footer />

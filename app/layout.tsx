@@ -7,6 +7,8 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "AGL Construcciones SAS",
   description: "Especialistas en remodelación y construcción de espacios residenciales, comerciales y de oficina.",
+  themeColor: "#FFFFFF",
+  colorScheme: "light",
 }
 
 export default function RootLayout({

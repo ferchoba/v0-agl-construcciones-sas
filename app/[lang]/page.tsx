@@ -31,7 +31,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export default function HomeLangPage() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
       <Hero />
       <Services />

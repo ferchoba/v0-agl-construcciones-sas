@@ -12,9 +12,9 @@ interface ServiceCardProps {
 export function ServiceCard({ service }: ServiceCardProps) {
   const { t, locale } = useLanguage()
   return (
-    <Card className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
+    <Card className="bg-card border-border hover:border-primary transition-colors">
       <CardContent className="p-0">
-        <div className="aspect-[5/3] relative bg-gray-700 rounded-t-lg overflow-hidden">
+        <div className="aspect-[5/3] relative bg-muted rounded-t-lg overflow-hidden">
           {service.image ? (
             <Image
               src={service.image || "/placeholder.svg"}
@@ -25,7 +25,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
             />
           ) : (
             <div className="flex items-center justify-center h-full">
-              <div className="text-gray-500">
+              <div className="text-muted-foreground">
                 <svg className="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path
                     strokeLinecap="round"
@@ -41,15 +41,15 @@ export function ServiceCard({ service }: ServiceCardProps) {
         </div>
 
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-white mb-3">{service.title}</h3>
+          <h3 className="text-xl font-semibold text-foreground mb-3">{service.title}</h3>
 
-          <p className="text-gray-300 text-sm leading-relaxed mb-4">{service.description}</p>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-4">{service.description}</p>
 
           {service.features && (
-            <ul className="text-gray-400 text-xs mb-6 space-y-1">
+            <ul className="text-muted-foreground text-xs mb-6 space-y-1">
               {service.features.map((feature, index) => (
                 <li key={index} className="flex items-center">
-                  <span className="w-1 h-1 bg-green-500 rounded-full mr-2"></span>
+                  <span className="w-1 h-1 bg-primary rounded-full mr-2"></span>
                   {feature}
                 </li>
               ))}
@@ -58,14 +58,14 @@ export function ServiceCard({ service }: ServiceCardProps) {
 
           <div className="flex gap-3">
             <Link href={`/${locale}/servicios/${service.id}`} className="flex-1">
-              <Button className="bg-green-600 hover:bg-green-700 text-white w-full" size="sm">
+              <Button className="bg-primary hover:bg-[#212529] text-primary-foreground w-full" size="sm">
                 {t("services.read_more")}
               </Button>
             </Link>
             <Link href={`/${locale}/cotizacion`} className="flex-1">
               <Button
                 variant="outline"
-                className="border-gray-600 text-gray-300 hover:bg-gray-700 w-full bg-transparent"
+                className="border-border text-foreground hover:bg-muted w-full bg-transparent"
                 size="sm"
               >
                 {t("services.request_quote")}

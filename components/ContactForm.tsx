@@ -74,14 +74,14 @@ export default function ContactForm() {
   if (formState.isSubmitted) {
     return (
       <div className="max-w-2xl mx-auto px-4">
-        <div className="bg-gray-800 rounded-lg p-8 text-center">
-          <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div className="bg-card border border-border rounded-lg p-8 text-center">
+          <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg className="w-8 h-8 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-white mb-2">{t("contact_form.success_message")}</h3>
-          <p className="text-gray-400 mb-6">{t("contact_form.success_subtitle")}</p>
+          <h3 className="text-xl font-semibold text-foreground mb-2">{t("contact_form.success_message")}</h3>
+          <p className="text-muted-foreground mb-6">{t("contact_form.success_subtitle")}</p>
           <Button onClick={() => setFormState((prev) => ({ ...prev, isSubmitted: false }))} variant="outline">
             {t("contact_form.success_another")}
           </Button>
@@ -92,78 +92,78 @@ export default function ContactForm() {
 
   return (
     <div className="max-w-2xl mx-auto px-4">
-      <div className="bg-gray-800 rounded-lg p-8">
+      <div className="bg-card border border-border rounded-lg p-8">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-white mb-2">{t("contact_form.title")}</h2>
-          <p className="text-gray-400">{t("contact_form.subtitle")}</p>
+          <h2 className="text-2xl font-bold text-foreground mb-2">{t("contact_form.title")}</h2>
+          <p className="text-muted-foreground">{t("contact_form.subtitle")}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-2">
-              {t("contact_form.fields.name.label")} <span className="text-red-500">*</span>
+            <label className="block text-sm font-medium text-foreground mb-2">
+              {t("contact_form.fields.name.label")} <span className="text-destructive">*</span>
             </label>
             <Input
               type="text"
               placeholder={t("contact_form.fields.name.placeholder")}
               value={formState.data.name}
               onChange={(e) => handleInputChange("name", e.target.value)}
-              className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
+              className="bg-background border-input text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-ring"
             />
-            {formState.errors.name && <p className="text-red-500 text-sm mt-1">{formState.errors.name}</p>}
+            {formState.errors.name && <p className="text-destructive text-sm mt-1">{formState.errors.name}</p>}
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-2">
-              {t("contact_form.fields.email.label")} <span className="text-red-500">*</span>
+            <label className="block text-sm font-medium text-foreground mb-2">
+              {t("contact_form.fields.email.label")} <span className="text-destructive">*</span>
             </label>
             <Input
               type="email"
               placeholder={t("contact_form.fields.email.placeholder")}
               value={formState.data.email}
               onChange={(e) => handleInputChange("email", e.target.value)}
-              className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
+              className="bg-background border-input text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-ring"
             />
-            {formState.errors.email && <p className="text-red-500 text-sm mt-1">{formState.errors.email}</p>}
+            {formState.errors.email && <p className="text-destructive text-sm mt-1">{formState.errors.email}</p>}
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-2">
-              {t("contact_form.fields.phone.label")} <span className="text-red-500">*</span>
+            <label className="block text-sm font-medium text-foreground mb-2">
+              {t("contact_form.fields.phone.label")} <span className="text-destructive">*</span>
             </label>
             <Input
               type="tel"
               placeholder={t("contact_form.fields.phone.placeholder")}
               value={formState.data.phone}
               onChange={(e) => handleInputChange("phone", e.target.value)}
-              className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600"
+              className="bg-background border-input text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-ring"
             />
-            {formState.errors.phone && <p className="text-red-500 text-sm mt-1">{formState.errors.phone}</p>}
+            {formState.errors.phone && <p className="text-destructive text-sm mt-1">{formState.errors.phone}</p>}
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-2">
-              {t("contact_form.fields.message.label")} <span className="text-red-500">*</span>
+            <label className="block text-sm font-medium text-foreground mb-2">
+              {t("contact_form.fields.message.label")} <span className="text-destructive">*</span>
             </label>
             <Textarea
               placeholder={t("contact_form.fields.message.placeholder")}
               rows={4}
               value={formState.data.message}
               onChange={(e) => handleInputChange("message", e.target.value)}
-              className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 focus:border-green-600 focus:ring-green-600 resize-none"
+              className="bg-background border-input text-foreground placeholder:text-muted-foreground focus:border-ring focus:ring-ring resize-none"
             />
-            {formState.errors.message && <p className="text-red-500 text-sm mt-1">{formState.errors.message}</p>}
+            {formState.errors.message && <p className="text-destructive text-sm mt-1">{formState.errors.message}</p>}
           </div>
 
           <Button
             type="submit"
             disabled={formState.isSubmitting}
-            className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
+            className="w-full bg-primary hover:bg-[#212529] text-primary-foreground font-medium py-3 px-6 rounded-lg transition-colors"
           >
             {formState.isSubmitting ? t("contact_form.submit_submitting") : t("contact_form.submit_button")}
           </Button>
 
-          <p className="text-xs text-gray-500 text-center">
+          <p className="text-xs text-muted-foreground text-center">
             {t("contact_form.privacy")}
           </p>
         </form>

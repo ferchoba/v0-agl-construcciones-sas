@@ -25,17 +25,17 @@ export function ProjectContent({ project }: ProjectContentProps) {
     <div className="space-y-12">
       {/* Project Description */}
       <section>
-        <h2 className="text-3xl font-bold text-white mb-6">{tx(`projects.details.${slug}.title`) ?? project.title}</h2>
-        <h3 className="text-xl font-semibold text-white mb-4">{t("projects.detailsTitle")}</h3>
-        <p className="text-gray-300 leading-relaxed">{description}</p>
+        <h2 className="text-3xl font-bold text-foreground mb-6">{tx(`projects.details.${slug}.title`) ?? project.title}</h2>
+        <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.detailsTitle")}</h3>
+        <p className="text-muted-foreground leading-relaxed">{description}</p>
       </section>
 
       {/* Work Scope */}
       <section>
-        <h3 className="text-xl font-semibold text-white mb-4">{t("projects.workScopeTitle")}</h3>
+        <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.workScopeTitle")}</h3>
         <ul className="space-y-2">
           {workScope.map((item, index) => (
-            <li key={index} className="text-gray-300">
+            <li key={index} className="text-muted-foreground">
               • {item}
             </li>
           ))}
@@ -44,8 +44,8 @@ export function ProjectContent({ project }: ProjectContentProps) {
 
       {/* Technical Specifications */}
       <section>
-        <h3 className="text-xl font-semibold text-white mb-4">{t("projects.techSpecsTitle")}</h3>
-        <div className="space-y-2 text-gray-300">
+        <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.techSpecsTitle")}</h3>
+        <div className="space-y-2 text-muted-foreground">
           {area && <p>{t("projects.tech.areaLabel")}: {area}</p>}
           {project.technicalSpecs.apartments && <p>{t("projects.tech.apartmentsLabel")}: {project.technicalSpecs.apartments}</p>}
           {floorTypes && <p>{t("projects.tech.floorTypesLabel")}: {floorTypes}</p>}
@@ -57,8 +57,8 @@ export function ProjectContent({ project }: ProjectContentProps) {
 
       {/* Results */}
       <section>
-        <h3 className="text-xl font-semibold text-white mb-4">{t("projects.resultsTitle")}</h3>
-        <p className="text-gray-300 leading-relaxed">{results}</p>
+        <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.resultsTitle")}</h3>
+        <p className="text-muted-foreground leading-relaxed">{results}</p>
       </section>
     </div>
   )

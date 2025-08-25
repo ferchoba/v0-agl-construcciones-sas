@@ -60,16 +60,16 @@ const IconComponent = ({ icon }: { icon: string }) => {
 
 export default function BenefitsSection() {
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div key={index} className="text-center">
-              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 text-primary-foreground">
                 <IconComponent icon={benefit.icon} />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-2">{benefit.title}</h3>
-              <p className="text-gray-400">{benefit.description}</p>
+              <h3 className="text-xl font-semibold text-foreground mb-2">{benefit.title}</h3>
+              <p className="text-muted-foreground">{benefit.description}</p>
             </div>
           ))}
         </div>

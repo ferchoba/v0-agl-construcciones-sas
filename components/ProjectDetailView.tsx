@@ -41,8 +41,8 @@ export function ProjectDetailView({ project }: { project: ProjectDetail }) {
       </div>
 
       {/* Back to Projects */}
-      <div className="mt-16 pt-8 border-t border-gray-700">
-        <Link href={`/${locale}/proyectos`} className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+      <div className="mt-16 pt-8 border-t border-border">
+        <Link href={`/${locale}/proyectos`} className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
           <ArrowLeft className="w-4 h-4" />
           {t("projects.back_to_projects")}
         </Link>

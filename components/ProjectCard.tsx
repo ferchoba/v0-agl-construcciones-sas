@@ -20,7 +20,7 @@ const categoryColors = {
 export function ProjectCard({ project }: ProjectCardProps) {
   const { t, locale } = useLanguage()
   return (
-    <div className="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 hover:border-gray-600 transition-colors">
+    <div className="bg-card rounded-lg overflow-hidden border border-border hover:border-primary transition-colors">
       <div className="relative">
         <Image
           src={project.image || "/placeholder.svg"}
@@ -30,12 +30,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
           className="w-full h-48 object-cover"
         />
         <div
-          className={`absolute top-3 left-3 px-2 py-1 rounded text-xs font-medium text-white ${categoryColors[project.category]}`}
+          className={`absolute top-3 left-3 px-2 py-1 rounded text-xs font-medium text-primary-foreground ${categoryColors[project.category]}`}
         >
           {project.category}
         </div>
         <div className="absolute top-3 right-3 bg-black/50 rounded-full p-1">
-          <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -47,12 +47,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       <div className="p-6">
-        <h3 className="text-lg font-semibold text-white mb-2">{project.title}</h3>
-        <p className="text-gray-400 text-sm mb-4 line-clamp-2">{project.description}</p>
-        <p className="text-gray-500 text-xs mb-4">{t("projects.completed_at",)} {project.completedDate}</p>
+        <h3 className="text-lg font-semibold text-foreground mb-2">{project.title}</h3>
+        <p className="text-muted-foreground text-sm mb-4 line-clamp-2">{project.description}</p>
+        <p className="text-muted-foreground text-xs mb-4">{t("projects.completed_at",)} {project.completedDate}</p>
 
         <Link href={`/${locale}/proyectos/${project.slug}`}>
-          <Button className="w-full bg-green-600 hover:bg-green-700 text-white" size="sm">
+          <Button className="w-full bg-primary hover:bg-[#212529] text-primary-foreground" size="sm">
             {t("projects.view_details")}
           </Button>
         </Link>

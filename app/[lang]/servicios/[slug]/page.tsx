@@ -45,9 +45,9 @@ export default function ServicePage({ params }: ServicePageProps) {
   const base = getServiceBySlug(params.slug)
   if (!base) return notFound()
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 bg-background">
         <ServiceDetailView base={base} />
       </main>
       <Footer />

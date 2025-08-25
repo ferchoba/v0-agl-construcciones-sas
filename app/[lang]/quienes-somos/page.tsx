@@ -28,11 +28,11 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 bg-background">
         <section className="py-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">AGL CONSTRUCCIONES SAS</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">AGL CONSTRUCCIONES SAS</h1>
         </section>
         <CompanyOverview />
       </main>
