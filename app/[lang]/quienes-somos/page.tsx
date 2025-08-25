@@ -1,7 +1,6 @@
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import CompanyOverview from '@/components/CompanyOverview'
-import DevelopmentNote from '@/components/DevelopmentNote'
 import type { Metadata } from 'next'
 import es from '@/messages/es.json'
 import en from '@/messages/en.json'
@@ -36,7 +35,6 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">AGL CONSTRUCCIONES SAS</h1>
         </section>
         <CompanyOverview />
-        <DevelopmentNote />
       </main>
       <Footer />
     </div>

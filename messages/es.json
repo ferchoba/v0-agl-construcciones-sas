@@ -382,7 +382,9 @@
   "company": {
     "name": "AGL CONSTRUCCIONES SAS",
     "description": "Somos una empresa especializada en remodelación y construcción de espacios residenciales, comerciales y de oficina. Con años de experiencia en el sector, nos hemos consolidado como líderes en transformación de espacios.",
+    "mission_title": "Misión",
     "mission": "Transformar espacios con calidad excepcional, brindando soluciones personalizadas que superen las expectativas de nuestros clientes.",
+    "values_title": "Valores",
     "values": {
       "quality": {
         "title": "Calidad",
@@ -399,6 +401,48 @@
       "trust": {
         "title": "Confianza",
         "description": "Construimos relaciones duraderas con nuestros clientes"
+      },
+      "calidad": {
+        "title": "Calidad",
+        "description": "Utilizamos materiales de primera y técnicas especializadas"
+      },
+      "compromiso": {
+        "title": "Compromiso",
+        "description": "Cumplimos con los tiempos y presupuestos acordados"
+      },
+      "innovación": {
+        "title": "Innovación",
+        "description": "Incorporamos las últimas tendencias en diseño y construcción"
+      },
+      "confianza": {
+        "title": "Confianza",
+        "description": "Construimos relaciones duraderas con nuestros clientes"
+      }
+    },
+    "services_overview_title": "Servicios",
+    "serviceCategories": {
+      "remodelaciones_integrales": {
+        "title": "Remodelaciones Integrales",
+        "description": "Transformamos completamente sus espacios residenciales y comerciales con diseños modernos y funcionales.",
+        "features": []
+      },
+      "renovaciones_especializadas": {
+        "title": "Renovaciones Especializadas",
+        "description": "",
+        "features": [
+          "Cocinas modernas y funcionales",
+          "Baños con diseños contemporáneos",
+          "Garajes optimizados"
+        ]
+      },
+      "acabados_y_mantenimiento": {
+        "title": "Acabados y Mantenimiento",
+        "description": "",
+        "features": [
+          "Instalación profesional de pisos",
+          "Pintura especializada",
+          "Mantenimiento preventivo"
+        ]
       }
     },
     "why_choose_us": {
