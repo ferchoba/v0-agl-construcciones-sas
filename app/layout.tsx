@@ -2,19 +2,11 @@ import type React from "react"
 import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
-import { LanguageProvider } from "@/lib/LanguageProvider"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "AGL Construcciones SAS - Transformamos sus espacios con calidad excepcional",
+  title: "AGL Construcciones SAS",
   description: "Especialistas en remodelación y construcción de espacios residenciales, comerciales y de oficina.",
-  generator: "v0.app",
-  alternates: {
-    languages: {
-      "es": "/",
-      "en": "/"
-    }
-  }
 }
 
 export default function RootLayout({
@@ -34,9 +26,7 @@ html {
         `}</style>
       </head>
       <body>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        {children}
       </body>
     </html>
   )

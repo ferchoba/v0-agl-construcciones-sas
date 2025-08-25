@@ -10,15 +10,15 @@ interface FooterProps {
 }
 
 const FooterComponent = ({ className = "" }: FooterProps) => {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
 
   const quickLinks = [
-    { label: t("navigation.home"), href: "/" },
-    { label: t("navigation.services"), href: "/servicios" },
-    { label: t("navigation.projects"), href: "/proyectos" },
-    { label: t("navigation.about"), href: "/quienes-somos" },
-    { label: t("navigation.contact"), href: "/contacto" },
-    { label: t("navigation.quote"), href: "/cotizacion" },
+    { label: t("navigation.home"), href: `/${locale}` },
+    { label: t("navigation.services"), href: `/${locale}/servicios` },
+    { label: t("navigation.projects"), href: `/${locale}/proyectos` },
+    { label: t("navigation.about"), href: `/${locale}/quienes-somos` },
+    { label: t("navigation.contact"), href: `/${locale}/contacto` },
+    { label: t("navigation.quote"), href: `/${locale}/cotizacion` },
   ]
 
   const handleWhatsApp = () => {

@@ -9,7 +9,7 @@ interface ServiceDetailsProps {
 }
 
 export function ServiceDetails({ title, detailedDescription, serviceTypes }: ServiceDetailsProps) {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
   const paragraphs = detailedDescription.split("\n\n")
 
   return (
@@ -38,7 +38,7 @@ export function ServiceDetails({ title, detailedDescription, serviceTypes }: Ser
 
       <div className="pt-8 border-t border-gray-700">
         <Link
-          href="/servicios"
+          href={`/${locale}/servicios`}
           className="inline-flex items-center text-green-500 hover:text-green-400 transition-colors"
         >
           <ArrowLeft className="h-4 w-4 mr-2" />

@@ -10,7 +10,7 @@ interface ServiceCardProps {
 }
 
 export function ServiceCard({ service }: ServiceCardProps) {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
   return (
     <Card className="bg-gray-800 border-gray-700 hover:border-gray-600 transition-colors">
       <CardContent className="p-0">
@@ -57,12 +57,12 @@ export function ServiceCard({ service }: ServiceCardProps) {
           )}
 
           <div className="flex gap-3">
-            <Link href={`/servicios/${service.id}`} className="flex-1">
+            <Link href={`/${locale}/servicios/${service.id}`} className="flex-1">
               <Button className="bg-green-600 hover:bg-green-700 text-white w-full" size="sm">
                 {t("services.read_more")}
               </Button>
             </Link>
-            <Link href="/cotizacion" className="flex-1">
+            <Link href={`/${locale}/cotizacion`} className="flex-1">
               <Button
                 variant="outline"
                 className="border-gray-600 text-gray-300 hover:bg-gray-700 w-full bg-transparent"

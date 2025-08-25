@@ -11,7 +11,7 @@ interface ServicesProps {
 }
 
 export default function Services({ className = "" }: ServicesProps) {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
 
   const services = [
     {
@@ -61,7 +61,7 @@ export default function Services({ className = "" }: ServicesProps) {
         </div>
 
         <div className="text-center">
-          <Link href="/servicios">
+          <Link href={`/${locale}/servicios`}>
             <Button
               variant="outline"
               className="border-gray-600 text-white hover:bg-gray-800 hover:border-green-400 px-8 py-3 bg-transparent transition-all duration-200"

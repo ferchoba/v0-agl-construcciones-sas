@@ -15,10 +15,10 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
   const { locale, setLocale, t } = useLanguage()
 
   const navigationItems = [
-    { label: t("navigation.home"), href: "/" },
-    { label: t("navigation.services"), href: "/servicios" },
-    { label: t("navigation.projects"), href: "/proyectos" },
-    { label: t("navigation.about"), href: "/quienes-somos" },
+    { label: t("navigation.home"), href: `/${locale}` },
+    { label: t("navigation.services"), href: `/${locale}/servicios` },
+    { label: t("navigation.projects"), href: `/${locale}/proyectos` },
+    { label: t("navigation.about"), href: `/${locale}/quienes-somos` },
   ]
 
   return (
@@ -26,7 +26,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href={`/${locale}`} className="flex items-center space-x-2">
             <span className="text-xl font-bold text-white">AGL</span>
             <span className="text-sm text-gray-400 leading-tight">
               CONSTRUCCIONES
@@ -69,7 +69,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
               </button>
             </div>
 
-            <Link href="/cotizacion">
+            <Link href={`/${locale}/cotizacion`}>
               <Button
                 variant="outline"
                 size="sm"
@@ -78,7 +78,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                 {t("navigation.quote")}
               </Button>
             </Link>
-            <Link href="/contacto">
+            <Link href={`/${locale}/contacto`}>
               <Button
                 variant="outline"
                 size="sm"
@@ -110,7 +110,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                 </Link>
               ))}
               <div className="flex items-center space-x-4 pt-2">
-                <Link href="/cotizacion">
+                <Link href={`/${locale}/cotizacion`}>
                   <Button
                     variant="outline"
                     size="sm"
@@ -119,7 +119,7 @@ const HeaderComponent = ({ className = "" }: HeaderProps) => {
                     {t("navigation.quote")}
                   </Button>
                 </Link>
-                <Link href="/contacto">
+                <Link href={`/${locale}/contacto`}>
                   <Button
                     variant="outline"
                     size="sm"

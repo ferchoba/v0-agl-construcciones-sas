@@ -18,7 +18,7 @@ const categoryColors = {
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
   return (
     <div className="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 hover:border-gray-600 transition-colors">
       <div className="relative">
@@ -51,7 +51,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <p className="text-gray-400 text-sm mb-4 line-clamp-2">{project.description}</p>
         <p className="text-gray-500 text-xs mb-4">{t("projects.completed_at",)} {project.completedDate}</p>
 
-        <Link href={`/proyectos/${project.slug}`}>
+        <Link href={`/${locale}/proyectos/${project.slug}`}>
           <Button className="w-full bg-green-600 hover:bg-green-700 text-white" size="sm">
             {t("projects.view_details")}
           </Button>

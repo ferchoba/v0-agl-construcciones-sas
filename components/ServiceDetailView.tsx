@@ -9,12 +9,12 @@ import { getTranslatedServiceDetail } from "@/lib/translation-helpers"
 import type { ServiceDetail } from "@/types/service-detail"
 
 export function ServiceDetailView({ base }: { base: ServiceDetail }) {
-  const { tx } = useLanguage()
-  const service = getTranslatedServiceDetail(base, tx)
+  const { tx, locale } = useLanguage()
+  const service = { ...getTranslatedServiceDetail(base, tx), locale }
 
   const breadcrumbItems = [
-    { label: service.breadcrumb.home, href: "/" },
-    { label: service.breadcrumb.services, href: "/servicios" },
+    { label: service.breadcrumb.home, href: `/${service.locale ?? ''}` },
+    { label: service.breadcrumb.services, href: `/${service.locale ?? ''}/servicios` },
     { label: service.breadcrumb.current },
   ]
 

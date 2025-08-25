@@ -10,14 +10,14 @@ import { useLanguage } from "@/lib/LanguageProvider"
 import type { ProjectDetail } from "@/types/project-detail"
 
 export function ProjectDetailView({ project }: { project: ProjectDetail }) {
-  const { t, tx } = useLanguage()
+  const { t, tx, locale } = useLanguage()
 
   const slug = project.slug
   const titleTx = tx(`projects.details.${slug}.title`) as string | undefined
 
   const breadcrumbItems = [
-    { label: t("breadcrumb.home"), href: "/" },
-    { label: t("breadcrumb.projects"), href: "/proyectos" },
+    { label: t("breadcrumb.home"), href: `/${locale}` },
+    { label: t("breadcrumb.projects"), href: `/${locale}/proyectos` },
     { label: titleTx ?? project.title },
   ]
 
@@ -42,7 +42,7 @@ export function ProjectDetailView({ project }: { project: ProjectDetail }) {
 
       {/* Back to Projects */}
       <div className="mt-16 pt-8 border-t border-gray-700">
-        <Link href="/proyectos" className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+        <Link href={`/${locale}/proyectos`} className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
           <ArrowLeft className="w-4 h-4" />
           {t("projects.back_to_projects")}
         </Link>

@@ -22,24 +22,29 @@ const messages = {
   en: enMessages,
 };
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocale] = useState<Locale>('es');
+export function LanguageProvider({ children, initialLocale }: { children: ReactNode; initialLocale?: Locale }) {
+  const [locale, setLocale] = useState<Locale>(initialLocale ?? 'es');
 
   useEffect(() => {
-    // Load saved locale from localStorage
-    const savedLocale = localStorage.getItem('locale') as Locale;
-    if (savedLocale && (savedLocale === 'es' || savedLocale === 'en')) {
-      setLocale(savedLocale);
+    // If no initial locale provided (non [lang] routes), try localStorage as fallback
+    if (!initialLocale) {
+      const saved = (typeof window !== 'undefined' ? (localStorage.getItem('locale') as Locale) : undefined);
+      if (saved === 'es' || saved === 'en') {
+        setLocale(saved);
+      }
     }
-  }, []);
+  }, [initialLocale]);
+
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = locale;
+    }
+  }, [locale]);
 
   const handleSetLocale = (newLocale: Locale) => {
     setLocale(newLocale);
-    localStorage.setItem('locale', newLocale);
-    
-    // Update document language
-    if (typeof document !== 'undefined') {
-      document.documentElement.lang = newLocale;
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('locale', newLocale);
     }
   };
 
