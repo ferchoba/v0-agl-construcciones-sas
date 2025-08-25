@@ -79,12 +79,12 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>{t("footer.copyright")}</p>
           <div className="flex justify-center space-x-4 mt-2">
-            <a href="/privacidad" className="hover:text-green-400 transition-colors duration-200">
+            <Link href={`/${locale}/privacidad`} className="hover:text-green-400 transition-colors duration-200">
               {t("footer.privacy_policy")}
-            </a>
-            <a href="/terminos" className="hover:text-green-400 transition-colors duration-200">
+            </Link>
+            <Link href={`/${locale}/terminos`} className="hover:text-green-400 transition-colors duration-200">
               {t("footer.terms_conditions")}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

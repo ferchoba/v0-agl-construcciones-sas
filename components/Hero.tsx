@@ -9,7 +9,7 @@ interface HeroProps {
 }
 
 export default function Hero({ className = "" }: HeroProps) {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
 
   return (
     <section className={`py-20 px-4 bg-gray-900 ${className}`}>
@@ -21,12 +21,12 @@ export default function Hero({ className = "" }: HeroProps) {
           {t("hero.description")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/cotizacion">
+          <Link href={`/${locale}/cotizacion`}>
             <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-base font-medium transition-colors duration-200">
               {t("hero.cta_quote")}
             </Button>
           </Link>
-          <Link href="/proyectos">
+          <Link href={`/${locale}/proyectos`}>
             <Button
               variant="outline"
               className="border-gray-600 text-white hover:bg-gray-800 hover:border-green-400 px-8 py-3 bg-transparent text-base font-medium transition-all duration-200"

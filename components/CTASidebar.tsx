@@ -11,17 +11,17 @@ interface CTASidebarProps {
 }
 
 export function CTASidebar({ title, description, benefits }: CTASidebarProps) {
-  const { t } = useLanguage()
+  const { t, locale } = useLanguage()
   return (
     <div className="lg:sticky lg:top-8">
       <Card className="bg-gray-800 border-gray-700 p-6 mb-8">
         <h3 className="text-xl font-semibold text-white mb-4">{title}</h3>
         <p className="text-gray-300 mb-6 text-sm leading-relaxed">{description}</p>
         <div className="space-y-3 mb-6">
-          <Link href="/cotizacion">
+          <Link href={`/${locale}/cotizacion`}>
             <Button className="w-full bg-green-600 hover:bg-green-700 text-white">{t("cta_sidebar.button_quote")}</Button>
           </Link>
-          <Link href="/contacto">
+          <Link href={`/${locale}/contacto`}>
             <Button variant="outline" className="w-full border-gray-600 text-white hover:bg-gray-700 bg-transparent">
               {t("cta_sidebar.button_contact")}
             </Button>
