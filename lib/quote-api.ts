@@ -1,24 +1,38 @@
 import type { QuoteFormData } from "@/types/quote"
+import { submitToWeb3Forms, createQuoteSubmission } from './web3forms-utils'
 
-export async function submitQuoteRequest(data: QuoteFormData): Promise<{ success: boolean; message: string }> {
+export async function submitQuoteRequest(
+  data: QuoteFormData,
+  locale: string = 'es'
+): Promise<{ success: boolean; message: string; quoteId?: string }> {
   try {
-    const response = await fetch("/api/quote", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
+    const submission = createQuoteSubmission(data, locale)
+    const result = await submitToWeb3Forms(submission)
 
-    if (!response.ok) {
-      throw new Error("Error al enviar la cotización")
+    if (result.success) {
+      return {
+        success: true,
+        message: "Cotización enviada correctamente",
+        quoteId: `WEB3-${Date.now()}` // ID generado localmente
+      }
+    } else {
+      throw new Error(result.message || "Error al enviar la cotización")
+    }
+  } catch (error) {
+    console.error("Web3Forms quote error:", error)
+
+    let errorMessage = "Error al enviar la cotización. Inténtalo de nuevo."
+
+    // Errores específicos de Web3Forms
+    if (error instanceof Error) {
+      if (error.message.includes("rate limit")) {
+        errorMessage = "Demasiados envíos. Inténtalo más tarde."
+      } else if (error.message.includes("access_key")) {
+        errorMessage = "Error de configuración. Contacta al administrador."
+      }
     }
 
-    const result = await response.json()
-    return { success: true, message: "Cotización enviada exitosamente" }
-  } catch (error) {
-    console.error("Error submitting quote:", error)
-    return { success: false, message: "Error al enviar la cotización. Inténtalo de nuevo." }
+    return { success: false, message: errorMessage }
   }
 }
 

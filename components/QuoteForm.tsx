@@ -18,7 +18,7 @@ interface QuoteFormState {
 }
 
 export default function QuoteForm() {
-  const { t, tx } = useLanguage()
+  const { t, tx, locale } = useLanguage()
   const vdict = tx("quote_form.validation")
   const [formState, setFormState] = useState<QuoteFormState>({
     data: {
@@ -56,7 +56,7 @@ export default function QuoteForm() {
     setFormState((prev) => ({ ...prev, isSubmitting: true }))
 
     try {
-      const result = await submitQuoteRequest(formState.data)
+      const result = await submitQuoteRequest(formState.data, locale)
 
       if (result.success) {
         setFormState((prev) => ({

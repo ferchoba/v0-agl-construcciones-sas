@@ -1,24 +1,34 @@
 import type { ContactFormData } from "@/types/contact"
+import { submitToWeb3Forms, createContactSubmission } from './web3forms-utils'
 
-export async function submitContactForm(data: ContactFormData): Promise<{ success: boolean; message: string }> {
+export async function submitContactForm(
+  data: ContactFormData,
+  locale: string = 'es'
+): Promise<{ success: boolean; message: string }> {
   try {
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
+    const submission = createContactSubmission(data, locale)
+    const result = await submitToWeb3Forms(submission)
 
-    if (!response.ok) {
-      throw new Error("Error al enviar el formulario")
+    if (result.success) {
+      return { success: true, message: "Mensaje enviado correctamente" }
+    } else {
+      throw new Error(result.message || "Error al enviar el formulario")
+    }
+  } catch (error) {
+    console.error("Web3Forms contact error:", error)
+
+    let errorMessage = "Error al enviar el mensaje. Inténtalo de nuevo."
+
+    // Errores específicos de Web3Forms
+    if (error instanceof Error) {
+      if (error.message.includes("rate limit")) {
+        errorMessage = "Demasiados envíos. Inténtalo más tarde."
+      } else if (error.message.includes("access_key")) {
+        errorMessage = "Error de configuración. Contacta al administrador."
+      }
     }
 
-    const result = await response.json()
-    return { success: true, message: "Mensaje enviado correctamente" }
-  } catch (error) {
-    console.error("Error submitting contact form:", error)
-    return { success: false, message: "Error al enviar el mensaje. Inténtalo de nuevo." }
+    return { success: false, message: errorMessage }
   }
 }
 

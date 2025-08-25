@@ -12,7 +12,7 @@ import { submitContactForm } from "@/lib/contact-api"
 import { useLanguage } from "@/lib/LanguageProvider"
 
 export default function ContactForm() {
-  const { t, tx } = useLanguage()
+  const { t, tx, locale } = useLanguage()
   const [formState, setFormState] = useState<ContactFormState>({
     data: {
       name: "",
@@ -46,7 +46,7 @@ export default function ContactForm() {
     setFormState((prev) => ({ ...prev, isSubmitting: true }))
 
     try {
-      const result = await submitContactForm(formState.data)
+      const result = await submitContactForm(formState.data, locale)
 
       if (result.success) {
         setFormState((prev) => ({
