@@ -41,12 +41,15 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Pintura interior y exterior",
       "Instalación de puertas y ventanas",
     ],
-    technicalSpecs: {
-      area: "3.500 m²",
-      apartments: 48,
-      floorTypes: "Porcelanato y cerámica",
-      specialFinishes: "Cocinas integrales",
-    },
+    technicalSpecs: [
+      "Cimentación",
+      "Estructura (columnas, pantallas y placas)",
+      "Mampostería de fachada (ladrillo Santa Fe tipo rejilla)",
+      "Mampostería interna (bloque común)",
+      "Pañete de fachada",
+      "Pañete interno",
+      "Acabados finales (estuco, pintura vinílica y cielos rasos en drywall)",
+    ],
     results:
       "Un proyecto que combina solidez estructural, funcionalidad y estética, cumpliendo con todos los estándares de construcción y las expectativas del cliente.",
     serviceType: "ACABADOS",
@@ -92,12 +95,12 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Mampostería confinada",
       "Acabados especiales institucionales",
     ],
-    technicalSpecs: {
-      area: "2.800 m²",
-      apartments: 3,
-      floorTypes: "Concreto pulido",
-      specialFinishes: "Fachada en ladrillo arquitectónico",
-    },
+    technicalSpecs: [
+      "Mampostería confinada (bloque común, columnetas y viguetas)",
+      "Pañetes internos",
+      "Pañetes de fachada",
+      "Alistado y preparación de pisos en cubierta",
+    ],
     results:
       "Bloque académico moderno que combina resistencia estructural con diseño arquitectónico institucional, cumpliendo con todas las normativas educativas y sísmicas.",
     serviceType: "MAMPOSTERÍA",
@@ -143,12 +146,11 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Elementos decorativos",
       "Acabados especiales en altura",
     ],
-    technicalSpecs: {
-      area: "8.500 m²",
-      apartments: 120,
-      floorTypes: "Porcelanato rectificado",
-      specialFinishes: "Fachada ventilada",
-    },
+    technicalSpecs: [
+      "Mampostería interna (bloque común)",
+      "Mampostería de fachada (ladrillo Santa Fe tipo rejilla gran formato)",
+      "Pañetes internos",
+    ],
     results:
       "Torre residencial de alta calidad que establece nuevos estándares en construcción vertical, combinando técnicas avanzadas de mampostería con diseño contemporáneo.",
     serviceType: "MAMPOSTERÍA",
@@ -194,12 +196,14 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Elementos estructurales sísmicos",
       "Estructuras para grandes espacios",
     ],
-    technicalSpecs: {
-      area: "12.000 m²",
-      apartments: 1,
-      floorTypes: "Concreto industrial",
-      specialFinishes: "Estructura sismo-resistente",
-    },
+    technicalSpecs: [
+      "Cimentación",
+      "Estructura (columnas, pantallas, placas y escaleras)",
+      "Mampostería de fachada a la vista (ladrillo Santa Fe tipo rejilla)",
+      "Mampostería interna (bloque común)",
+      "Pañete interno",
+      "Alistado de pisos",
+    ],
     results:
       "Complejo educativo con estructura de vanguardia que permite grandes espacios libres, cumpliendo con los más altos estándares de seguridad sísmica y funcionalidad educativa.",
     serviceType: "ESTRUCTURA",
@@ -245,12 +249,11 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Sistemas de drenaje integrados",
       "Estudios geotécnicos especializados",
     ],
-    technicalSpecs: {
-      area: "15.000 m²",
-      apartments: 120,
-      floorTypes: "Cimentación profunda",
-      specialFinishes: "Sistema de drenaje integrado",
-    },
+    technicalSpecs: [
+      "Cimentación",
+      "Estructura (sótanos 1 y 2)",
+      "Estructura industrializada",
+    ],
     results:
       "Desarrollo urbanístico con cimentación de alta calidad que garantiza la estabilidad a largo plazo de 120 viviendas, superando los desafíos geotécnicos del terreno.",
     serviceType: "CIMENTACIÓN",
@@ -296,12 +299,10 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Excavaciones profundas urbanas",
       "Cimentación para torres gemelas",
     ],
-    technicalSpecs: {
-      area: "6.800 m²",
-      apartments: 180,
-      floorTypes: "Cimentación profunda especializada",
-      specialFinishes: "Sistema de contención urbana",
-    },
+    technicalSpecs: [
+      "Mensaje 1",
+      "Mensaje 2",
+    ],
     results:
       "Cimentación robusta para torres gemelas que permite construcción segura en zona urbana densa, utilizando tecnología avanzada en pilotaje y contención.",
     serviceType: "CIMENTACIÓN",
@@ -347,12 +348,11 @@ export const projectsContent: Record<string, ProjectDetail> = {
       "Elementos especiales",
       "Acabados arquitectónicos integrados",
     ],
-    technicalSpecs: {
-      area: "4.200 m²",
-      apartments: 64,
-      floorTypes: "Losas aligeradas",
-      specialFinishes: "Acabados arquitectónicos integrados",
-    },
+    technicalSpecs: [
+      "Cimentación",
+      "Estructura en concreto a la vista (columnas, pantallas y placas)",
+      "Mampostería interna (bloque común)",
+    ],
     results:
       "Edificio residencial con estructura optimizada que combina eficiencia constructiva con calidad arquitectónica, proporcionando espacios funcionales y seguros para 64 apartamentos.",
     serviceType: "ESTRUCTURA",

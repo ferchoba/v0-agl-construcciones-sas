@@ -643,11 +643,15 @@
             "Interior and exterior painting",
             "Installation of doors and windows"
           ],
-          "technicalSpecs": {
-            "area": "3,500 m²",
-            "floorTypes": "Porcelain and ceramic",
-            "specialFinishes": "Integrated kitchens"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (columns, screens, and slabs)",
+            "Facade masonry (Santa Fe brick, grid-type)",
+            "Internal masonry (common block)",
+            "Facade plaster",
+            "Internal plaster",
+            "Final finishes (stucco, vinyl paint, and drywall ceilings)"
+          ],
           "results": "A project that combines structural solidity, functionality and aesthetics..."
         },
       "universidad-santo-tomas-tunja": {
@@ -667,11 +671,12 @@
             "Confined masonry",
             "Special institutional finishes"
           ],
-          "technicalSpecs": {
-            "area": "2,800 m²",
-            "floorTypes": "Polished concrete",
-            "specialFinishes": "Architectural brick facade"
-          },
+          "technicalSpecs": [
+            "Confined masonry (common block, columns, and joists)",
+            "Internal plastering",
+            "Facade plastering",
+            "Roof floor laying and preparation"
+          ],
           "results": "Modern academic block combining structural strength with institutional architectural design, complying with all educational and seismic regulations."
         },
         "entreparques": {
@@ -691,11 +696,11 @@
             "Decorative elements",
             "Special high-rise finishes"
           ],
-          "technicalSpecs": {
-            "area": "8,500 m²",
-            "floorTypes": "Rectified porcelain tile",
-            "specialFinishes": "Ventilated facade"
-          },
+          "technicalSpecs": [
+            "Internal masonry (common block)",
+            "Facade masonry (large-format Santa Fe brick, grid-type)",
+            "Internal plastering"
+          ],
           "results": "High-quality residential tower setting new standards in vertical construction, combining advanced masonry techniques with contemporary design."
         },
         "mega-colegio-san-marcos-funza": {
@@ -715,11 +720,14 @@
             "Seismic structural elements",
             "Structures for large spaces"
           ],
-          "technicalSpecs": {
-            "area": "12,000 m²",
-            "floorTypes": "Industrial concrete",
-            "specialFinishes": "Seismic-resistant structure"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (columns, screens, slabs, and stairs)",
+            "Exposed façade masonry (Santa Fe brick, grid-type)",
+            "Internal masonry (common block)",
+            "Internal plastering",
+            "Flooring"
+          ],
           "results": "Educational complex with a state-of-the-art structure enabling large open spaces, meeting the highest standards of seismic safety and educational functionality."
         },
         "urbanizacion-hacienda-los-lagos": {
@@ -739,11 +747,11 @@
             "Integrated drainage systems",
             "Specialized geotechnical studies"
           ],
-          "technicalSpecs": {
-            "area": "15,000 m²",
-            "floorTypes": "Deep foundation",
-            "specialFinishes": "Integrated drainage system"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (basements 1 and 2)",
+            "Industrialized structure"
+          ],
           "results": "Residential development with high-quality foundations ensuring long-term stability for 120 homes, overcoming the site's geotechnical challenges."
         },
         "urbanza": {
@@ -763,11 +771,10 @@
             "Deep urban excavations",
             "Foundation for twin towers"
           ],
-          "technicalSpecs": {
-            "area": "6,800 m²",
-            "floorTypes": "Specialized deep foundation",
-            "specialFinishes": "Urban retention system"
-          },
+          "technicalSpecs": [
+            "Message 1",
+            "Message 2"
+          ],
           "results": "Robust foundation for twin towers enabling safe construction in a dense urban area, using advanced piling and retention technology."
         },
         "edificio-0097": {
@@ -787,11 +794,11 @@
             "Special elements",
             "Integrated architectural finishes"
           ],
-          "technicalSpecs": {
-            "area": "4,200 m²",
-            "floorTypes": "Lightweight slabs",
-            "specialFinishes": "Integrated architectural finishes"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Exposed concrete structure (columns, screens, and slabs)",
+            "Internal masonry (common block)"
+          ],
           "results": "Residential building with an optimized structure combining construction efficiency with architectural quality, providing functional and safe spaces for 64 apartments."
         }
       },

@@ -77,19 +77,7 @@ export function getTranslatedProjectDetail(detail: ProjectDetail, tx: (key: stri
       alt: resolveTx(tx, `${base}.thumbnails.${i}.alt`, t.alt),
     })),
     workScope: resolveTx(tx, `${base}.workScope`, detail.workScope),
-    technicalSpecs: {
-      ...detail.technicalSpecs,
-      area: detail.technicalSpecs.area
-        ? resolveTx(tx, `${base}.technicalSpecs.area`, detail.technicalSpecs.area)
-        : detail.technicalSpecs.area,
-      apartments: detail.technicalSpecs.apartments,
-      floorTypes: detail.technicalSpecs.floorTypes
-        ? resolveTx(tx, `${base}.technicalSpecs.floorTypes`, detail.technicalSpecs.floorTypes)
-        : detail.technicalSpecs.floorTypes,
-      specialFinishes: detail.technicalSpecs.specialFinishes
-        ? resolveTx(tx, `${base}.technicalSpecs.specialFinishes`, detail.technicalSpecs.specialFinishes)
-        : detail.technicalSpecs.specialFinishes,
-    },
+    technicalSpecs: resolveTx(tx, `${base}.technicalSpecs`, detail.technicalSpecs),
     results: resolveTx(tx, `${base}.results`, detail.results),
     serviceType: resolveTx(tx, `projects.serviceTypes.${detail.serviceType}`, detail.serviceType) as any,
   };

@@ -14,12 +14,7 @@ export interface ProjectDetail {
   heroImage: ProjectImage
   thumbnails: ProjectImage[]
   workScope: string[]
-  technicalSpecs: {
-    area?: string
-    apartments?: number
-    floorTypes?: string
-    specialFinishes?: string
-  }
+  technicalSpecs: string[]
   results: string
   serviceType: string
   imageCount: number
