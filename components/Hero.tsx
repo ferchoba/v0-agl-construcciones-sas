@@ -13,7 +13,7 @@ export default function Hero({ className = "" }: HeroProps) {
   const { t, locale } = useLanguage()
 
   // Imagen del hero desde Cloudinary con transformaciones recomendadas
-  const heroImageSrc = "https://res.cloudinary.com/dq5joejf7/image/upload/f_auto,q_auto,c_fill,ar_16:9,w_1600/v1756161960/ImagenHero_o5iyx5.png"
+  const heroImageSrc = "https://res.cloudinary.com/dq5joejf7/image/upload/f_auto,q_auto,c_fill,ar_16:9,w_1600/v1756181329/imagenHero1200x600_m7uvzp.png"
 
   return (
     <section className={`py-16 md:py-20 px-4 bg-background ${className}`}>
