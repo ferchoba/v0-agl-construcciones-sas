@@ -259,55 +259,6 @@ export const projectsContent: Record<string, ProjectDetail> = {
     serviceType: "CIMENTACIÓN",
     imageCount: 3,
   },
-  urbanza: {
-    slug: "urbanza",
-    title: "URBANZA",
-    category: "CIMENTACIÓN",
-    completionDate: "19 de julio de 2024",
-    description:
-      "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
-    heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129315/img1_evruea.jpg",
-      alt: "Urbanza - Cimentación de torres gemelas",
-      width: 800,
-      height: 600,
-    },
-    thumbnails: [
-      {
-        src: "/projects/urbanza-thumb1.jpg",
-        alt: "Pilotes de gran diámetro",
-        width: 150,
-        height: 100,
-      },
-      {
-        src: "/projects/urbanza-thumb2.jpg",
-        alt: "Vigas de cimentación",
-        width: 150,
-        height: 100,
-      },
-      {
-        src: "/projects/urbanza-thumb3.jpg",
-        alt: "Sistemas de contención",
-        width: 150,
-        height: 100,
-      },
-    ],
-    workScope: [
-      "Pilotes de gran diámetro",
-      "Vigas de cimentación",
-      "Sistemas de contención",
-      "Excavaciones profundas urbanas",
-      "Cimentación para torres gemelas",
-    ],
-    technicalSpecs: [
-      "Mensaje 1",
-      "Mensaje 2",
-    ],
-    results:
-      "Cimentación robusta para torres gemelas que permite construcción segura en zona urbana densa, utilizando tecnología avanzada en pilotaje y contención.",
-    serviceType: "CIMENTACIÓN",
-    imageCount: 3,
-  },
   "edificio-0097": {
     slug: "edificio-0097",
     title: "EDIFICIO 0097",

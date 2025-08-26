@@ -605,12 +605,6 @@
         "completedDate": "Mayo de 2022 / Diciembre de 2022",
         "location": "Bogotá"
       },
-      "urbanza": {
-        "title": "URBANZA",
-        "description": "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
-        "completedDate": "19 de julio de 2024",
-        "location": "Bogotá"
-      },
       "edificio-0097": {
         "title": "EDIFICIO 0097",
         "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
@@ -743,29 +737,6 @@
             "Estructura industrializada"
           ],
           "results": "Desarrollo urbanístico con cimentación de alta calidad que garantiza la estabilidad a largo plazo de 120 viviendas, superando los desafíos geotécnicos del terreno."
-        },
-        "urbanza": {
-          "title": "URBANZA",
-          "description": "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
-          "completionDate": "19 de julio de 2024",
-          "heroImage": { "alt": "Urbanza - Cimentación de torres gemelas" },
-          "thumbnails": [
-            { "alt": "Pilotes de gran diámetro" },
-            { "alt": "Vigas de cimentación" },
-            { "alt": "Sistemas de contención" }
-          ],
-          "workScope": [
-            "Pilotes de gran diámetro",
-            "Vigas de cimentación",
-            "Sistemas de contención",
-            "Excavaciones profundas urbanas",
-            "Cimentación para torres gemelas"
-          ],
-          "technicalSpecs": [
-            "Mensaje 1",
-            "Mensaje 2"
-          ],
-          "results": "Cimentación robusta para torres gemelas que permite construcción segura en zona urbana densa, utilizando tecnología avanzada en pilotaje y contención."
         },
         "edificio-0097": {
           "title": "EDIFICIO 0097",

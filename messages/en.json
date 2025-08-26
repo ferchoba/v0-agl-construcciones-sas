@@ -612,12 +612,6 @@
         "completedDate": "August 1, 2024",
         "location": "Bogotá"
       },
-      "urbanza": {
-        "title": "URBANZA",
-        "description": "Foundation for a residential complex of twin towers. Construction of deep foundations with large-diameter piles, foundation beams, and retention systems for deep excavations in a dense urban area.",
-        "completedDate": "July 19, 2024",
-        "location": "Bogotá"
-      },
       "edificio-0097": {
         "title": "EDIFICIO 0097",
         "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
@@ -753,29 +747,6 @@
             "Industrialized structure"
           ],
           "results": "Residential development with high-quality foundations ensuring long-term stability for 120 homes, overcoming the site's geotechnical challenges."
-        },
-        "urbanza": {
-          "title": "URBANZA",
-          "description": "Foundation for a residential complex of twin towers. Construction of deep foundations with large-diameter piles, foundation beams, and retention systems for deep excavations in a dense urban area.",
-          "completionDate": "July 19, 2024",
-          "heroImage": { "alt": "Urbanza - Twin towers foundation" },
-          "thumbnails": [
-            { "alt": "Large-diameter piles" },
-            { "alt": "Foundation beams" },
-            { "alt": "Retention systems" }
-          ],
-          "workScope": [
-            "Large-diameter piles",
-            "Foundation beams",
-            "Retention systems",
-            "Deep urban excavations",
-            "Foundation for twin towers"
-          ],
-          "technicalSpecs": [
-            "Message 1",
-            "Message 2"
-          ],
-          "results": "Robust foundation for twin towers enabling safe construction in a dense urban area, using advanced piling and retention technology."
         },
         "edificio-0097": {
           "title": "EDIFICIO 0097",

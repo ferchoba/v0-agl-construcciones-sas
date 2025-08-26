@@ -57,17 +57,6 @@ export const projectsData: Project[] = [
     slug: "urbanizacion-hacienda-los-lagos",
   },
   {
-    id: "6",
-    title: "URBANZA",
-    description:
-      "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
-    category: "CIMENTACIÓN",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129315/img1_evruea.jpg",
-    completedDate: "19 de julio de 2024",
-    location: "Bogotá",
-    slug: "urbanza",
-  },
-  {
     id: "7",
     title: "EDIFICIO 0097",
     description:
