@@ -577,31 +577,31 @@
     "items": {
       "altos-de-tundama": {
         "title": "ALTOS DE TUNDAMA",
-        "description": "Proyecto integral de acabados para el conjunto residencial Altos de Tundama...",
+        "description": "Vivienda moderna con calidad constructiva y acabados listos para habitar.",
         "completedDate": "Junio de 2016 / Noviembre de 2017",
         "location": "Tundama"
       },
       "universidad-santo-tomas-tunja": {
         "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
-        "description": "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
+        "description": "Intervención estructural y preparación de aulas para acabados finales.",
         "completedDate": "Mayo de 2018 / Septiembre de 2018",
         "location": "Tunja"
       },
       "entreparques": {
         "title": "ENTREPARQUES",
-        "description": "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
+        "description": "Apartamentos con fachadas de gran formato y espacios listos para personalizar.",
         "completedDate": "Agosto de 2018 / Febrero de 2019",
         "location": "Bogotá"
       },
       "mega-colegio-san-marcos-funza": {
         "title": "MEGA COLEGIO SAN MARCOS FUNZA",
-        "description": "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
+        "description": "Infraestructura educativa robusta y lista para operar.",
         "completedDate": "Septiembre de 2020 / Marzo de 2021",
         "location": "Funza"
       },
       "urbanizacion-hacienda-los-lagos": {
         "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
-        "description": "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
+        "description": "Sótanos ejecutados y estructura industrializada preparada para avance de obra.",
         "completedDate": "Mayo de 2022 / Diciembre de 2022",
         "location": "Bogotá"
       },
@@ -613,7 +613,7 @@
       },
       "edificio-0097": {
         "title": "EDIFICIO 0097",
-        "description": "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
+        "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
         "completedDate": "Mayo de 2023 / Diciembre de 2023",
         "location": "Bogotá"
       }
@@ -647,7 +647,7 @@
         "universidad-santo-tomas-tunja": {
           "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
           "description": "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
-          "completionDate": "19 de noviembre de 2024",
+          "completionDate": "Mayo de 2018 / Septiembre de 2018",
           "heroImage": { "alt": "Universidad Santo Tomas de Tunja - Construcción del bloque académico" },
           "thumbnails": [
             { "alt": "Fachada principal en construcción" },
@@ -672,7 +672,7 @@
         "entreparques": {
           "title": "ENTREPARQUES",
           "description": "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
-          "completionDate": "14 de octubre de 2024",
+          "completionDate": "Agosto de 2018 / Febrero de 2019",
           "heroImage": { "alt": "Torre Entreparques - Vista de la construcción" },
           "thumbnails": [
             { "alt": "Torre en construcción" },
@@ -696,7 +696,7 @@
         "mega-colegio-san-marcos-funza": {
           "title": "MEGA COLEGIO SAN MARCOS FUNZA",
           "description": "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
-          "completionDate": "6 de septiembre de 2024",
+          "completionDate": "Septiembre de 2020 / Marzo de 2021",
           "heroImage": { "alt": "Mega Colegio San Marcos Funza - Estructura en construcción" },
           "thumbnails": [
             { "alt": "Estructura de concreto" },
@@ -723,7 +723,7 @@
         "urbanizacion-hacienda-los-lagos": {
           "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
           "description": "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
-          "completionDate": "1 de agosto de 2024",
+          "completionDate": "Mayo de 2022 / Diciembre de 2022",
           "heroImage": { "alt": "Urbanización Hacienda Los Lagos - Trabajos de cimentación" },
           "thumbnails": [
             { "alt": "Excavaciones profundas" },
@@ -770,7 +770,7 @@
         "edificio-0097": {
           "title": "EDIFICIO 0097",
           "description": "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
-          "completionDate": "29 de junio de 2024",
+          "completionDate": "Mayo de 2023 / Diciembre de 2023",
           "heroImage": { "alt": "Edificio 0097 - Estructura en concreto reforzado" },
           "thumbnails": [
             { "alt": "Pórticos resistentes" },
