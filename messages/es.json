@@ -30,47 +30,47 @@
       "demoliciones": {
         "title": "DEMOLICIONES",
         "description": "Servicio profesional para el desmantelamiento seguro y eficiente de estructuras. Garantizamos un proceso controlado, cumpliendo normativas y preparando el terreno para nuevos proyectos.",
-        "features": ["Demoliciones parciales", "Planificación técnica", "Demolición controlada", "Gestión de residuos"]
+        "features": []
       },
       "cimentacion": {
         "title": "CIMENTACIÓN",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "estructura": {
         "title": "ESTRUCTURA",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "mamposteria": {
         "title": "MAMPOSTERÍA",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "panetes": {
         "title": "PAÑETES",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "acabados": {
         "title": "ACABADOS",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "estuco-pintura": {
         "title": "ESTUCO Y PINTURA",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "drywall": {
         "title": "DRYWALL",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       },
       "enchapes": {
         "title": "INSTALACIÓN DE ENCHAPES",
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "features": ["Cimentaciones superficiales", "Cimentaciones profundas", "Losas de cimentación", "Muros de contención"]
+        "features": []
       }
     },
     "details": {
@@ -106,12 +106,13 @@
         "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
         "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Garantía de seguridad y estabilidad estructural a largo plazo.",
+          "Adaptación a las características específicas del terreno.",
+          "Cumplimiento riguroso de normativas técnicas y de construcción.",
+          "Uso de materiales de alta calidad y técnicas constructivas modernas.",
+          "Reducción de riesgos de asentamientos y fallas estructurales.",
+          "Supervisión experta en todas las fases del proceso.",
+          "Entrega de cimentaciones listas para soportar con eficiencia las siguientes etapas de la obra"
         ],
         "serviceTypes": [
           "Estudios de suelos y análisis geotécnico.",
@@ -129,24 +130,25 @@
       },
       "estructura": {
         "title": "ESTRUCTURA",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Levantamos el esqueleto de su edificación con precisión y máxima seguridad. Construimos estructuras de concreto reforzado que cumplen con los más altos estándares de calidad.",
+        "detailedDescription": "La estructura es el sistema portante de toda edificación, responsable de garantizar su resistencia, estabilidad y seguridad a lo largo del tiempo. Nuestro servicio de estructuras incluye el diseño, cálculo y construcción de elementos en concreto reforzado, acero y sistemas mixtos, adaptándonos a las necesidades de cada proyecto y asegurando el cumplimiento de las normativas sísmicas y de construcción vigentes. \n\n Contamos con un equipo de ingenieros estructurales especializados que diseñan soluciones técnicas óptimas para maximizar el desempeño y la eficiencia de cada proyecto. Gracias al uso de software de análisis estructural avanzado y técnicas constructivas de vanguardia, podemos garantizar que cada componente estructural responda de manera confiable ante las cargas y condiciones a las que será sometido. \n\n Además, ofrecemos servicios de reforzamiento y rehabilitación estructural, ideales para edificaciones existentes que requieren mejoras en su capacidad portante o adecuaciones a nuevas normativas. Nuestro compromiso es entregar estructuras seguras, eficientes y de alta calidad que sirvan como soporte confiable para cualquier tipo de construcción.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Garantía de resistencia y estabilidad en la edificación.",
+          "Cumplimiento de normativas sísmicas y de construcción vigentes.",
+          "Uso de software y técnicas de análisis estructural de última generación.",
+          "Soluciones adaptadas a las necesidades específicas de cada proyecto.",
+          "Aplicación de materiales de alta calidad y procesos constructivos eficientes.",
+          "Mejora y rehabilitación de estructuras existentes para mayor seguridad.",
+          "Supervisión profesional por ingenieros estructurales especializados."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Diseño y cálculo estructural con software especializado.",
+          "Construcción de columnas y vigas de concreto reforzado.",
+          "Ejecución de losas macizas, aligeradas y prefabricadas.",
+          "Construcción de muros estructurales y de cortante.",
+          "Fabricación e instalación de escaleras y elementos especiales.",
+          "Desarrollo de estructuras metálicas y sistemas mixtos.",
+          "Reforzamiento y rehabilitación estructural de edificaciones existentes."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -155,24 +157,24 @@
       },
       "mamposteria": {
         "title": "MAMPOSTERÍA",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Realizamos trabajos de mampostería para fachadas y divisiones interiores con precisión y acabados limpios, utilizando materiales de primera para muros sólidos y bien definidos.",
+        "detailedDescription": "La mampostería es un componente esencial en toda edificación, ya que cumple la doble función de delimitar espacios y dar forma a las fachadas, aportando tanto resistencia como estética. Nuestro servicio abarca la construcción de muros de fachada, divisiones interiores y elementos arquitectónicos, siempre adaptándonos a las especificaciones de cada proyecto y a las necesidades funcionales y estéticas del cliente.\n\n Trabajamos con una amplia variedad de materiales, entre ellos bloques de concreto, ladrillo cerámico, ladrillo tolete y otros materiales especializados, garantizando siempre la calidad, durabilidad y cumplimiento de las exigencias técnicas de resistencia y aislamiento. Nuestro equipo asegura la verticalidad, horizontalidad y alineación perfectas de cada elemento, factores claves para lograr una construcción sólida y estéticamente impecable.\n\n Adicionalmente, ofrecemos servicios de reparación y mantenimiento de mampostería existente, permitiendo extender la vida útil de los muros y mejorar sus condiciones estructurales o estéticas. De esta manera, brindamos soluciones completas que combinan funcionalidad, seguridad y diseño en cada proyecto.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Delimitación precisa y segura de espacios interiores y exteriores.",
+          "Cumplimiento de especificaciones técnicas de resistencia y aislamiento.",
+          "Uso de materiales adaptados a las necesidades del proyecto.",
+          "Garantía de verticalidad, alineación y acabados de alta calidad.",
+          "Soluciones funcionales y estéticas en un mismo servicio.",
+          "Posibilidad de rehabilitar y prolongar la vida útil de muros existentes.",
+          "Supervisión experta en todas las etapas del proceso constructivo."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Construcción de mampostería estructural y de relleno.",
+          "Elaboración de fachadas con acabados a la vista.",
+          "Construcción de divisiones interiores y tabiques.",
+          "Desarrollo de elementos decorativos y arquitectónicos.",
+          "Construcción de chimeneas y elementos especiales.",
+          "Reparación y mantenimiento de mampostería existente."         
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -181,24 +183,24 @@
       },
       "panetes": {
         "title": "PAÑETES",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Aplicamos revestimientos de mortero en fachadas y muros interiores. Preparamos y protegemos las superficies, dejándolas listas para un acabado final de alta calidad.",
+        "detailedDescription": "El servicio de pañetes o revoques es una etapa fundamental en la construcción, ya que no solo protege la mampostería de agentes externos, sino que también permite obtener una superficie uniforme, firme y lista para la aplicación de acabados finales como pintura, enchapes o recubrimientos decorativos.\n\n Nuestro servicio incluye la aplicación de morteros especializados en fachadas y espacios interiores, garantizando la adherencia perfecta, resistencia a la intemperie y acabados de alta calidad. Para ello, realizamos una preparación adecuada de las superficies, aplicamos el mortero en proporciones controladas y finalizamos con el acabado en la textura requerida según el diseño arquitectónico del proyecto.\n\n Además, empleamos aditivos especiales que mejoran la trabajabilidad, adherencia y durabilidad del pañete, ajustándonos a las condiciones particulares de cada obra. Con la supervisión de nuestro equipo experto, aseguramos que cada revoque cumpla con los más altos estándares de calidad y ofrezca una solución estética y funcional a largo plazo.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Protección de la mampostería frente a la humedad y la intemperie.",
+          "Superficie uniforme y lista para acabados finales.",
+          "Adaptación a las condiciones específicas de cada espacio (interior o exterior).",
+          "Mejora de la adherencia y durabilidad gracias a aditivos especializados.",
+          "Posibilidad de elegir entre acabados lisos, rugosos o impermeables.",
+          "Rehabilitación y prolongación de la vida útil de muros existentes.",
+          "Ejecución bajo supervisión experta para garantizar la calidad del resultado."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Pañete liso para acabados finos.",
+          "Pañete rugoso para texturas especiales.",
+          "Pañetes impermeables para fachadas expuestas.",
+          "Pañetes especiales para zonas húmedas (baños, cocinas, sótanos).",
+          "Reparación y restauración de pañetes existentes.",
+          "Aplicación de mallas de refuerzo para prevenir fisuras."          
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -207,24 +209,23 @@
       },
       "acabados": {
         "title": "ACABADOS",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Transformamos espacios en bruto en lugares funcionales y estéticos. Cuidamos cada detalle final, desde pisos y techos hasta la carpintería, para entregar un resultado impecable.",
+        "detailedDescription": "La fase de acabados es el momento en que la visión del proyecto se materializa, transformando los espacios en bruto en ambientes funcionales, cómodos y estéticamente atractivos. Nuestro servicio se centra en cada detalle final que contribuye a la apariencia y funcionalidad de los espacios, asegurando que cada elemento cumpla con los estándares de calidad y diseño establecidos.\n\n Nos encargamos de la instalación de pisos, enchapes, carpintería y elementos decorativos, coordinando todos los oficios especializados para entregar un resultado integral y armonioso. Nuestro equipo supervisa cuidadosamente cada detalle, garantizando la correcta integración de todos los elementos, desde la colocación de pisos hasta los acabados de carpintería y la instalación de herrajes.\n\n Además, ofrecemos acabados especiales personalizados según las especificaciones del proyecto, permitiendo que cada espacio tenga un carácter único y cumpla con las expectativas funcionales y estéticas del cliente. De esta manera, aseguramos que los espacios no solo sean seguros y funcionales, sino también visualmente atractivos y listos para su uso inmediato.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Transformación de espacios en bruto en ambientes funcionales y estéticamente atractivos.",
+          "Coordinación integral de todos los oficios especializados.",
+          "Supervisión experta de cada detalle para garantizar calidad y precisión.",
+          "Posibilidad de acabados personalizados según las necesidades del proyecto.",
+          "Integración perfecta de pisos, carpintería y elementos decorativos.",
+          "Entrega de espacios listos para uso inmediato y con alta calidad visual y funcional."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Instalación de pisos en cerámica, porcelanato y materiales especiales.",
+          "Colocación de enchapes en baños, cocinas y fachadas.",
+          "Carpintería en madera y materiales sintéticos.",
+          "Instalación de cielos rasos y elementos decorativos.",
+          "Colocación de puertas, ventanas y herrajes.",
+          "Ejecución de acabados especiales según especificaciones del proyecto."          
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -233,24 +234,24 @@
       },
       "estuco-pintura": {
         "title": "ESTUCO Y PINTURA",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Ofrecemos acabados de estuco y pintura para superficies lisas y perfectas. Logramos un resultado final duradero y de gran impacto visual con materiales de primera calidad.",
+        "detailedDescription": "El servicio de estuco y pintura representa el toque final que define la estética y la personalidad de cualquier espacio. Aplicamos estucos de alta calidad para lograr superficies perfectamente lisas y uniformes, creando la base ideal para los sistemas de pintura que brindan protección y belleza duradera a muros y fachadas.\n\n Nuestro proceso incluye una preparación minuciosa de las superficies, la aplicación de primers cuando es necesario y la colocación de múltiples capas de pintura para conseguir el color y acabado exacto que el proyecto requiere. Utilizamos productos de marcas reconocidas y técnicas especializadas, garantizando resultados uniformes y de alta calidad que resisten el paso del tiempo.\n\n Además, ofrecemos reparación y mantenimiento de estucos y pinturas existentes, asegurando que los acabados se mantengan en condiciones óptimas y prolongando la vida útil de las superficies. Con un enfoque en la precisión y la atención al detalle, nuestro equipo asegura que cada proyecto se complete con acabados impecables y estéticamente atractivos.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Definición estética y personalidad de los espacios.",
+          "Superficies lisas y uniformes listas para pintura de alta calidad.",
+          "Protección duradera de muros y fachadas frente a agentes externos.",
+          "Aplicación profesional con productos de marcas reconocidas.",
+          "Posibilidad de acabados especiales según especificaciones del proyecto.",
+          "Reparación y mantenimiento de acabados existentes.",
+          "Resultados precisos y estéticamente atractivos garantizados por supervisión experta."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Estuco liso y texturizado.",
+          "Pintura vinílica para interiores.",
+          "Pintura elastomérica para fachadas.",
+          "Esmaltes y acabados especiales.",
+          "Sistemas de pintura anticorrosiva.",
+          "Reparación y mantenimiento de acabados existentes."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -259,24 +260,24 @@
       },
       "drywall": {
         "title": "DRYWALL",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Construcción de muros, divisiones y techos con sistema drywall. Una solución rápida, limpia y versátil para crear o renovar espacios interiores con excelentes acabados.",
+        "detailedDescription": "El sistema drywall es una solución moderna y eficiente para la construcción de interiores, que combina rapidez, limpieza y versatilidad. Nuestro servicio abarca el diseño e instalación de muros divisorios, cielos rasos y elementos arquitectónicos utilizando paneles de yeso laminado montados sobre estructuras metálicas resistentes. Esta tecnología permite crear espacios funcionales y estéticamente atractivos en menor tiempo que los sistemas tradicionales, con la ventaja de mantener las obras limpias y ordenadas.\n\n Además, los muros y cielos de drywall ofrecen excelentes propiedades de aislamiento acústico y térmico, mejorando el confort dentro de los espacios. Nuestro equipo especializado garantiza instalaciones precisas y acabados lisos listos para pintura, con la posibilidad de integrar fácilmente instalaciones eléctricas, de comunicaciones y otros servicios sin comprometer la estética ni la funcionalidad del proyecto.\n\n También realizamos reparaciones y modificaciones en espacios existentes, adaptándonos a los cambios de diseño o necesidades de ampliación. Con un enfoque en la calidad y la eficiencia, nuestro servicio asegura resultados duraderos y adaptados a las exigencias de cada proyecto.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Construcción rápida y limpia de interiores.",
+          "Espacios funcionales con acabados lisos listos para pintura.",
+          "Excelente aislamiento acústico y térmico.",
+          "Integración sencilla de instalaciones eléctricas y de comunicaciones.",
+          "Versatilidad para adaptarse a diseños arquitectónicos personalizados.",
+          "Posibilidad de remodelar y modificar espacios existentes sin afectar la estructura principal.",
+          "Supervisión experta para garantizar calidad, precisión y durabilidad."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Muros divisorios y tabiques interiores.",
+          "Cielos rasos suspendidos y decorativos.",
+          "Elementos decorativos y arquitectónicos en drywall.",
+          "Revestimiento de columnas y vigas.",
+          "Muebles empotrados, nichos y estructuras funcionales.",
+          "Reparaciones, remodelaciones y modificaciones de espacios existentes."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -285,24 +286,24 @@
       },
       "enchapes": {
         "title": "INSTALACIÓN DE ENCHAPES",
-        "description": "Construimos las bases sólidas y duraderas que su edificación necesita. Realizamos cimentaciones seguras y estables, calculadas para garantizar la longevidad de su proyecto.",
-        "detailedDescription": "La cimentación constituye la base fundamental de toda construcción segura y duradera, ya que es el elemento encargado de transmitir de manera adecuada las cargas de la estructura hacia el terreno. Nuestro servicio de cimentaciones abarca desde el estudio de suelos inicial hasta la ejecución de cimentaciones superficiales y profundas, adaptándonos a las características geotécnicas del terreno y a las exigencias estructurales de cada proyecto.\n\nAplicamos técnicas constructivas modernas y utilizamos materiales de primera calidad con el objetivo de garantizar la estabilidad, resistencia y durabilidad de la estructura a lo largo del tiempo. Nuestro equipo de especialistas realiza un control exhaustivo en cada etapa del proceso, que incluye la excavación, la colocación de armaduras, el vaciado y el curado del concreto, asegurando que cada cimentación cumpla con las especificaciones técnicas y normativas vigentes.\n\nDe esta manera, ofrecemos soluciones integrales que permiten no solo soportar adecuadamente la carga de la edificación, sino también prevenir problemas futuros como asentamientos diferenciales, filtraciones o fallas estructurales, brindando al cliente la tranquilidad de contar con una base sólida y confiable.",
+        "description": "Instalamos enchapes cerámicos y porcelánicos con precisión técnica. Creamos superficies duraderas, impermeables y estéticas para baños, cocinas, pisos y fachadas.",
+        "detailedDescription": "Nuestro servicio de instalación de enchapes está diseñado para ofrecer acabados perfectos en superficies que requieren durabilidad, impermeabilidad y estética. Nos especializamos en el trabajo con cerámicas, porcelanatos, piedras naturales y materiales especiales, adaptando las técnicas de instalación a cada tipo de superficie para garantizar un resultado óptimo y de alta calidad.\n\n El proceso de instalación incluye la preparación adecuada del sustrato, la aplicación de impermeabilizantes cuando es necesario, el uso de adhesivos especializados y la ejecución de juntas perfectamente alineadas. Nuestro equipo asegura la planimetría, verticalidad y horizontalidad de todas las superficies enchapadas, logrando acabados uniformes y visualmente atractivos que cumplen con los estándares más exigentes.\n\n Además, ofrecemos servicios de reparación y mantenimiento de enchapes existentes, permitiendo restaurar la funcionalidad y estética de pisos, muros y fachadas. Con supervisión experta y atención al detalle, garantizamos que cada proyecto tenga resultados duraderos, funcionales y estéticamente impecables.",
         "benefits": [
-          "Máxima seguridad en cada etapa del proceso.",
-          "Cumplimiento estricto de normativas legales y ambientales.",
-          "Minimización del impacto en el entorno y en edificaciones cercanas.",
-          "Gestión eficiente y responsable de residuos.",
-          "Entrega del terreno en condiciones óptimas para nuevas construcciones.",
-          "Garantía de cumplimiento de plazos y estándares de calidad."
+          "Acabados duraderos y estéticamente atractivos.",
+          "Impermeabilización y protección de superficies.",
+          "Garantía de planimetría, verticalidad y horizontalidad.",
+          "Adaptación a materiales y diseños especiales según el proyecto.",
+          "Restauración y mantenimiento de enchapes existentes para prolongar su vida útil.",
+          "Aplicación profesional con técnicas especializadas y supervisión experta.",
+          "Resultados consistentes y de alta calidad en todos los espacios."
         ],
         "serviceTypes": [
-          "Estudios de suelos y análisis geotécnico.",
-          "Ejecución de cimentaciones superficiales: zapatas aisladas, corridas y combinadas.",
-          "Construcción de cimentaciones profundas: pilotes y caissons.",
-          "Instalación de losas de cimentación para cargas distribuidas.",
-          "Construcción de muros de contención y sistemas de drenaje.",
-          "Mejoramiento y estabilización de suelos cuando sea necesario.",
-          "Control de calidad en materiales y procesos constructivos."
+          "Instalación de cerámicas y porcelanatos en pisos y muros.",
+          "Colocación de piedras naturales como mármol, granito y travertino.",
+          "Enchapes especiales para fachadas.",
+          "Mosaicos y materiales decorativos.",
+          "Enchapes antideslizantes para zonas húmedas (baños, cocinas, piscinas).",
+          "Reparación y mantenimiento de enchapes existentes."          
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -312,7 +313,7 @@
     }
   },
   "statistics": {
-    "title": "¿Por qué elegir AGL CONSTRUCCIONES SAS?",
+    "title": "¿Por qué elegir AGL CONSTRUCCIONES?",
     "experience": "Años de experiencia en el sector",
     "quality": "Materiales de alta calidad",
     "team": "Equipo de profesionales expertos",
@@ -380,7 +381,7 @@
     }
   },
   "company": {
-    "name": "AGL CONSTRUCCIONES SAS",
+    "name": "AGL CONSTRUCCIONES",
     "description": "Somos una empresa especializada en remodelación y construcción de espacios residenciales, comerciales y de oficina. Con años de experiencia en el sector, nos hemos consolidado como líderes en transformación de espacios.",
     "mission_title": "Misión",
     "mission": "Transformar espacios con calidad excepcional, brindando soluciones personalizadas que superen las expectativas de nuestros clientes.",
@@ -577,31 +578,31 @@
       "altos-de-tundama": {
         "title": "ALTOS DE TUNDAMA",
         "description": "Proyecto integral de acabados para el conjunto residencial Altos de Tundama...",
-        "completedDate": "14 de diciembre de 2024",
+        "completedDate": "Junio de 2016 / Noviembre de 2017",
         "location": "Tundama"
       },
       "universidad-santo-tomas-tunja": {
         "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
         "description": "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
-        "completedDate": "19 de noviembre de 2024",
+        "completedDate": "Mayo de 2018 / Septiembre de 2018",
         "location": "Tunja"
       },
       "entreparques": {
         "title": "ENTREPARQUES",
         "description": "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
-        "completedDate": "14 de octubre de 2024",
+        "completedDate": "Agosto de 2018 / Febrero de 2019",
         "location": "Bogotá"
       },
       "mega-colegio-san-marcos-funza": {
         "title": "MEGA COLEGIO SAN MARCOS FUNZA",
         "description": "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
-        "completedDate": "6 de septiembre de 2024",
+        "completedDate": "Septiembre de 2020 / Marzo de 2021",
         "location": "Funza"
       },
       "urbanizacion-hacienda-los-lagos": {
         "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
         "description": "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
-        "completedDate": "1 de agosto de 2024",
+        "completedDate": "Mayo de 2022 / Diciembre de 2022",
         "location": "Bogotá"
       },
       "urbanza": {
@@ -613,15 +614,15 @@
       "edificio-0097": {
         "title": "EDIFICIO 0097",
         "description": "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
-        "completedDate": "29 de junio de 2024",
+        "completedDate": "Mayo de 2023 / Diciembre de 2023",
         "location": "Bogotá"
       }
     },
     "details": {
       "altos-de-tundama": {
         "title": "ALTOS DE TUNDAMA",
-        "description": "Proyecto integral de acabados para el conjunto residencial Altos de Tundama...",
-        "completionDate": "14 de diciembre de 2024",
+        "description": "Vivienda moderna con calidad constructiva y acabados listos para habitar",
+        "completionDate": "Junio de 2016 / Noviembre de 2017",
         "heroImage": { "alt": "Edificio Altos de Tundama - Vista principal" },
         "thumbnails": [
           { "alt": "Vista lateral del edificio" },
@@ -629,18 +630,14 @@
           { "alt": "Área común" }
         ],
         "workScope": [
-          "Instalación de pisos cerámicos y porcelanato",
-          "Enchapes en baños y cocinas",
-          "Carpintería en madera",
-          "Pintura interior y exterior",
-          "Instalación de puertas y ventanas"
+          "Proyecto con estructura en concreto a la vista, columnas y pantallas, placa con armadura convencional aligerada mediante calcetón de icopor. Mampostería interna en bloque común con pañete interior; fachada en ladrillo Santa Fe tipo rejilla que aporta textura y ventilación. Apartamentos entregados estucados y terminados con pintura vinílica tipo 1. Cielos rasos en drywall que garantizan terminaciones limpias y contemporáneas."
         ],
         "technicalSpecs": {
-          "area": "3.500 m²",
-          "floorTypes": "Porcelanato y cerámica",
-          "specialFinishes": "Cocinas integrales"
+          "area": "Cimentación",
+          "floorTypes": "Estructura (columnas, pantallas y placas)",
+          "specialFinishes": "Mampostería de fachada (ladrillo Santa Fe tipo rejilla)"
         },
-        "results": "Un proyecto que combina solidez estructural, funcionalidad y estética..."
+        "results": "Apartamentos entregados con acabados en acero fino, terminaciones de alta calidad y listos para la entrega a los propietarios. Un desarrollo pensado para ofrecer durabilidad, estética y confort."
       }
 ,
         "universidad-santo-tomas-tunja": {
