@@ -640,7 +640,7 @@
 ,
         "universidad-santo-tomas-tunja": {
           "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
-          "description": "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
+          "description": "Intervención estructural y preparación de aulas para acabados finales.",
           "completionDate": "Mayo de 2018 / Septiembre de 2018",
           "heroImage": { "alt": "Universidad Santo Tomas de Tunja - Construcción del bloque académico" },
           "thumbnails": [
@@ -649,11 +649,7 @@
             { "alt": "Estructura interna" }
           ],
           "workScope": [
-            "Construcción de muros de carga estructurales",
-            "Fachadas en ladrillo a la vista",
-            "Elementos arquitectónicos decorativos",
-            "Mampostería confinada",
-            "Acabados especiales institucionales"
+            "Intervención de mampostería confinada empleando bloque común, complementada con columnetas y viguetas para garantizar rigidez y seguridad estructural. Se ejecutaron pañetes tanto en el interior como en las fachadas, se realizó el alistado y preparación de los pisos en cubierta para la posterior instalación de los acabados."
           ],
           "technicalSpecs": [
             "Mampostería confinada (bloque común, columnetas y viguetas)",
@@ -661,11 +657,11 @@
             "Pañetes de fachada",
             "Alistado y preparación de pisos en cubierta"
           ],
-          "results": "Bloque académico moderno que combina resistencia estructural con diseño arquitectónico institucional, cumpliendo con todas las normativas educativas y sísmicas."
+          "results": "Entrega de salones pañetados y preparados, listos para recibir los acabados finales y ponerlos en uso por la institución. Trabajo orientado a ofrecer superficies uniformes y condiciones óptimas para acabados y equipamiento."
         },
         "entreparques": {
           "title": "ENTREPARQUES",
-          "description": "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
+          "description": "Apartamentos con fachadas de gran formato y espacios listos para personalizar.",
           "completionDate": "Agosto de 2018 / Febrero de 2019",
           "heroImage": { "alt": "Torre Entreparques - Vista de la construcción" },
           "thumbnails": [
@@ -674,22 +670,18 @@
             { "alt": "Detalles constructivos" }
           ],
           "workScope": [
-            "Muros divisorios interiores",
-            "Fachadas ventiladas",
-            "Mampostería estructural complementaria",
-            "Elementos decorativos",
-            "Acabados especiales en altura"
+            "Ejecución de mampostería en bloque común con pañetes internos; fachadas a la vista en ladrillo Santa Fe tipo rejilla gran formato, que aportan textura, ventilación y presencia arquitectónica. El proyecto incluyó la preparación de los interiores para la etapa de acabados, garantizando superficies uniformes y condiciones óptimas para la terminación."
           ],
           "technicalSpecs": [
             "Mampostería interna (bloque común)",
             "Mampostería de fachada (ladrillo Santa Fe tipo rejilla gran formato)",
             "Pañetes internos"
           ],
-          "results": "Torre residencial de alta calidad que establece nuevos estándares en construcción vertical, combinando técnicas avanzadas de mampostería con diseño contemporáneo."
+          "results": "Entrega de apartamentos en obra blanca, listos para ejecutar los acabados finales según los requerimientos de los propietarios."
         },
         "mega-colegio-san-marcos-funza": {
           "title": "MEGA COLEGIO SAN MARCOS FUNZA",
-          "description": "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
+          "description": "Infraestructura educativa robusta y lista para operar.",
           "completionDate": "Septiembre de 2020 / Marzo de 2021",
           "heroImage": { "alt": "Mega Colegio San Marcos Funza - Estructura en construcción" },
           "thumbnails": [
@@ -698,11 +690,7 @@
             { "alt": "Losas especiales" }
           ],
           "workScope": [
-            "Columnas de concreto reforzado",
-            "Vigas de gran luz",
-            "Losas aligeradas especiales",
-            "Elementos estructurales sísmicos",
-            "Estructuras para grandes espacios"
+            "Ejecución de cimentación y estructura en concreto a la vista, con empotramiento para torre grúa; columnas, pantallas y escaleras. Placa en armadura convencional aligerada mediante calcetón de icopor para optimizar peso y aislamiento. Mampostería interna en bloque común con pañete interior y alistado de pisos. Fachadas ejecutadas en ladrillo Santa Fe tipo rejilla, que aportan textura y ventilación al edificio."
           ],
           "technicalSpecs": [
             "Cimentación",
@@ -712,11 +700,11 @@
             "Pañete interno",
             "Alistado de pisos"
           ],
-          "results": "Complejo educativo con estructura de vanguardia que permite grandes espacios libres, cumpliendo con los más altos estándares de seguridad sísmica y funcionalidad educativa."
+          "results": "Colegio entregado y listo para su uso, con estructura y acabados que garantizan durabilidad, funcionalidad y confort para la comunidad educativa."
         },
         "urbanizacion-hacienda-los-lagos": {
           "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
-          "description": "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
+          "description": "Sótanos ejecutados y estructura industrializada preparada para avance de obra.",
           "completionDate": "Mayo de 2022 / Diciembre de 2022",
           "heroImage": { "alt": "Urbanización Hacienda Los Lagos - Trabajos de cimentación" },
           "thumbnails": [
@@ -725,22 +713,18 @@
             { "alt": "Zapatas corridas" }
           ],
           "workScope": [
-            "Excavación profunda controlada",
-            "Pilotaje de gran diámetro",
-            "Zapatas corridas",
-            "Sistemas de drenaje integrados",
-            "Estudios geotécnicos especializados"
+            "Ejecución de cimentación y estructuras en los sótanos 1 y 2, complementadas con sistema de estructura industrializada para optimizar tiempos y calidad constructiva. El trabajo incluyó la preparación de zonas y puntos de soporte necesarios para la continuidad de las etapas de mampostería y acabados."
           ],
           "technicalSpecs": [
             "Cimentación",
             "Estructura (sótanos 1 y 2)",
             "Estructura industrializada"
           ],
-          "results": "Desarrollo urbanístico con cimentación de alta calidad que garantiza la estabilidad a largo plazo de 120 viviendas, superando los desafíos geotécnicos del terreno."
+          "results": "Entrega de la estructura lista para iniciar labores de mampostería y ejecución de acabados, con condiciones adecuadas para una instalación rápida y controlada."
         },
         "edificio-0097": {
           "title": "EDIFICIO 0097",
-          "description": "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
+          "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
           "completionDate": "Mayo de 2023 / Diciembre de 2023",
           "heroImage": { "alt": "Edificio 0097 - Estructura en concreto reforzado" },
           "thumbnails": [
@@ -749,18 +733,14 @@
             { "alt": "Escaleras estructurales" }
           ],
           "workScope": [
-            "Pórticos resistentes a momento",
-            "Losas aligeradas",
-            "Escaleras estructurales",
-            "Elementos especiales",
-            "Acabados arquitectónicos integrados"
+            "Ejecución de estructura en concreto a la vista, conformada por columnas y pantallas y placa con armadura convencional aligerada mediante calcetón de icopor. La obra incluyó la instalación de la mampostería interna en bloque común y la disposición de elementos estructurales necesarios para el avance de acabados."
           ],
           "technicalSpecs": [
             "Cimentación",
             "Estructura en concreto a la vista (columnas, pantallas y placas)",
             "Mampostería interna (bloque común)"
           ],
-          "results": "Edificio residencial con estructura optimizada que combina eficiencia constructiva con calidad arquitectónica, proporcionando espacios funcionales y seguros para 64 apartamentos."
+          "results": "Edificio entregado en estructura, listo para iniciar actividades de mampostería, pañetes y acabados según las especificaciones del proyecto."
         }
     },
 
