@@ -156,6 +156,40 @@ export const projectsContent: Record<string, ProjectDetail> = {
     serviceType: "MAMPOSTERÍA",
     imageCount: 3,
   },
+  "colegio-tapsandes": {
+    slug: "colegio-tapsandes",
+    title: "COLEGIO TAPSANDES",
+    category: "ESTRUCTURA",
+    completionDate: "Junio de 2019 / Marzo de 2020",
+    description:
+      "Obra de estructura para institución educativa con cumplimiento de normativas sísmicas y alta calidad constructiva.",
+    heroImage: {
+      src: "/projects/mega-colegio-funza.png",
+      alt: "Colegio Tapsandes - Obra de estructura",
+      width: 800,
+      height: 600,
+    },
+    thumbnails: [
+      { src: "/projects/mega-colegio-funza.png", alt: "Vista 1", width: 150, height: 100 },
+      { src: "/projects/mega-colegio-funza.png", alt: "Vista 2", width: 150, height: 100 },
+      { src: "/projects/mega-colegio-funza.png", alt: "Vista 3", width: 150, height: 100 }
+    ],
+    workScope: [
+      "Estructuración y vaciado de elementos de concreto",
+      "Armado de acero de refuerzo",
+      "Supervisión de calidad y seguridad en obra",
+    ],
+    technicalSpecs: [
+      "Cimentación",
+      "Estructura (columnas, pantallas y placas)",
+      "Elementos sismo resistentes",
+    ],
+    results:
+      "Infraestructura educativa segura y de alta calidad lista para operación académica.",
+    serviceType: "ESTRUCTURA",
+    imageCount: 3,
+  },
+
   "mega-colegio-san-marcos-funza": {
     slug: "mega-colegio-san-marcos-funza",
     title: "MEGA COLEGIO SAN MARCOS FUNZA",
@@ -309,6 +343,40 @@ export const projectsContent: Record<string, ProjectDetail> = {
     serviceType: "ESTRUCTURA",
     imageCount: 3,
   },
+  "puente-conjunto-residencial-la-calera": {
+    slug: "puente-conjunto-residencial-la-calera",
+    title: "PUENTE — CONJUNTO RESIDENCIAL LA CALERA",
+    category: "ESTRUCTURA",
+    completionDate: "Enero de 2023 / Abril de 2023",
+    description:
+      "Estructura de puente interno para conjunto residencial, garantizando seguridad y funcionalidad con acabados de alta calidad.",
+    heroImage: {
+      src: "/projects/edificio-0097.png",
+      alt: "Puente interno — Conjunto Residencial La Calera",
+      width: 800,
+      height: 600,
+    },
+    thumbnails: [
+      { src: "/projects/edificio-0097.png", alt: "Vista 1", width: 150, height: 100 },
+      { src: "/projects/edificio-0097.png", alt: "Vista 2", width: 150, height: 100 },
+      { src: "/projects/edificio-0097.png", alt: "Vista 3", width: 150, height: 100 }
+    ],
+    workScope: [
+      "Cimentación y apoyos del puente",
+      "Estructura en concreto armado",
+      "Acabados y protección de superficies",
+    ],
+    technicalSpecs: [
+      "Cimentación",
+      "Estructura en concreto armado",
+      "Elementos de protección y acabados",
+    ],
+    results:
+      "Conectividad interna segura y funcional dentro del conjunto residencial.",
+    serviceType: "ESTRUCTURA",
+    imageCount: 3,
+  },
+
 }
 
 export function getProjectBySlug(slug: string): ProjectDetail | null {

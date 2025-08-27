@@ -35,6 +35,18 @@ export const projectsData: Project[] = [
     slug: "entreparques",
   },
   {
+    id: "6",
+    title: "COLEGIO TAPSANDES",
+    description:
+      "Obra de estructura para institución educativa con cumplimiento de normativas sísmicas y alta calidad constructiva.",
+    category: "ESTRUCTURA",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129094/img1_bno9v7.jpg",
+    completedDate: "Junio de 2019 / Marzo de 2020",
+    location: "Bogotá",
+    slug: "colegio-tapsandes",
+  },
+
+  {
     id: "4",
     title: "MEGA COLEGIO SAN MARCOS FUNZA",
     description:
@@ -67,6 +79,18 @@ export const projectsData: Project[] = [
     location: "Bogotá",
     slug: "edificio-0097",
   },
+  {
+    id: "8",
+    title: "PUENTE — CONJUNTO RESIDENCIAL LA CALERA",
+    description:
+      "Estructura de puente interno para conjunto residencial, garantizando seguridad y funcionalidad con acabados de alta calidad.",
+    category: "ESTRUCTURA",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129367/img1_r0sznd.jpg",
+    completedDate: "Enero de 2023 / Abril de 2023",
+    location: "La Calera",
+    slug: "puente-conjunto-residencial-la-calera",
+  },
+
 ]
 
 export const getProjectsByCategory = (category: ProjectCategory | "Todos"): Project[] => {

@@ -174,7 +174,7 @@
           "Construcción de divisiones interiores y tabiques.",
           "Desarrollo de elementos decorativos y arquitectónicos.",
           "Construcción de chimeneas y elementos especiales.",
-          "Reparación y mantenimiento de mampostería existente."         
+          "Reparación y mantenimiento de mampostería existente."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -200,7 +200,7 @@
           "Pañetes impermeables para fachadas expuestas.",
           "Pañetes especiales para zonas húmedas (baños, cocinas, sótanos).",
           "Reparación y restauración de pañetes existentes.",
-          "Aplicación de mallas de refuerzo para prevenir fisuras."          
+          "Aplicación de mallas de refuerzo para prevenir fisuras."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -225,7 +225,7 @@
           "Carpintería en madera y materiales sintéticos.",
           "Instalación de cielos rasos y elementos decorativos.",
           "Colocación de puertas, ventanas y herrajes.",
-          "Ejecución de acabados especiales según especificaciones del proyecto."          
+          "Ejecución de acabados especiales según especificaciones del proyecto."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -303,7 +303,7 @@
           "Enchapes especiales para fachadas.",
           "Mosaicos y materiales decorativos.",
           "Enchapes antideslizantes para zonas húmedas (baños, cocinas, piscinas).",
-          "Reparación y mantenimiento de enchapes existentes."          
+          "Reparación y mantenimiento de enchapes existentes."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -593,6 +593,12 @@
         "completedDate": "Agosto de 2018 / Febrero de 2019",
         "location": "Bogotá"
       },
+      "colegio-tapsandes": {
+        "title": "COLEGIO TAPSANDES",
+        "description": "Infraestructura educativa ejecutada con estándares sísmicos y control de calidad.",
+        "completedDate": "Junio de 2019 / Marzo de 2020",
+        "location": "Bogotá"
+      },
       "mega-colegio-san-marcos-funza": {
         "title": "MEGA COLEGIO SAN MARCOS FUNZA",
         "description": "Infraestructura educativa robusta y lista para operar.",
@@ -741,6 +747,50 @@
             "Mampostería interna (bloque común)"
           ],
           "results": "Edificio entregado en estructura, listo para iniciar actividades de mampostería, pañetes y acabados según las especificaciones del proyecto."
+        },
+        "colegio-tapsandes": {
+          "title": "COLEGIO TAPSANDES",
+          "description": "Obra de estructura con cumplimiento de normativas sísmicas y altos estándares de calidad.",
+          "completionDate": "Junio de 2019 / Marzo de 2020",
+          "heroImage": { "alt": "Colegio Tapsandes - Obra de estructura" },
+          "thumbnails": [
+            { "alt": "Vista 1" },
+            { "alt": "Vista 2" },
+            { "alt": "Vista 3" }
+          ],
+          "workScope": [
+            "Estructuración y vaciado de elementos de concreto",
+            "Armado de acero de refuerzo",
+            "Supervisión de calidad y seguridad en obra"
+          ],
+          "technicalSpecs": [
+            "Cimentación",
+            "Estructura (columnas, pantallas y placas)",
+            "Elementos sismo resistentes"
+          ],
+          "results": "Infraestructura educativa segura y de alta calidad lista para operación académica."
+        },
+        "puente-conjunto-residencial-la-calera": {
+          "title": "PUENTE — CONJUNTO RESIDENCIAL LA CALERA",
+          "description": "Estructura de puente interno que garantiza conectividad segura y funcional dentro del conjunto.",
+          "completionDate": "Enero de 2023 / Abril de 2023",
+          "heroImage": { "alt": "Puente interno — Conjunto Residencial La Calera" },
+          "thumbnails": [
+            { "alt": "Vista 1" },
+            { "alt": "Vista 2" },
+            { "alt": "Vista 3" }
+          ],
+          "workScope": [
+            "Cimentación y apoyos del puente",
+            "Estructura en concreto armado",
+            "Acabados y protección de superficies"
+          ],
+          "technicalSpecs": [
+            "Cimentación",
+            "Estructura en concreto armado",
+            "Elementos de protección y acabados"
+          ],
+          "results": "Conectividad interna segura y funcional dentro del conjunto residencial."
         }
     },
 
