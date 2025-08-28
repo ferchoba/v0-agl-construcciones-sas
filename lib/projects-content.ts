@@ -318,7 +318,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380642/Puente_BN_1200x600_z1gpaf.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380575/EdificioQ097_BN_1200x600_b7fav6.jpg",
       alt: "Edificio Q097 - Estructura en concreto reforzado",
       width: 800,
       height: 600,
@@ -374,7 +374,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura de puente interno para conjunto residencial, garantizando seguridad y funcionalidad con acabados de alta calidad.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371006/Puente_BN_xz1wft.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380642/Puente_BN_1200x600_z1gpaf.jpg",
       alt: "Puente interno — Conjunto Residencial La Calera",
       width: 800,
       height: 600,
