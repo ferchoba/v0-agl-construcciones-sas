@@ -391,24 +391,40 @@
     "name": "AGL CONSTRUCCIONES",
     "description": "We are a company specialized in remodeling and construction of residential, commercial and office spaces. With years of experience in the sector, we have established ourselves as leaders in space transformation.",
     "mission_title": "Mission",
-    "mission": "Transform spaces with exceptional quality, providing personalized solutions that exceed our clients' expectations.",
+    "mission": "We turn ideas into successful projects: we plan, execute, and deliver works with innovative processes, rigorous quality control, and personalized attention. Our commitment is to maximize the client's investment, meet deadlines, and exceed expectations with solutions that provide durability, aesthetics, and return.",
     "values_title": "Values",
     "values": {
-      "quality": {
-        "title": "Quality",
-        "description": "We use premium materials and specialized techniques"
+      "calidad_exigente": {
+        "title": "Demanding quality",
+        "description": "We ensure rigorous controls throughout processes and finishes to deliver projects that exceed expectations."
       },
-      "commitment": {
-        "title": "Commitment",
-        "description": "We meet agreed deadlines and budgets"
+      "innovacion_constructiva": {
+        "title": "Constructive innovation",
+        "description": "We incorporate methods and materials that reduce timelines and improve efficiency without compromising robustness."
       },
-      "innovation": {
-        "title": "Innovation",
-        "description": "We incorporate the latest trends in design and construction"
+      "compromiso_con_el_cliente": {
+        "title": "Client commitment",
+        "description": "Personalized attention, on-time delivery, and focus on maximizing the client's return on investment."
       },
-      "trust": {
-        "title": "Trust",
-        "description": "We build lasting relationships with our clients"
+      "eficiencia_y_rentabilidad": {
+        "title": "Efficiency and profitability",
+        "description": "We optimize costs and resources to offer projects with a better cost-benefit ratio."
+      },
+      "seguridad_y_salud_ocupacional": {
+        "title": "Occupational health and safety",
+        "description": "We prioritize protocols and best practices to protect our team and clients on site."
+      },
+      "transparencia_y_cumplimiento": {
+        "title": "Transparency and compliance",
+        "description": "Clear reporting, document management, and regulatory compliance ensure trust and control."
+      },
+      "sostenibilidad_y_responsabilidad": {
+        "title": "Sustainability and responsibility",
+        "description": "We integrate practices that reduce environmental impact and benefit communities."
+      },
+      "trabajo_en_equipo_y_talento": {
+        "title": "Teamwork and talent",
+        "description": "We foster training, leadership, and collaboration to achieve better outcomes."
       },
       "calidad": {
         "title": "Quality",

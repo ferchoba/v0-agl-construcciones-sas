@@ -32,7 +32,7 @@ export default function AboutPage() {
       <Header />
       <main className="container mx-auto px-4 py-8 bg-background">
         <section className="py-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">AGL CONSTRUCCIONES SAS</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">AGL CONSTRUCCIONES</h1>
         </section>
         <CompanyOverview />
       </main>

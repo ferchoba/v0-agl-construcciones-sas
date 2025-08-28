@@ -384,24 +384,40 @@
     "name": "AGL CONSTRUCCIONES",
     "description": "Somos una empresa especializada en remodelación y construcción de espacios residenciales, comerciales y de oficina. Con años de experiencia en el sector, nos hemos consolidado como líderes en transformación de espacios.",
     "mission_title": "Misión",
-    "mission": "Transformar espacios con calidad excepcional, brindando soluciones personalizadas que superen las expectativas de nuestros clientes.",
+    "mission": "Transformamos ideas en proyectos exitosos: planificamos, ejecutamos y entregamos obras con procesos innovadores, control de calidad riguroso y atención personalizada. Nuestro compromiso es maximizar la inversión del cliente, cumplir plazos y superar expectativas con soluciones que aportan durabilidad, estética y retorno.",
     "values_title": "Valores",
     "values": {
-      "quality": {
-        "title": "Calidad",
-        "description": "Utilizamos materiales de primera y técnicas especializadas"
+      "calidad_exigente": {
+        "title": "Calidad exigente",
+        "description": "Garantizamos procesos y terminaciones con controles rigurosos para entregar obras que superen expectativas."
       },
-      "commitment": {
-        "title": "Compromiso",
-        "description": "Cumplimos con los tiempos y presupuestos acordados"
+      "innovacion_constructiva": {
+        "title": "Innovación constructiva",
+        "description": "Incorporamos métodos y materiales que reducen tiempos y mejoran eficiencia sin perder robustez."
       },
-      "innovation": {
-        "title": "Innovación",
-        "description": "Incorporamos las últimas tendencias en diseño y construcción"
+      "compromiso_con_el_cliente": {
+        "title": "Compromiso con el cliente",
+        "description": "Atención personalizada, cumplimiento de plazos y enfoque en maximizar el retorno de la inversión del cliente."
       },
-      "trust": {
-        "title": "Confianza",
-        "description": "Construimos relaciones duraderas con nuestros clientes"
+      "eficiencia_y_rentabilidad": {
+        "title": "Eficiencia y rentabilidad",
+        "description": "Optimizamos costos y recursos para ofrecer proyectos con mejor relación costo-beneficio."
+      },
+      "seguridad_y_salud_ocupacional": {
+        "title": "Seguridad y salud ocupacional",
+        "description": "Priorizamos protocolos y buenas prácticas para proteger a nuestro equipo y clientes en obra."
+      },
+      "transparencia_y_cumplimiento": {
+        "title": "Transparencia y cumplimiento",
+        "description": "Informes claros, gestión documental y cumplimiento de normativas garantizan confianza y control."
+      },
+      "sostenibilidad_y_responsabilidad": {
+        "title": "Sostenibilidad y responsabilidad",
+        "description": "Integramos prácticas que reducen impacto ambiental y aportan bienestar a las comunidades."
+      },
+      "trabajo_en_equipo_y_talento": {
+        "title": "Trabajo en equipo y talento",
+        "description": "Fomentamos la capacitación, el liderazgo y la colaboración para lograr mejores resultados."
       },
       "calidad": {
         "title": "Calidad",
