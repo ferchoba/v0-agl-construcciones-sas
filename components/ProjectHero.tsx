@@ -21,25 +21,9 @@ export function ProjectHero({ project }: ProjectHeroProps) {
 
   return (
     <div className="space-y-6">
-      {/* Project Badge and Date */}
-      <div className="flex items-center gap-4 text-sm">
-        <span className="bg-primary text-primary-foreground px-3 py-1 rounded-md font-medium">{categoryTx ?? project.category}</span>
-        <span className="text-muted-foreground">{t("projects.completed_at")} {completionTx ?? project.completionDate}</span>
-      </div>
+      
 
-      {/* Project Title */}
-      <h1 className="text-4xl md:text-5xl font-bold text-foreground">{title}</h1>
-
-      {/* Hero Image */}
-      <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-        <Image
-          src={project.heroImage.src || "/placeholder.svg"}
-          alt={heroAlt}
-          fill
-          className="object-cover"
-          priority
-        />
-      </div>
+      
 
       {/* Thumbnail Gallery */}
       <div className="flex gap-3">

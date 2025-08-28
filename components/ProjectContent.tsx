@@ -19,12 +19,7 @@ export function ProjectContent({ project }: ProjectContentProps) {
 
   return (
     <div className="space-y-12">
-      {/* Project Description */}
-      <section>
-        <h2 className="text-3xl font-bold text-foreground mb-6">{tx(`projects.details.${slug}.title`) ?? project.title}</h2>
-        <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.detailsTitle")}</h3>
-        <p className="text-muted-foreground leading-relaxed">{description}</p>
-      </section>
+      
 
       {/* Work Scope */}
       <section>
