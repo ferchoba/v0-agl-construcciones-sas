@@ -11,12 +11,6 @@ export function CompanyOverview() {
     description: tx(`company.values.${v.title.toLowerCase().replace(/\s+/g, "_")}.description`) ?? v.description,
   }))
 
-  const categories = companyData.serviceCategories.map((c) => ({
-    title: tx(`company.serviceCategories.${c.title.toLowerCase().replace(/\s+/g, "_")}.title`) ?? c.title,
-    description: tx(`company.serviceCategories.${c.title.toLowerCase().replace(/\s+/g, "_")}.description`) ?? c.description,
-    features: c.features.map((f, idx) => tx(`company.serviceCategories.${c.title.toLowerCase().replace(/\s+/g, "_")}.features.${idx}`) ?? f),
-  }))
-
   return (
     <section className="py-16 px-4">
       <div className="max-w-4xl mx-auto">
@@ -47,28 +41,6 @@ export function CompanyOverview() {
                 <h4 className="text-lg font-semibold text-foreground mb-2">
                   <span className="text-primary">{value.title}:</span> {value.description}
                 </h4>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Services Overview */}
-        <div className="mb-12">
-          <h3 className="text-2xl font-bold text-foreground mb-6">{t("company.services_overview_title")}</h3>
-          <div className="space-y-8">
-            {categories.map((category, index) => (
-              <div key={index}>
-                <h4 className="text-xl font-semibold text-primary mb-3">{category.title}</h4>
-                {category.description && <p className="text-muted-foreground mb-3 leading-relaxed">{category.description}</p>}
-                {category.features.length > 0 && (
-                  <ul className="space-y-1">
-                    {category.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="text-muted-foreground">
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                )}
               </div>
             ))}
           </div>

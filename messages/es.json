@@ -438,32 +438,6 @@
         "description": "Construimos relaciones duraderas con nuestros clientes"
       }
     },
-    "services_overview_title": "Servicios",
-    "serviceCategories": {
-      "remodelaciones_integrales": {
-        "title": "Remodelaciones Integrales",
-        "description": "Transformamos completamente sus espacios residenciales y comerciales con diseños modernos y funcionales.",
-        "features": []
-      },
-      "renovaciones_especializadas": {
-        "title": "Renovaciones Especializadas",
-        "description": "",
-        "features": [
-          "Cocinas modernas y funcionales",
-          "Baños con diseños contemporáneos",
-          "Garajes optimizados"
-        ]
-      },
-      "acabados_y_mantenimiento": {
-        "title": "Acabados y Mantenimiento",
-        "description": "",
-        "features": [
-          "Instalación profesional de pisos",
-          "Pintura especializada",
-          "Mantenimiento preventivo"
-        ]
-      }
-    },
     "why_choose_us": {
       "title": "¿Por qué elegirnos?",
       "description": "Con más de 10 años de experiencia, hemos completado cientos de proyectos exitosos. Nuestro equipo de profesionales expertos garantiza resultados excepcionales en cada proyecto.",

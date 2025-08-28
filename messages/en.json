@@ -445,32 +445,6 @@
         "description": "We build lasting relationships with our clients"
       }
     },
-    "services_overview_title": "Services",
-    "serviceCategories": {
-      "remodelaciones_integrales": {
-        "title": "Comprehensive Remodeling",
-        "description": "We completely transform your residential and commercial spaces with modern and functional designs.",
-        "features": []
-      },
-      "renovaciones_especializadas": {
-        "title": "Specialized Renovations",
-        "description": "",
-        "features": [
-          "Modern and functional kitchens",
-          "Bathrooms with contemporary designs",
-          "Optimized garages"
-        ]
-      },
-      "acabados_y_mantenimiento": {
-        "title": "Finishes and Maintenance",
-        "description": "",
-        "features": [
-          "Professional flooring installation",
-          "Specialized painting",
-          "Preventive maintenance"
-        ]
-      }
-    },
     "why_choose_us": {
       "title": "Why choose us?",
       "description": "With more than 10 years of experience, we have completed hundreds of successful projects. Our team of expert professionals guarantees exceptional results in every project.",

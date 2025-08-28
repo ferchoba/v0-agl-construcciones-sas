@@ -26,24 +26,6 @@ export const companyData: CompanyData = {
       description: "Construimos relaciones duraderas con nuestros clientes",
     },
   ],
-  serviceCategories: [
-    {
-      title: "Remodelaciones Integrales",
-      description:
-        "Transformamos completamente sus espacios residenciales y comerciales con diseños modernos y funcionales.",
-      features: [],
-    },
-    {
-      title: "Renovaciones Especializadas",
-      description: "",
-      features: ["Cocinas modernas y funcionales", "Baños con diseños contemporáneos", "Garajes optimizados"],
-    },
-    {
-      title: "Acabados y Mantenimiento",
-      description: "",
-      features: ["Instalación profesional de pisos", "Pintura especializada", "Mantenimiento preventivo"],
-    },
-  ],
   whyChooseUs: {
     title: "¿Por qué elegirnos?",
     description:
