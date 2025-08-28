@@ -11,6 +11,7 @@ export interface ProjectDetail {
   category: string
   completionDate: string
   description: string
+  location: string
   heroImage: ProjectImage
   thumbnails: ProjectImage[]
   workScope: string[]

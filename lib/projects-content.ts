@@ -14,6 +14,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Duitama",
+
     thumbnails: [
       {
         src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128196/img1_g1fpyl.jpg",
@@ -68,6 +70,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Tunja",
+
     thumbnails: [
       {
         src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367850/img1_bx4sjo.png",
@@ -125,6 +129,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Bogotá",
+
     thumbnails: [
       {
         src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368510/img1_tynvfr.png",
@@ -137,7 +143,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
         alt: "Fachada ventilada",
         width: 150,
         height: 100,
-      },      
+      },
     ],
     workScope: [
       "Muros divisorios interiores",
@@ -169,9 +175,11 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Bogotá",
+
     thumbnails: [
       { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368812/img1_njxyvi.jpg", alt: "Vista 1", width: 150, height: 100 },
-      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368810/img2_hjg9qg.jpg", alt: "Vista 2", width: 150, height: 100 }      
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368810/img2_hjg9qg.jpg", alt: "Vista 2", width: 150, height: 100 }
     ],
     workScope: [
       "Estructuración y vaciado de elementos de concreto",
@@ -202,6 +210,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Funza",
+
     thumbnails: [
       {
         src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369075/img1_ue2a4p.jpg",
@@ -273,6 +283,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Bogotá",
+
     thumbnails: [
       {
         src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369926/img1_aleuhp.jpg",
@@ -323,6 +335,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "Bogotá",
+
     thumbnails: [
       {
         src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370354/img1_tpy5hw.jpg",
@@ -379,6 +393,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
       width: 800,
       height: 600,
     },
+    location: "La Calera",
+
     thumbnails: [
       { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371113/img1_z8ppwx.jpg", alt: "Vista 1", width: 150, height: 100 },
       { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371117/img2_lwaygi.jpg", alt: "Vista 2", width: 150, height: 100 },

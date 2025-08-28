@@ -62,12 +62,14 @@ import type { ProjectDetail } from "@/types/project-detail";
 export function getTranslatedProjectDetail(detail: ProjectDetail, tx: (key: string) => any): ProjectDetail {
   const base = `projects.details.${detail.slug}`;
   const catKey = `projects.categories.${detail.category}`;
+  const listBase = `projects.items.${detail.slug}`;
   return {
     ...detail,
     title: resolveTx(tx, `${base}.title`, detail.title),
     description: resolveTx(tx, `${base}.description`, detail.description),
     category: resolveTx(tx, catKey, detail.category) as any,
     completionDate: resolveTx(tx, `${base}.completionDate`, detail.completionDate),
+    location: resolveTx(tx, `${listBase}.location`, detail.location),
     heroImage: {
       ...detail.heroImage,
       alt: resolveTx(tx, `${base}.heroImage.alt`, detail.heroImage.alt),
