@@ -595,7 +595,7 @@
         "location": "Bogotá"
       },
       "edificio-0097": {
-        "title": "EDIFICIO 0097",
+        "title": "EDIFICIO Q097",
         "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
         "completedDate": "June 29, 2024",
         "location": "Bogotá"
@@ -775,10 +775,10 @@
           "results": "Safe and functional internal connectivity within the residential complex."
         },
         "edificio-0097": {
-          "title": "EDIFICIO 0097",
+          "title": "EDIFICIO Q097",
           "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
           "completionDate": "June 29, 2024",
-          "heroImage": { "alt": "Edificio 0097 - Reinforced concrete structure" },
+          "heroImage": { "alt": "Edificio Q097 - Reinforced concrete structure" },
           "thumbnails": [
             { "alt": "Moment-resisting frames" },
             { "alt": "Lightweight slabs" },

@@ -588,7 +588,7 @@
         "location": "Bogotá"
       },
       "edificio-0097": {
-        "title": "EDIFICIO 0097",
+        "title": "EDIFICIO Q097",
         "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
         "completedDate": "Mayo de 2023 / Diciembre de 2023",
         "location": "Bogotá"
@@ -705,10 +705,10 @@
           "results": "Entrega de la estructura lista para iniciar labores de mampostería y ejecución de acabados, con condiciones adecuadas para una instalación rápida y controlada."
         },
         "edificio-0097": {
-          "title": "EDIFICIO 0097",
+          "title": "EDIFICIO Q097",
           "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
           "completionDate": "Mayo de 2023 / Diciembre de 2023",
-          "heroImage": { "alt": "Edificio 0097 - Estructura en concreto reforzado" },
+          "heroImage": { "alt": "Edificio Q097 - Estructura en concreto reforzado" },
           "thumbnails": [
             { "alt": "Pórticos resistentes" },
             { "alt": "Losas aligeradas" },

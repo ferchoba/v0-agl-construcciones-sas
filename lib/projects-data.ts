@@ -70,7 +70,7 @@ export const projectsData: Project[] = [
   },
   {
     id: "7",
-    title: "EDIFICIO 0097",
+    title: "EDIFICIO Q097",
     description:
       "Estructura en concreto vista preparada para la siguiente fase de obra.",
     category: "ESTRUCTURA",

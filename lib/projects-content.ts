@@ -312,14 +312,14 @@ export const projectsContent: Record<string, ProjectDetail> = {
   },
   "edificio-0097": {
     slug: "edificio-0097",
-    title: "EDIFICIO 0097",
+    title: "EDIFICIO Q097",
     category: "ESTRUCTURA",
     completionDate: "29 de junio de 2024",
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     heroImage: {
       src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380642/Puente_BN_1200x600_z1gpaf.jpg",
-      alt: "Edificio 0097 - Estructura en concreto reforzado",
+      alt: "Edificio Q097 - Estructura en concreto reforzado",
       width: 800,
       height: 600,
     },
