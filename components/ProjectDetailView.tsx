@@ -1,9 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
 import { Breadcrumb } from "@/components/Breadcrumb"
+import { ProjectCarousel } from "@/components/ProjectCarousel"
 import { ProjectHero } from "@/components/ProjectHero"
 import { ProjectSidebar } from "@/components/ProjectSidebar"
 import { ProjectContent } from "@/components/ProjectContent"
@@ -38,17 +38,8 @@ export function ProjectDetailView({ project }: { project: ProjectDetail }) {
           {tx(`projects.details.${slug}.description`) ?? project.description}
         </p>
 
-        {/* Imagen principal */}
-        <div className="relative aspect-[16/9] max-w-5xl mx-auto rounded-lg overflow-hidden">
-          <Image
-            src={project.heroImage.src || "/placeholder.svg"}
-            alt={tx(`projects.details.${slug}.heroImage.alt`) ?? project.heroImage.alt}
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-          />
-        </div>
+        {/* Carrusel de imágenes del proyecto */}
+        <ProjectCarousel project={project} slug={slug} tx={tx} />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
