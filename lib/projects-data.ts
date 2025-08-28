@@ -29,7 +29,7 @@ export const projectsData: Project[] = [
     description:
       "Apartamentos con fachadas de gran formato y espacios listos para personalizar.",
     category: "MAMPOSTERÍA",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368474/Entreparques2_BN_wlrcgk.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756377214/Entreparques_BN_1200x600_e44yqo.jpg",
     completedDate: "Agosto de 2018 / Febrero de 2019",
     location: "Bogotá",
     slug: "entreparques",
@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
     description:
       "Espacios educativos duraderos y listos para el uso.",
     category: "ESTRUCTURA",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368795/ColegioTapsandes_BN_zvlen9.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380401/ColegioTapsandes_BN_1200x600_ynvspz.jpg",
     completedDate: "Junio de 2019 / Marzo de 2020",
     location: "Bogotá",
     slug: "colegio-tapsandes",
@@ -52,7 +52,7 @@ export const projectsData: Project[] = [
     description:
       "Infraestructura educativa robusta y lista para operar.",
     category: "ESTRUCTURA",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369036/MegaColegioSanMarcos_BN_kxyxg8.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380214/MegaColegioSanMarcos_BN_1200x600_brmxd4.jpg",
     completedDate: "Septiembre de 2020 / Marzo de 2021",
     location: "Funza",
     slug: "mega-colegio-san-marcos-funza",
@@ -63,7 +63,7 @@ export const projectsData: Project[] = [
     description:
       "Sótanos ejecutados y estructura industrializada preparada para avance de obra.",
     category: "CIMENTACIÓN",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369864/UrbanizacionHaciendaLosLagos197_BN_mapzjd.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380494/UrbanizacionHaciendaLosLagos197_BN_1200x600_oknxmm.jpg",
     completedDate: "Mayo de 2022 / Diciembre de 2022",
     location: "Bogotá",
     slug: "urbanizacion-hacienda-los-lagos",
@@ -74,7 +74,7 @@ export const projectsData: Project[] = [
     description:
       "Estructura en concreto vista preparada para la siguiente fase de obra.",
     category: "ESTRUCTURA",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370324/EdificioQ097_BN_we2hjm.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380575/EdificioQ097_BN_1200x600_b7fav6.jpg",
     completedDate: "Mayo de 2023 / Diciembre de 2023",
     location: "Bogotá",
     slug: "edificio-0097",
@@ -85,7 +85,7 @@ export const projectsData: Project[] = [
     description:
       "Solución estructural en concreto a la vista para conectividad interna.",
     category: "ESTRUCTURA",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371006/Puente_BN_xz1wft.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380642/Puente_BN_1200x600_z1gpaf.jpg",
     completedDate: "Enero de 2023 / Abril de 2023",
     location: "La Calera",
     slug: "puente-conjunto-residencial-la-calera",

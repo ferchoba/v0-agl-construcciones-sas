@@ -120,7 +120,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368474/Entreparques2_BN_wlrcgk.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756377214/Entreparques_BN_1200x600_e44yqo.jpg",
       alt: "Torre Entreparques - Vista de la construcción",
       width: 800,
       height: 600,
@@ -164,7 +164,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Obra de estructura para institución educativa con cumplimiento de normativas sísmicas y alta calidad constructiva.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368795/ColegioTapsandes_BN_zvlen9.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380401/ColegioTapsandes_BN_1200x600_ynvspz.jpg",
       alt: "Colegio Tapsandes - Obra de estructura",
       width: 800,
       height: 600,
@@ -197,7 +197,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369036/MegaColegioSanMarcos_BN_kxyxg8.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380214/MegaColegioSanMarcos_BN_1200x600_brmxd4.jpg",
       alt: "Mega Colegio San Marcos Funza - Estructura en construcción",
       width: 800,
       height: 600,
@@ -268,7 +268,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369864/UrbanizacionHaciendaLosLagos197_BN_mapzjd.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380494/UrbanizacionHaciendaLosLagos197_BN_1200x600_oknxmm.jpg",
       alt: "Urbanización Hacienda Los Lagos - Trabajos de cimentación",
       width: 800,
       height: 600,
@@ -318,7 +318,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370324/EdificioQ097_BN_we2hjm.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380642/Puente_BN_1200x600_z1gpaf.jpg",
       alt: "Edificio 0097 - Estructura en concreto reforzado",
       width: 800,
       height: 600,
