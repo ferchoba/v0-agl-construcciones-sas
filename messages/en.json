@@ -398,23 +398,23 @@
     "values": {
       "calidad_exigente": {
         "title": "Demanding quality",
-        "description": "We ensure rigorous controls throughout processes and finishes to deliver projects that exceed expectations."
+        "description": "We guarantee processes and finishes with rigorous controls to deliver projects that exceed expectations."
       },
       "innovacion_constructiva": {
-        "title": "Constructive innovation",
-        "description": "We incorporate methods and materials that reduce timelines and improve efficiency without compromising robustness."
+        "title": "Construction innovation",
+        "description": "We incorporate methods and materials that reduce time and improve efficiency without sacrificing robustness."
       },
       "compromiso_con_el_cliente": {
         "title": "Client commitment",
-        "description": "Personalized attention, on-time delivery, and focus on maximizing the client's return on investment."
+        "description": "Personalized attention, meeting deadlines, and focusing on maximizing the client's return on investment."
       },
       "eficiencia_y_rentabilidad": {
         "title": "Efficiency and profitability",
-        "description": "We optimize costs and resources to offer projects with a better cost-benefit ratio."
+        "description": "We optimize costs and resources to offer projects with the best cost-benefit ratio."
       },
       "seguridad_y_salud_ocupacional": {
         "title": "Occupational health and safety",
-        "description": "We prioritize protocols and best practices to protect our team and clients on site."
+        "description": "We prioritize protocols and best practices to protect our team and clients on-site."
       },
       "transparencia_y_cumplimiento": {
         "title": "Transparency and compliance",
@@ -422,27 +422,11 @@
       },
       "sostenibilidad_y_responsabilidad": {
         "title": "Sustainability and responsibility",
-        "description": "We integrate practices that reduce environmental impact and benefit communities."
+        "description": "We integrate practices that reduce environmental impact and contribute to the well-being of communities."
       },
       "trabajo_en_equipo_y_talento": {
         "title": "Teamwork and talent",
-        "description": "We foster training, leadership, and collaboration to achieve better outcomes."
-      },
-      "calidad": {
-        "title": "Quality",
-        "description": "We use premium materials and specialized techniques"
-      },
-      "compromiso": {
-        "title": "Commitment",
-        "description": "We meet agreed deadlines and budgets"
-      },
-      "innovación": {
-        "title": "Innovation",
-        "description": "We incorporate the latest trends in design and construction"
-      },
-      "confianza": {
-        "title": "Trust",
-        "description": "We build lasting relationships with our clients"
+        "description": "We foster training, leadership, and collaboration to achieve better results."
       }
     },
     "why_choose_us": {
