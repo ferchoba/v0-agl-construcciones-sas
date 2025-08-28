@@ -579,7 +579,7 @@
         "title": "ALTOS DE TUNDAMA",
         "description": "Vivienda moderna con calidad constructiva y acabados listos para habitar.",
         "completedDate": "Junio de 2016 / Noviembre de 2017",
-        "location": "Tundama"
+        "location": "Duitama"
       },
       "universidad-santo-tomas-tunja": {
         "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
@@ -595,7 +595,7 @@
       },
       "colegio-tapsandes": {
         "title": "COLEGIO TAPSANDES",
-        "description": "Infraestructura educativa ejecutada con estándares sísmicos y control de calidad.",
+        "description": "Espacios educativos duraderos y listos para el uso.",
         "completedDate": "Junio de 2019 / Marzo de 2020",
         "location": "Bogotá"
       },
@@ -750,7 +750,7 @@
         },
         "colegio-tapsandes": {
           "title": "COLEGIO TAPSANDES",
-          "description": "Obra de estructura con cumplimiento de normativas sísmicas y altos estándares de calidad.",
+          "description": "Espacios educativos duraderos y listos para el uso.",
           "completionDate": "Junio de 2019 / Marzo de 2020",
           "heroImage": { "alt": "Colegio Tapsandes - Obra de estructura" },
           "thumbnails": [
@@ -759,20 +759,22 @@
             { "alt": "Vista 3" }
           ],
           "workScope": [
-            "Estructuración y vaciado de elementos de concreto",
-            "Armado de acero de refuerzo",
-            "Supervisión de calidad y seguridad en obra"
+            "Ejecución de cimentación y estructura en concreto a la vista, incluyendo columnas, pantallas y escaleras. Placa en armadura convencional aligerada mediante calcetón de icopor para optimizar peso y aislamiento. Mampostería interna en bloque común con pañete interior y alistado de pisos; fachada en ladrillo Santa Fe tipo rejilla que aporta textura y ventilación. Salones estucados y terminados con pintura vinílica tipo 1, con acabados pensados para uso institucional."
           ],
           "technicalSpecs": [
             "Cimentación",
             "Estructura (columnas, pantallas y placas)",
-            "Elementos sismo resistentes"
+            "Mampostería de fachada (ladrillo Santa Fe tipo rejilla)",
+            "Mampostería interna (bloque común)",
+            "Pañete de fachada",
+            "Pañete interno",
+            "Acabados y alistado de pisos"
           ],
-          "results": "Infraestructura educativa segura y de alta calidad lista para operación académica."
+          "results": "Salones entregados listos para uso, con terminaciones de calidad, superficies uniformes y condiciones óptimas para la actividad educativa. Proyecto orientado a ofrecer durabilidad, confort y fácil mantenimiento."
         },
         "puente-conjunto-residencial-la-calera": {
           "title": "PUENTE — CONJUNTO RESIDENCIAL LA CALERA",
-          "description": "Estructura de puente interno que garantiza conectividad segura y funcional dentro del conjunto.",
+          "description": "Solución estructural en concreto a la vista para conectividad interna.",
           "completionDate": "Enero de 2023 / Abril de 2023",
           "heroImage": { "alt": "Puente interno — Conjunto Residencial La Calera" },
           "thumbnails": [
@@ -781,16 +783,15 @@
             { "alt": "Vista 3" }
           ],
           "workScope": [
-            "Cimentación y apoyos del puente",
-            "Estructura en concreto armado",
-            "Acabados y protección de superficies"
+            "Construcción de vigas tensoradas en concreto a la vista con formaleta metálica, ejecución de herrería conforme a planos y empleo de concreto vibrado de 500 psi. La intervención abarcó todos los elementos estructurales necesarios para garantizar la resistencia y durabilidad del puente."
           ],
           "technicalSpecs": [
+            "Localización y replanteo",
             "Cimentación",
-            "Estructura en concreto armado",
-            "Elementos de protección y acabados"
+            "Estructura (vigas tensoradas, formaleta metálica y herrería)",
+            "Colado de concreto vibrado (500 psi)"
           ],
-          "results": "Conectividad interna segura y funcional dentro del conjunto residencial."
+          "results": "Entrega del puente con concreto a la vista y terminaciones estructurales, listo para su uso y con condiciones óptimas de seguridad y durabilidad."
         }
     },
 

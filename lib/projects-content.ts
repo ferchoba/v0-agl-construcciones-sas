@@ -9,26 +9,26 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Proyecto integral de acabados para el conjunto residencial Altos de Tundama, incluyendo pisos, enchapes, carpintería, pintura y todos los detalles finales que dan vida al proyecto.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128196/img1_g1fpyl.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756372975/AltosDeTundama_BN_1200x600_lpg3dr.jpg",
       alt: "Edificio Altos de Tundama - Vista principal",
       width: 800,
       height: 600,
     },
     thumbnails: [
       {
-        src: "/projects/altos-tundama-thumb1.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128196/img1_g1fpyl.jpg",
         alt: "Vista lateral del edificio",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/altos-tundama-thumb2.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128408/img3_hn9agp.jpg",
         alt: "Detalles de fachada",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/altos-tundama-thumb3.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128400/img2_cwmscc.jpg",
         alt: "Área común",
         width: 150,
         height: 100,
@@ -63,26 +63,32 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128643/img1_gq88im.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756373553/UniversidadSantoTomas_BN_1200x600_pjkiso.jpg",
       alt: "Universidad Santo Tomas de Tunja - Construcción del bloque académico",
       width: 800,
       height: 600,
     },
     thumbnails: [
       {
-        src: "/projects/universidad-santo-tomas-thumb1.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367850/img1_bx4sjo.png",
         alt: "Fachada principal en construcción",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/universidad-santo-tomas-thumb2.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367853/img2_xmexqy.png",
         alt: "Detalles de mampostería",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/universidad-santo-tomas-thumb3.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367855/img3_voh3sv.png",
+        alt: "Estructura interna",
+        width: 150,
+        height: 100,
+      },
+      {
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367852/img4_lomv5c.png",
         alt: "Estructura interna",
         width: 150,
         height: 100,
@@ -114,30 +120,24 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755128765/img1_tdleuv.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368474/Entreparques2_BN_wlrcgk.png",
       alt: "Torre Entreparques - Vista de la construcción",
       width: 800,
       height: 600,
     },
     thumbnails: [
       {
-        src: "/projects/entreparques-thumb1.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368510/img1_tynvfr.png",
         alt: "Torre en construcción",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/entreparques-thumb2.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368510/img2_ngyzq6.png",
         alt: "Fachada ventilada",
         width: 150,
         height: 100,
-      },
-      {
-        src: "/projects/entreparques-thumb3.jpg",
-        alt: "Detalles constructivos",
-        width: 150,
-        height: 100,
-      },
+      },      
     ],
     workScope: [
       "Muros divisorios interiores",
@@ -164,15 +164,14 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Obra de estructura para institución educativa con cumplimiento de normativas sísmicas y alta calidad constructiva.",
     heroImage: {
-      src: "/projects/mega-colegio-funza.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368795/ColegioTapsandes_BN_zvlen9.png",
       alt: "Colegio Tapsandes - Obra de estructura",
       width: 800,
       height: 600,
     },
     thumbnails: [
-      { src: "/projects/mega-colegio-funza.png", alt: "Vista 1", width: 150, height: 100 },
-      { src: "/projects/mega-colegio-funza.png", alt: "Vista 2", width: 150, height: 100 },
-      { src: "/projects/mega-colegio-funza.png", alt: "Vista 3", width: 150, height: 100 }
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368812/img1_njxyvi.jpg", alt: "Vista 1", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756368810/img2_hjg9qg.jpg", alt: "Vista 2", width: 150, height: 100 }      
     ],
     workScope: [
       "Estructuración y vaciado de elementos de concreto",
@@ -198,30 +197,48 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129094/img1_bno9v7.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369036/MegaColegioSanMarcos_BN_kxyxg8.png",
       alt: "Mega Colegio San Marcos Funza - Estructura en construcción",
       width: 800,
       height: 600,
     },
     thumbnails: [
       {
-        src: "/projects/mega-colegio-funza-thumb1.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369075/img1_ue2a4p.jpg",
         alt: "Estructura de concreto",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/mega-colegio-funza-thumb2.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369077/img2_im2pxj.jpg",
         alt: "Columnas y vigas",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/mega-colegio-funza-thumb3.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369072/img3_pe7rpq.jpg",
         alt: "Losas especiales",
         width: 150,
         height: 100,
       },
+      {
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369080/img4_ffroje.jpg",
+        alt: "Estructura de concreto",
+        width: 150,
+        height: 100,
+      },
+      {
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369154/img5_lr0l4s.jpg",
+        alt: "Columnas y vigas",
+        width: 150,
+        height: 100,
+      },
+      {
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369151/img6_zvaugd.jpg",
+        alt: "Losas especiales",
+        width: 150,
+        height: 100,
+      }
     ],
     workScope: [
       "Columnas de concreto reforzado",
@@ -251,26 +268,26 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129209/img1_bm3to1.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369864/UrbanizacionHaciendaLosLagos197_BN_mapzjd.png",
       alt: "Urbanización Hacienda Los Lagos - Trabajos de cimentación",
       width: 800,
       height: 600,
     },
     thumbnails: [
       {
-        src: "/projects/hacienda-los-lagos-thumb1.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369926/img1_aleuhp.jpg",
         alt: "Excavaciones profundas",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/hacienda-los-lagos-thumb2.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369932/img2_r0fvrq.jpg",
         alt: "Pilotaje especializado",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/hacienda-los-lagos-thumb3.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756369929/img3_kjeylv.jpg",
         alt: "Zapatas corridas",
         width: 150,
         height: 100,
@@ -301,30 +318,36 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1755129367/img1_r0sznd.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370324/EdificioQ097_BN_we2hjm.png",
       alt: "Edificio 0097 - Estructura en concreto reforzado",
       width: 800,
       height: 600,
     },
     thumbnails: [
       {
-        src: "/projects/edificio-0097-thumb1.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370354/img1_tpy5hw.jpg",
         alt: "Pórticos resistentes",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/edificio-0097-thumb2.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370361/img2_hrn4mn.jpg",
         alt: "Losas aligeradas",
         width: 150,
         height: 100,
       },
       {
-        src: "/projects/edificio-0097-thumb3.jpg",
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370357/img3_s3anwh.jpg",
         alt: "Escaleras estructurales",
         width: 150,
         height: 100,
       },
+      {
+        src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756370350/img4_q5paqd.jpg",
+        alt: "Escaleras estructurales",
+        width: 150,
+        height: 100,
+      }
     ],
     workScope: [
       "Pórticos resistentes a momento",
@@ -351,15 +374,17 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura de puente interno para conjunto residencial, garantizando seguridad y funcionalidad con acabados de alta calidad.",
     heroImage: {
-      src: "/projects/edificio-0097.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371006/Puente_BN_xz1wft.png",
       alt: "Puente interno — Conjunto Residencial La Calera",
       width: 800,
       height: 600,
     },
     thumbnails: [
-      { src: "/projects/edificio-0097.png", alt: "Vista 1", width: 150, height: 100 },
-      { src: "/projects/edificio-0097.png", alt: "Vista 2", width: 150, height: 100 },
-      { src: "/projects/edificio-0097.png", alt: "Vista 3", width: 150, height: 100 }
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371113/img1_z8ppwx.jpg", alt: "Vista 1", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371117/img2_lwaygi.jpg", alt: "Vista 2", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371102/img3_vwmknd.jpg", alt: "Vista 3", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371109/img4_roqwnu.jpg", alt: "Vista 2", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756371106/img5_x1axhu.jpg", alt: "Vista 3", width: 150, height: 100 }
     ],
     workScope: [
       "Cimentación y apoyos del puente",
