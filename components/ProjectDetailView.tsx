@@ -4,7 +4,7 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { Breadcrumb } from "@/components/Breadcrumb"
 import { ProjectCarousel } from "@/components/ProjectCarousel"
-import { ProjectHero } from "@/components/ProjectHero"
+
 import { ProjectSidebar } from "@/components/ProjectSidebar"
 import { ProjectContent } from "@/components/ProjectContent"
 import { useLanguage } from "@/lib/LanguageProvider"
@@ -45,7 +45,7 @@ export function ProjectDetailView({ project }: { project: ProjectDetail }) {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
         {/* Main Content */}
         <div className="lg:col-span-2 space-y-8">
-          <ProjectHero project={project} />
+
           <ProjectContent project={project} />
         </div>
 
