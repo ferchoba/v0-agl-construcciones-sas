@@ -417,6 +417,38 @@ export const projectsContent: Record<string, ProjectDetail> = {
     serviceType: "ESTRUCTURA",
     imageCount: 3,
   },
+  "condominio-altos-del-refugio": {
+    slug: "condominio-altos-del-refugio",
+    title: "CONDOMINIO ALTOS DEL REFUGIO",
+    category: "ACABADOS",
+    completionDate: "Octubre de 2024 / En ejecución",
+    description: "Acabados personalizados para espacios modernos y funcionales",
+    heroImage: {
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756181329/imagenHero1200x600_m7uvzp.png",
+      alt: "Condominio Altos del Refugio - Vista principal",
+      width: 1200,
+      height: 600
+    },
+    location: "La Mesa, Cundinamarca",
+    thumbnails: [
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367850/img1_bx4sjo.png", alt: "Detalle de acabados 1", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367853/img2_xmexqy.png", alt: "Detalle de acabados 2", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367855/img3_voh3sv.png", alt: "Detalle de acabados 3", width: 150, height: 100 }
+    ],
+    workScope: [
+      "Instalación de pisos y enchapes en áreas sociales y privadas",
+      "Carpintería personalizada en cocina y closets",
+      "Pintura y acabados decorativos en muros y cielos rasos"
+    ],
+    technicalSpecs: [
+      "Instalación de enchapes",
+      "Estuco y pintura",
+      "Carpintería de madera y materiales sintéticos"
+    ],
+    results: "Espacios modernos y funcionales con acabados personalizados de alta calidad",
+    serviceType: "ACABADOS",
+    imageCount: 3
+  }
 
 }
 

@@ -90,6 +90,17 @@ export const projectsData: Project[] = [
     location: "La Calera",
     slug: "puente-conjunto-residencial-la-calera",
   },
+  {
+    id: "9",
+    title: "CONDOMINIO ALTOS DEL REFUGIO",
+    description: "Acabados personalizados para espacios modernos y funcionales",
+    category: "ACABADOS",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756181329/imagenHero1200x600_m7uvzp.png",
+    completedDate: "Octubre de 2024 / En ejecución",
+    location: "La Mesa, Cundinamarca",
+    slug: "condominio-altos-del-refugio",
+  }
+
 
 ]
 

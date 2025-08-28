@@ -592,6 +592,14 @@
         "completedDate": "Mayo de 2023 / Diciembre de 2023",
         "location": "Bogotá"
       }
+      ,
+      "condominio-altos-del-refugio": {
+        "title": "CONDOMINIO ALTOS DEL REFUGIO",
+        "description": "Acabados personalizados para espacios modernos y funcionales",
+        "completedDate": "Octubre de 2024 / En ejecución",
+        "location": "La Mesa, Cundinamarca"
+      }
+
     },
     "details": {
       "altos-de-tundama": {
@@ -768,7 +776,31 @@
           ],
           "results": "Entrega del puente con concreto a la vista y terminaciones estructurales, listo para su uso y con condiciones óptimas de seguridad y durabilidad."
         }
+    ,
+      "condominio-altos-del-refugio": {
+        "title": "CONDOMINIO ALTOS DEL REFUGIO",
+        "description": "Acabados personalizados para espacios modernos y funcionales",
+        "completionDate": "Octubre de 2024 / En ejecución",
+        "heroImage": { "alt": "Condominio Altos del Refugio - Vista principal" },
+        "thumbnails": [
+          { "alt": "Detalle de acabados 1" },
+          { "alt": "Detalle de acabados 2" },
+          { "alt": "Detalle de acabados 3" }
+        ],
+        "workScope": [
+          "Instalación de pisos y enchapes en áreas sociales y privadas",
+          "Carpintería personalizada en cocina y closets",
+          "Pintura y acabados decorativos en muros y cielos rasos"
+        ],
+        "technicalSpecs": [
+          "Instalación de enchapes",
+          "Estuco y pintura",
+          "Carpintería de madera y materiales sintéticos"
+        ],
+        "results": "Espacios modernos y funcionales con acabados personalizados de alta calidad"
+      }
     },
+
 
       "categories": {
         "ACABADOS": "ACABADOS",
@@ -776,12 +808,12 @@
         "ESTRUCTURA": "ESTRUCTURA",
         "CIMENTACIÓN": "CIMENTACIÓN"
       },
-    "serviceTypes": {
-      "ACABADOS": "ACABADOS",
-      "MAMPOSTERÍA": "MAMPOSTERÍA",
-      "ESTRUCTURA": "ESTRUCTURA",
-      "CIMENTACIÓN": "CIMENTACIÓN"
-    },
-    "back_to_projects": "Ver todos los proyectos"
-  }
+      "serviceTypes": {
+        "ACABADOS": "ACABADOS",
+        "MAMPOSTERÍA": "MAMPOSTERÍA",
+        "ESTRUCTURA": "ESTRUCTURA",
+        "CIMENTACIÓN": "CIMENTACIÓN"
+      },
+      "back_to_projects": "Ver todos los proyectos"
+    }
 }

@@ -598,7 +598,14 @@
         "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
         "completedDate": "June 29, 2024",
         "location": "Bogotá"
+      ,
+      "condominio-altos-del-refugio": {
+        "title": "ALTOS DEL REFUGIO CONDOMINIUM",
+        "description": "Custom finishes for modern and functional spaces",
+        "completedDate": "October 2024 / In progress",
+        "location": "La Mesa, Cundinamarca"
       }
+    }
     },
     "details": {
       "altos-de-tundama": {
@@ -796,6 +803,29 @@
             "Internal masonry (common block)"
           ],
           "results": "Residential building with an optimized structure combining construction efficiency with architectural quality, providing functional and safe spaces for 64 apartments."
+        }
+,
+        "condominio-altos-del-refugio": {
+          "title": "ALTOS DEL REFUGIO CONDOMINIUM",
+          "description": "Custom finishes for modern and functional spaces",
+          "completionDate": "October 2024 / In progress",
+          "heroImage": { "alt": "Altos del Refugio Condominium - Main view" },
+          "thumbnails": [
+            { "alt": "Finishes detail 1" },
+            { "alt": "Finishes detail 2" },
+            { "alt": "Finishes detail 3" }
+          ],
+          "workScope": [
+            "Installation of floors and tiling in social and private areas",
+            "Custom carpentry for kitchen and closets",
+            "Painting and decorative finishes on walls and ceilings"
+          ],
+          "technicalSpecs": [
+            "Tile installation",
+            "Plaster and paint",
+            "Wood and synthetic materials carpentry"
+          ],
+          "results": "Modern and functional spaces with high-quality custom finishes"
         }
       },
       "categories": {
