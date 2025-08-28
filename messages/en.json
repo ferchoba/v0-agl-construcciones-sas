@@ -539,7 +539,7 @@
       "MAMPOSTERÍA": "MASONRY",
       "ACABADOS": "FINISHES"
     },
-    "completed_at": "Completed on:",
+    "completed_at": "Completed between:",
     "detailsTitle": "Project Description",
     "workScopeTitle": "Work Scope",
     "techSpecsTitle": "Technical Specifications",

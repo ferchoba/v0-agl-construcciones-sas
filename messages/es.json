@@ -532,7 +532,7 @@
       "MAMPOSTERÍA": "MAMPOSTERÍA",
       "ACABADOS": "ACABADOS"
     },
-    "completed_at": "Completado en:",
+    "completed_at": "Completado entre:",
     "detailsTitle": "Descripción del Proyecto",
     "workScopeTitle": "Alcance de los Trabajos",
     "techSpecsTitle": "Características Técnicas",
