@@ -13,6 +13,7 @@ export interface CompanyData {
   name: string
   description: string
   mission: string
+  vision: string
   values: CompanyValue[]
   serviceCategories: ServiceCategory[]
   whyChooseUs: {

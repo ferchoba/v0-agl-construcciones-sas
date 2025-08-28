@@ -6,6 +6,8 @@ export const companyData: CompanyData = {
     "Somos una empresa especializada en remodelación y construcción de espacios residenciales, comerciales y de oficina. Con años de experiencia en el sector, nos hemos consolidado como líderes en transformación de espacios.",
   mission:
     "Transformamos ideas en proyectos exitosos: planificamos, ejecutamos y entregamos obras con procesos innovadores, control de calidad riguroso y atención personalizada. Nuestro compromiso es maximizar la inversión del cliente, cumplir plazos y superar expectativas con soluciones que aportan durabilidad, estética y retorno.",
+  vision:
+    "Ser la constructora preferida por clientes e inversionistas, reconocida por entregar proyectos rentables, innovadores y de alta calidad que generan valor inmediato y sostenible.",
   values: [
     {
       title: "Calidad",

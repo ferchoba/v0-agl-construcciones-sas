@@ -32,6 +32,12 @@ export function CompanyOverview() {
           <p className="text-muted-foreground leading-relaxed text-justify">{t("company.mission")}</p>
         </div>
 
+        {/* Vision */}
+        <div className="mb-12">
+          <h3 className="text-2xl font-bold text-foreground mb-4">{t("company.vision_title")}</h3>
+          <p className="text-muted-foreground leading-relaxed text-justify">{t("company.vision")}</p>
+        </div>
+
         {/* Values */}
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-foreground mb-6">{t("company.values_title")}</h3>
