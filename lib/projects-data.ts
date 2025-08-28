@@ -77,7 +77,7 @@ export const projectsData: Project[] = [
     image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380575/EdificioQ097_BN_1200x600_b7fav6.jpg",
     completedDate: "Mayo de 2023 / Diciembre de 2023",
     location: "Bogotá",
-    slug: "edificio-0097",
+    slug: "edificio-q097",
   },
   {
     id: "8",

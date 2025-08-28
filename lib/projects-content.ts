@@ -310,8 +310,8 @@ export const projectsContent: Record<string, ProjectDetail> = {
     serviceType: "CIMENTACIÓN",
     imageCount: 3,
   },
-  "edificio-0097": {
-    slug: "edificio-0097",
+  "edificio-q097": {
+    slug: "edificio-q097",
     title: "EDIFICIO Q097",
     category: "ESTRUCTURA",
     completionDate: "29 de junio de 2024",
