@@ -424,28 +424,32 @@ export const projectsContent: Record<string, ProjectDetail> = {
     completionDate: "Octubre de 2024 / En ejecución",
     description: "Acabados personalizados para espacios modernos y funcionales",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756181329/imagenHero1200x600_m7uvzp.png",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434335/AltosDelRefugio3_BN_1200x600_wceubv.jpg",
       alt: "Condominio Altos del Refugio - Vista principal",
       width: 1200,
       height: 600
     },
     location: "La Mesa, Cundinamarca",
     thumbnails: [
-      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367850/img1_bx4sjo.png", alt: "Detalle de acabados 1", width: 150, height: 100 },
-      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367853/img2_xmexqy.png", alt: "Detalle de acabados 2", width: 150, height: 100 },
-      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756367855/img3_voh3sv.png", alt: "Detalle de acabados 3", width: 150, height: 100 }
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434363/img1_i2k5hp.jpg", alt: "Detalle de acabados 1", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434364/img2_asksvs.jpg", alt: "Detalle de acabados 2", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434364/img3_kyur01.jpg", alt: "Detalle de acabados 3", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434365/img4_ypdldu.jpg", alt: "Detalle de acabados 1", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434366/img5_rz7fyt.jpg", alt: "Detalle de acabados 2", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434367/img6_fy96sh.jpg", alt: "Detalle de acabados 3", width: 150, height: 100 },
+      { src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434375/img7_no6phe.jpg", alt: "Detalle de acabados 3", width: 150, height: 100 }
     ],
     workScope: [
-      "Instalación de pisos y enchapes en áreas sociales y privadas",
-      "Carpintería personalizada en cocina y closets",
-      "Pintura y acabados decorativos en muros y cielos rasos"
+      "Ejecución de trabajos de mampostería con pañetes internos y de fachada, estuco y pintura, instalación de cielos rasos en drywall y aplicación de enchapes en porcelanato según la elección de cada propietario. El proyecto está orientado a entregar espacios con acabados de alta calidad y personalización."
     ],
     technicalSpecs: [
-      "Instalación de enchapes",
+      "Mampostería interna y de fachada",
+      "Pañetes internos y de fachada",
       "Estuco y pintura",
-      "Carpintería de madera y materiales sintéticos"
+      "Cielos rasos en drywall",
+      "Enchapes en porcelanato (según elección del propietario)"
     ],
-    results: "Espacios modernos y funcionales con acabados personalizados de alta calidad",
+    results: "Proyecto actualmente en ejecución, con avances en acabados y personalización de unidades habitacionales para la entrega final.",
     serviceType: "ACABADOS",
     imageCount: 3
   }

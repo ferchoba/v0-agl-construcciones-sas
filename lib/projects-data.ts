@@ -95,7 +95,7 @@ export const projectsData: Project[] = [
     title: "CONDOMINIO ALTOS DEL REFUGIO",
     description: "Acabados personalizados para espacios modernos y funcionales",
     category: "ACABADOS",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756181329/imagenHero1200x600_m7uvzp.png",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756434335/AltosDelRefugio3_BN_1200x600_wceubv.jpg",
     completedDate: "Octubre de 2024 / En ejecución",
     location: "La Mesa, Cundinamarca",
     slug: "condominio-altos-del-refugio",
