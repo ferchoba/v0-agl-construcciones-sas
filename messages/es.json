@@ -174,7 +174,7 @@
           "Construcción de divisiones interiores y tabiques.",
           "Desarrollo de elementos decorativos y arquitectónicos.",
           "Construcción de chimeneas y elementos especiales.",
-          "Reparación y mantenimiento de mampostería existente."         
+          "Reparación y mantenimiento de mampostería existente."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -200,7 +200,7 @@
           "Pañetes impermeables para fachadas expuestas.",
           "Pañetes especiales para zonas húmedas (baños, cocinas, sótanos).",
           "Reparación y restauración de pañetes existentes.",
-          "Aplicación de mallas de refuerzo para prevenir fisuras."          
+          "Aplicación de mallas de refuerzo para prevenir fisuras."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -225,7 +225,7 @@
           "Carpintería en madera y materiales sintéticos.",
           "Instalación de cielos rasos y elementos decorativos.",
           "Colocación de puertas, ventanas y herrajes.",
-          "Ejecución de acabados especiales según especificaciones del proyecto."          
+          "Ejecución de acabados especiales según especificaciones del proyecto."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -303,7 +303,7 @@
           "Enchapes especiales para fachadas.",
           "Mosaicos y materiales decorativos.",
           "Enchapes antideslizantes para zonas húmedas (baños, cocinas, piscinas).",
-          "Reparación y mantenimiento de enchapes existentes."          
+          "Reparación y mantenimiento de enchapes existentes."
         ],
         "heroImageAlt": "Trabajadores en sitio de construcción realizando cimentación",
         "ctaTitle": "¿Interesado en este servicio?",
@@ -384,66 +384,42 @@
     "name": "AGL CONSTRUCCIONES",
     "description": "Somos una empresa especializada en remodelación y construcción de espacios residenciales, comerciales y de oficina. Con años de experiencia en el sector, nos hemos consolidado como líderes en transformación de espacios.",
     "mission_title": "Misión",
-    "mission": "Transformar espacios con calidad excepcional, brindando soluciones personalizadas que superen las expectativas de nuestros clientes.",
+    "mission": "Transformamos ideas en proyectos exitosos: planificamos, ejecutamos y entregamos obras con procesos innovadores, control de calidad riguroso y atención personalizada. Nuestro compromiso es maximizar la inversión del cliente, cumplir plazos y superar expectativas con soluciones que aportan durabilidad, estética y retorno.",
+    "vision_title": "Visión",
+    "vision": "Ser la constructora preferida por clientes e inversionistas, reconocida por entregar proyectos rentables, innovadores y de alta calidad que generan valor inmediato y sostenible.",
     "values_title": "Valores",
     "values": {
-      "quality": {
-        "title": "Calidad",
-        "description": "Utilizamos materiales de primera y técnicas especializadas"
+      "calidad_exigente": {
+        "title": "Calidad exigente",
+        "description": "Garantizamos procesos y terminaciones con controles rigurosos para entregar obras que superen expectativas."
       },
-      "commitment": {
-        "title": "Compromiso",
-        "description": "Cumplimos con los tiempos y presupuestos acordados"
+      "innovacion_constructiva": {
+        "title": "Innovación constructiva",
+        "description": "Incorporamos métodos y materiales que reducen tiempos y mejoran eficiencia sin perder robustez."
       },
-      "innovation": {
-        "title": "Innovación",
-        "description": "Incorporamos las últimas tendencias en diseño y construcción"
+      "compromiso_con_el_cliente": {
+        "title": "Compromiso con el cliente",
+        "description": "Atención personalizada, cumplimiento de plazos y enfoque en maximizar el retorno de la inversión del cliente."
       },
-      "trust": {
-        "title": "Confianza",
-        "description": "Construimos relaciones duraderas con nuestros clientes"
+      "eficiencia_y_rentabilidad": {
+        "title": "Eficiencia y rentabilidad",
+        "description": "Optimizamos costos y recursos para ofrecer proyectos con mejor relación costo-beneficio."
       },
-      "calidad": {
-        "title": "Calidad",
-        "description": "Utilizamos materiales de primera y técnicas especializadas"
+      "seguridad_y_salud_ocupacional": {
+        "title": "Seguridad y salud ocupacional",
+        "description": "Priorizamos protocolos y buenas prácticas para proteger a nuestro equipo y clientes en obra."
       },
-      "compromiso": {
-        "title": "Compromiso",
-        "description": "Cumplimos con los tiempos y presupuestos acordados"
+      "transparencia_y_cumplimiento": {
+        "title": "Transparencia y cumplimiento",
+        "description": "Informes claros, gestión documental y cumplimiento de normativas garantizan confianza y control."
       },
-      "innovación": {
-        "title": "Innovación",
-        "description": "Incorporamos las últimas tendencias en diseño y construcción"
+      "sostenibilidad_y_responsabilidad": {
+        "title": "Sostenibilidad y responsabilidad",
+        "description": "Integramos prácticas que reducen impacto ambiental y aportan bienestar a las comunidades."
       },
-      "confianza": {
-        "title": "Confianza",
-        "description": "Construimos relaciones duraderas con nuestros clientes"
-      }
-    },
-    "services_overview_title": "Servicios",
-    "serviceCategories": {
-      "remodelaciones_integrales": {
-        "title": "Remodelaciones Integrales",
-        "description": "Transformamos completamente sus espacios residenciales y comerciales con diseños modernos y funcionales.",
-        "features": []
-      },
-      "renovaciones_especializadas": {
-        "title": "Renovaciones Especializadas",
-        "description": "",
-        "features": [
-          "Cocinas modernas y funcionales",
-          "Baños con diseños contemporáneos",
-          "Garajes optimizados"
-        ]
-      },
-      "acabados_y_mantenimiento": {
-        "title": "Acabados y Mantenimiento",
-        "description": "",
-        "features": [
-          "Instalación profesional de pisos",
-          "Pintura especializada",
-          "Mantenimiento preventivo"
-        ]
+      "trabajo_en_equipo_y_talento": {
+        "title": "Trabajo en equipo y talento",
+        "description": "Fomentamos la capacitación, el liderazgo y la colaboración para lograr mejores resultados."
       }
     },
     "why_choose_us": {
@@ -556,7 +532,7 @@
       "MAMPOSTERÍA": "MAMPOSTERÍA",
       "ACABADOS": "ACABADOS"
     },
-    "completed_at": "Completado en:",
+    "completed_at": "Completado entre:",
     "detailsTitle": "Descripción del Proyecto",
     "workScopeTitle": "Alcance de los Trabajos",
     "techSpecsTitle": "Características Técnicas",
@@ -569,54 +545,61 @@
     },
     "detailsCardTitle": "Detalles del proyecto",
     "serviceTypeLabel": "Tipo de servicio:",
-    "imagesLabel": "Imágenes:",
-    "imagesUnit": "fotos",
+    "locationLabel": "Localización:",
     "view_details": "Ver Detalles",
     "view_service_label": "Ver servicio:",
     "total_projects_label": "Mostrando {count} proyectos en total",
     "items": {
       "altos-de-tundama": {
         "title": "ALTOS DE TUNDAMA",
-        "description": "Proyecto integral de acabados para el conjunto residencial Altos de Tundama...",
+        "description": "Vivienda moderna con calidad constructiva y acabados listos para habitar.",
         "completedDate": "Junio de 2016 / Noviembre de 2017",
-        "location": "Tundama"
+        "location": "Duitama"
       },
       "universidad-santo-tomas-tunja": {
         "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
-        "description": "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
+        "description": "Intervención estructural y preparación de aulas para acabados finales.",
         "completedDate": "Mayo de 2018 / Septiembre de 2018",
         "location": "Tunja"
       },
       "entreparques": {
         "title": "ENTREPARQUES",
-        "description": "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
+        "description": "Apartamentos con fachadas de gran formato y espacios listos para personalizar.",
         "completedDate": "Agosto de 2018 / Febrero de 2019",
+        "location": "Bogotá"
+      },
+      "colegio-tapsandes": {
+        "title": "COLEGIO TAPSANDES",
+        "description": "Espacios educativos duraderos y listos para el uso.",
+        "completedDate": "Junio de 2019 / Marzo de 2020",
         "location": "Bogotá"
       },
       "mega-colegio-san-marcos-funza": {
         "title": "MEGA COLEGIO SAN MARCOS FUNZA",
-        "description": "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
+        "description": "Infraestructura educativa robusta y lista para operar.",
         "completedDate": "Septiembre de 2020 / Marzo de 2021",
         "location": "Funza"
       },
       "urbanizacion-hacienda-los-lagos": {
         "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
-        "description": "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
+        "description": "Sótanos ejecutados y estructura industrializada preparada para avance de obra.",
         "completedDate": "Mayo de 2022 / Diciembre de 2022",
         "location": "Bogotá"
       },
-      "urbanza": {
-        "title": "URBANZA",
-        "description": "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
-        "completedDate": "19 de julio de 2024",
-        "location": "Bogotá"
-      },
-      "edificio-0097": {
-        "title": "EDIFICIO 0097",
-        "description": "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
+      "edificio-q097": {
+        "title": "EDIFICIO Q097",
+        "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
         "completedDate": "Mayo de 2023 / Diciembre de 2023",
         "location": "Bogotá"
       }
+      ,
+      "condominio-altos-del-refugio": {
+        "title": "CONDOMINIO ALTOS DEL REFUGIO",
+        "description": "Acabados personalizados para espacios modernos y funcionales",
+        "completedDate": "Octubre de 2024 / En ejecución",
+        "location": "La Mesa, Cundinamarca"
+      }
+
     },
     "details": {
       "altos-de-tundama": {
@@ -632,18 +615,22 @@
         "workScope": [
           "Proyecto con estructura en concreto a la vista, columnas y pantallas, placa con armadura convencional aligerada mediante calcetón de icopor. Mampostería interna en bloque común con pañete interior; fachada en ladrillo Santa Fe tipo rejilla que aporta textura y ventilación. Apartamentos entregados estucados y terminados con pintura vinílica tipo 1. Cielos rasos en drywall que garantizan terminaciones limpias y contemporáneas."
         ],
-        "technicalSpecs": {
-          "area": "Cimentación",
-          "floorTypes": "Estructura (columnas, pantallas y placas)",
-          "specialFinishes": "Mampostería de fachada (ladrillo Santa Fe tipo rejilla)"
-        },
+        "technicalSpecs": [
+          "Cimentación",
+          "Estructura (columnas, pantallas y placas)",
+          "Mampostería de fachada (ladrillo Santa Fe tipo rejilla)",
+          "Mampostería interna (bloque común)",
+          "Pañete de fachada",
+          "Pañete interno",
+          "Acabados finales (estuco, pintura vinílica y cielos rasos en drywall)"
+        ],
         "results": "Apartamentos entregados con acabados en acero fino, terminaciones de alta calidad y listos para la entrega a los propietarios. Un desarrollo pensado para ofrecer durabilidad, estética y confort."
       }
 ,
         "universidad-santo-tomas-tunja": {
           "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
-          "description": "Construcción de mampostería estructural para nuevo bloque académico de 3 pisos. Trabajo especializado en muros de carga, fachadas en ladrillo a la vista y elementos arquitectónicos decorativos que combinan funcionalidad con diseño institucional moderno.",
-          "completionDate": "19 de noviembre de 2024",
+          "description": "Intervención estructural y preparación de aulas para acabados finales.",
+          "completionDate": "Mayo de 2018 / Septiembre de 2018",
           "heroImage": { "alt": "Universidad Santo Tomas de Tunja - Construcción del bloque académico" },
           "thumbnails": [
             { "alt": "Fachada principal en construcción" },
@@ -651,23 +638,20 @@
             { "alt": "Estructura interna" }
           ],
           "workScope": [
-            "Construcción de muros de carga estructurales",
-            "Fachadas en ladrillo a la vista",
-            "Elementos arquitectónicos decorativos",
-            "Mampostería confinada",
-            "Acabados especiales institucionales"
+            "Intervención de mampostería confinada empleando bloque común, complementada con columnetas y viguetas para garantizar rigidez y seguridad estructural. Se ejecutaron pañetes tanto en el interior como en las fachadas, se realizó el alistado y preparación de los pisos en cubierta para la posterior instalación de los acabados."
           ],
-          "technicalSpecs": {
-            "area": "2.800 m²",
-            "floorTypes": "Concreto pulido",
-            "specialFinishes": "Fachada en ladrillo arquitectónico"
-          },
-          "results": "Bloque académico moderno que combina resistencia estructural con diseño arquitectónico institucional, cumpliendo con todas las normativas educativas y sísmicas."
+          "technicalSpecs": [
+            "Mampostería confinada (bloque común, columnetas y viguetas)",
+            "Pañetes internos",
+            "Pañetes de fachada",
+            "Alistado y preparación de pisos en cubierta"
+          ],
+          "results": "Entrega de salones pañetados y preparados, listos para recibir los acabados finales y ponerlos en uso por la institución. Trabajo orientado a ofrecer superficies uniformes y condiciones óptimas para acabados y equipamiento."
         },
         "entreparques": {
           "title": "ENTREPARQUES",
-          "description": "Desarrollo de mampostería para torre residencial de 15 pisos. Construcción de muros divisorios, fachadas ventiladas y elementos estructurales complementarios utilizando técnicas avanzadas y materiales de alta resistencia para garantizar durabilidad y estética.",
-          "completionDate": "14 de octubre de 2024",
+          "description": "Apartamentos con fachadas de gran formato y espacios listos para personalizar.",
+          "completionDate": "Agosto de 2018 / Febrero de 2019",
           "heroImage": { "alt": "Torre Entreparques - Vista de la construcción" },
           "thumbnails": [
             { "alt": "Torre en construcción" },
@@ -675,23 +659,19 @@
             { "alt": "Detalles constructivos" }
           ],
           "workScope": [
-            "Muros divisorios interiores",
-            "Fachadas ventiladas",
-            "Mampostería estructural complementaria",
-            "Elementos decorativos",
-            "Acabados especiales en altura"
+            "Ejecución de mampostería en bloque común con pañetes internos; fachadas a la vista en ladrillo Santa Fe tipo rejilla gran formato, que aportan textura, ventilación y presencia arquitectónica. El proyecto incluyó la preparación de los interiores para la etapa de acabados, garantizando superficies uniformes y condiciones óptimas para la terminación."
           ],
-          "technicalSpecs": {
-            "area": "8.500 m²",
-            "floorTypes": "Porcelanato rectificado",
-            "specialFinishes": "Fachada ventilada"
-          },
-          "results": "Torre residencial de alta calidad que establece nuevos estándares en construcción vertical, combinando técnicas avanzadas de mampostería con diseño contemporáneo."
+          "technicalSpecs": [
+            "Mampostería interna (bloque común)",
+            "Mampostería de fachada (ladrillo Santa Fe tipo rejilla gran formato)",
+            "Pañetes internos"
+          ],
+          "results": "Entrega de apartamentos en obra blanca, listos para ejecutar los acabados finales según los requerimientos de los propietarios."
         },
         "mega-colegio-san-marcos-funza": {
           "title": "MEGA COLEGIO SAN MARCOS FUNZA",
-          "description": "Construcción de estructura en concreto reforzado para complejo educativo de gran escala. Incluye columnas, vigas, losas y elementos estructurales especiales diseñados para soportar grandes luces y cargas, cumpliendo con normativas sísmicas vigentes.",
-          "completionDate": "6 de septiembre de 2024",
+          "description": "Infraestructura educativa robusta y lista para operar.",
+          "completionDate": "Septiembre de 2020 / Marzo de 2021",
           "heroImage": { "alt": "Mega Colegio San Marcos Funza - Estructura en construcción" },
           "thumbnails": [
             { "alt": "Estructura de concreto" },
@@ -699,23 +679,22 @@
             { "alt": "Losas especiales" }
           ],
           "workScope": [
-            "Columnas de concreto reforzado",
-            "Vigas de gran luz",
-            "Losas aligeradas especiales",
-            "Elementos estructurales sísmicos",
-            "Estructuras para grandes espacios"
+            "Ejecución de cimentación y estructura en concreto a la vista, con empotramiento para torre grúa; columnas, pantallas y escaleras. Placa en armadura convencional aligerada mediante calcetón de icopor para optimizar peso y aislamiento. Mampostería interna en bloque común con pañete interior y alistado de pisos. Fachadas ejecutadas en ladrillo Santa Fe tipo rejilla, que aportan textura y ventilación al edificio."
           ],
-          "technicalSpecs": {
-            "area": "12.000 m²",
-            "floorTypes": "Concreto industrial",
-            "specialFinishes": "Estructura sismo-resistente"
-          },
-          "results": "Complejo educativo con estructura de vanguardia que permite grandes espacios libres, cumpliendo con los más altos estándares de seguridad sísmica y funcionalidad educativa."
+          "technicalSpecs": [
+            "Cimentación",
+            "Estructura (columnas, pantallas, placas y escaleras)",
+            "Mampostería de fachada a la vista (ladrillo Santa Fe tipo rejilla)",
+            "Mampostería interna (bloque común)",
+            "Pañete interno",
+            "Alistado de pisos"
+          ],
+          "results": "Colegio entregado y listo para su uso, con estructura y acabados que garantizan durabilidad, funcionalidad y confort para la comunidad educativa."
         },
         "urbanizacion-hacienda-los-lagos": {
           "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
-          "description": "Cimentación profunda para desarrollo urbanístico de 120 viviendas. Excavación, pilotaje y construcción de zapatas corridas con sistemas de drenaje integrados. Trabajo técnico especializado en suelos de alta complejidad geotécnica.",
-          "completionDate": "1 de agosto de 2024",
+          "description": "Sótanos ejecutados y estructura industrializada preparada para avance de obra.",
+          "completionDate": "Mayo de 2022 / Diciembre de 2022",
           "heroImage": { "alt": "Urbanización Hacienda Los Lagos - Trabajos de cimentación" },
           "thumbnails": [
             { "alt": "Excavaciones profundas" },
@@ -723,68 +702,105 @@
             { "alt": "Zapatas corridas" }
           ],
           "workScope": [
-            "Excavación profunda controlada",
-            "Pilotaje de gran diámetro",
-            "Zapatas corridas",
-            "Sistemas de drenaje integrados",
-            "Estudios geotécnicos especializados"
+            "Ejecución de cimentación y estructuras en los sótanos 1 y 2, complementadas con sistema de estructura industrializada para optimizar tiempos y calidad constructiva. El trabajo incluyó la preparación de zonas y puntos de soporte necesarios para la continuidad de las etapas de mampostería y acabados."
           ],
-          "technicalSpecs": {
-            "area": "15.000 m²",
-            "floorTypes": "Cimentación profunda",
-            "specialFinishes": "Sistema de drenaje integrado"
-          },
-          "results": "Desarrollo urbanístico con cimentación de alta calidad que garantiza la estabilidad a largo plazo de 120 viviendas, superando los desafíos geotécnicos del terreno."
+          "technicalSpecs": [
+            "Cimentación",
+            "Estructura (sótanos 1 y 2)",
+            "Estructura industrializada"
+          ],
+          "results": "Entrega de la estructura lista para iniciar labores de mampostería y ejecución de acabados, con condiciones adecuadas para una instalación rápida y controlada."
         },
-        "urbanza": {
-          "title": "URBANZA",
-          "description": "Cimentación para conjunto residencial de torres gemelas. Construcción de cimentación profunda con pilotes de gran diámetro, vigas de cimentación y sistemas de contención para excavaciones profundas en zona urbana de alta densidad.",
-          "completionDate": "19 de julio de 2024",
-          "heroImage": { "alt": "Urbanza - Cimentación de torres gemelas" },
-          "thumbnails": [
-            { "alt": "Pilotes de gran diámetro" },
-            { "alt": "Vigas de cimentación" },
-            { "alt": "Sistemas de contención" }
-          ],
-          "workScope": [
-            "Pilotes de gran diámetro",
-            "Vigas de cimentación",
-            "Sistemas de contención",
-            "Excavaciones profundas urbanas",
-            "Cimentación para torres gemelas"
-          ],
-          "technicalSpecs": {
-            "area": "6.800 m²",
-            "floorTypes": "Cimentación profunda especializada",
-            "specialFinishes": "Sistema de contención urbana"
-          },
-          "results": "Cimentación robusta para torres gemelas que permite construcción segura en zona urbana densa, utilizando tecnología avanzada en pilotaje y contención."
-        },
-        "edificio-0097": {
-          "title": "EDIFICIO 0097",
-          "description": "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
-          "completionDate": "29 de junio de 2024",
-          "heroImage": { "alt": "Edificio 0097 - Estructura en concreto reforzado" },
+        "edificio-q097": {
+          "title": "EDIFICIO Q097",
+          "description": "Estructura en concreto vista preparada para la siguiente fase de obra.",
+          "completionDate": "Mayo de 2023 / Diciembre de 2023",
+          "heroImage": { "alt": "Edificio Q097 - Estructura en concreto reforzado" },
           "thumbnails": [
             { "alt": "Pórticos resistentes" },
             { "alt": "Losas aligeradas" },
             { "alt": "Escaleras estructurales" }
           ],
           "workScope": [
-            "Pórticos resistentes a momento",
-            "Losas aligeradas",
-            "Escaleras estructurales",
-            "Elementos especiales",
-            "Acabados arquitectónicos integrados"
+            "Ejecución de estructura en concreto a la vista, conformada por columnas y pantallas y placa con armadura convencional aligerada mediante calcetón de icopor. La obra incluyó la instalación de la mampostería interna en bloque común y la disposición de elementos estructurales necesarios para el avance de acabados."
           ],
-          "technicalSpecs": {
-            "area": "4.200 m²",
-            "floorTypes": "Losas aligeradas",
-            "specialFinishes": "Acabados arquitectónicos integrados"
-          },
-          "results": "Edificio residencial con estructura optimizada que combina eficiencia constructiva con calidad arquitectónica, proporcionando espacios funcionales y seguros para 64 apartamentos."
+          "technicalSpecs": [
+            "Cimentación",
+            "Estructura en concreto a la vista (columnas, pantallas y placas)",
+            "Mampostería interna (bloque común)"
+          ],
+          "results": "Edificio entregado en estructura, listo para iniciar actividades de mampostería, pañetes y acabados según las especificaciones del proyecto."
+        },
+        "colegio-tapsandes": {
+          "title": "COLEGIO TAPSANDES",
+          "description": "Espacios educativos duraderos y listos para el uso.",
+          "completionDate": "Junio de 2019 / Marzo de 2020",
+          "heroImage": { "alt": "Colegio Tapsandes - Obra de estructura" },
+          "thumbnails": [
+            { "alt": "Vista 1" },
+            { "alt": "Vista 2" },
+            { "alt": "Vista 3" }
+          ],
+          "workScope": [
+            "Ejecución de cimentación y estructura en concreto a la vista, incluyendo columnas, pantallas y escaleras. Placa en armadura convencional aligerada mediante calcetón de icopor para optimizar peso y aislamiento. Mampostería interna en bloque común con pañete interior y alistado de pisos; fachada en ladrillo Santa Fe tipo rejilla que aporta textura y ventilación. Salones estucados y terminados con pintura vinílica tipo 1, con acabados pensados para uso institucional."
+          ],
+          "technicalSpecs": [
+            "Cimentación",
+            "Estructura (columnas, pantallas y placas)",
+            "Mampostería de fachada (ladrillo Santa Fe tipo rejilla)",
+            "Mampostería interna (bloque común)",
+            "Pañete de fachada",
+            "Pañete interno",
+            "Acabados y alistado de pisos"
+          ],
+          "results": "Salones entregados listos para uso, con terminaciones de calidad, superficies uniformes y condiciones óptimas para la actividad educativa. Proyecto orientado a ofrecer durabilidad, confort y fácil mantenimiento."
+        },
+        "puente-conjunto-residencial-la-calera": {
+          "title": "PUENTE — CONJUNTO RESIDENCIAL LA CALERA",
+          "description": "Solución estructural en concreto a la vista para conectividad interna.",
+          "completionDate": "Enero de 2023 / Abril de 2023",
+          "heroImage": { "alt": "Puente interno — Conjunto Residencial La Calera" },
+          "thumbnails": [
+            { "alt": "Vista 1" },
+            { "alt": "Vista 2" },
+            { "alt": "Vista 3" }
+          ],
+          "workScope": [
+            "Construcción de vigas tensoradas en concreto a la vista con formaleta metálica, ejecución de herrería conforme a planos y empleo de concreto vibrado de 500 psi. La intervención abarcó todos los elementos estructurales necesarios para garantizar la resistencia y durabilidad del puente."
+          ],
+          "technicalSpecs": [
+            "Localización y replanteo",
+            "Cimentación",
+            "Estructura (vigas tensoradas, formaleta metálica y herrería)",
+            "Colado de concreto vibrado (500 psi)"
+          ],
+          "results": "Entrega del puente con concreto a la vista y terminaciones estructurales, listo para su uso y con condiciones óptimas de seguridad y durabilidad."
         }
+    ,
+      "condominio-altos-del-refugio": {
+        "title": "CONDOMINIO ALTOS DEL REFUGIO",
+        "description": "Acabados personalizados para espacios modernos y funcionales",
+        "completionDate": "Octubre de 2024 / En ejecución",
+        "heroImage": { "alt": "Condominio Altos del Refugio - Vista principal" },
+        "thumbnails": [
+          { "alt": "Detalle de acabados 1" },
+          { "alt": "Detalle de acabados 2" },
+          { "alt": "Detalle de acabados 3" }
+        ],
+        "workScope": [
+          "Instalación de pisos y enchapes en áreas sociales y privadas",
+          "Carpintería personalizada en cocina y closets",
+          "Pintura y acabados decorativos en muros y cielos rasos"
+        ],
+        "technicalSpecs": [
+          "Instalación de enchapes",
+          "Estuco y pintura",
+          "Carpintería de madera y materiales sintéticos"
+        ],
+        "results": "Espacios modernos y funcionales con acabados personalizados de alta calidad"
+      }
     },
+
 
       "categories": {
         "ACABADOS": "ACABADOS",
@@ -792,12 +808,12 @@
         "ESTRUCTURA": "ESTRUCTURA",
         "CIMENTACIÓN": "CIMENTACIÓN"
       },
-    "serviceTypes": {
-      "ACABADOS": "ACABADOS",
-      "MAMPOSTERÍA": "MAMPOSTERÍA",
-      "ESTRUCTURA": "ESTRUCTURA",
-      "CIMENTACIÓN": "CIMENTACIÓN"
-    },
-    "back_to_projects": "Ver todos los proyectos"
-  }
+      "serviceTypes": {
+        "ACABADOS": "ACABADOS",
+        "MAMPOSTERÍA": "MAMPOSTERÍA",
+        "ESTRUCTURA": "ESTRUCTURA",
+        "CIMENTACIÓN": "CIMENTACIÓN"
+      },
+      "back_to_projects": "Ver todos los proyectos"
+    }
 }

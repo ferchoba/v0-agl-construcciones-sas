@@ -9,26 +9,17 @@ export function ProjectContent({ project }: ProjectContentProps) {
   const slug = project.slug
   const descTx = tx(`projects.details.${slug}.description`) as string | undefined
   const workScopeTx = tx(`projects.details.${slug}.workScope`) as string[] | undefined
-  const areaTx = tx(`projects.details.${slug}.technicalSpecs.area`) as string | undefined
-  const floorTypesTx = tx(`projects.details.${slug}.technicalSpecs.floorTypes`) as string | undefined
-  const specialFinishesTx = tx(`projects.details.${slug}.technicalSpecs.specialFinishes`) as string | undefined
+  const techListTx = tx(`projects.details.${slug}.technicalSpecs`) as string[] | undefined
   const resultsTx = tx(`projects.details.${slug}.results`) as string | undefined
 
   const description = descTx ?? project.description
   const workScope = workScopeTx ?? project.workScope
-  const area = areaTx ?? project.technicalSpecs.area
-  const floorTypes = floorTypesTx ?? project.technicalSpecs.floorTypes
-  const specialFinishes = specialFinishesTx ?? project.technicalSpecs.specialFinishes
+  const techList = techListTx ?? project.technicalSpecs
   const results = resultsTx ?? project.results
 
   return (
     <div className="space-y-12">
-      {/* Project Description */}
-      <section>
-        <h2 className="text-3xl font-bold text-foreground mb-6">{tx(`projects.details.${slug}.title`) ?? project.title}</h2>
-        <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.detailsTitle")}</h3>
-        <p className="text-muted-foreground leading-relaxed">{description}</p>
-      </section>
+      
 
       {/* Work Scope */}
       <section>
@@ -45,14 +36,11 @@ export function ProjectContent({ project }: ProjectContentProps) {
       {/* Technical Specifications */}
       <section>
         <h3 className="text-xl font-semibold text-foreground mb-4">{t("projects.techSpecsTitle")}</h3>
-        <div className="space-y-2 text-muted-foreground">
-          {area && <p>{t("projects.tech.areaLabel")}: {area}</p>}
-          {project.technicalSpecs.apartments && <p>{t("projects.tech.apartmentsLabel")}: {project.technicalSpecs.apartments}</p>}
-          {floorTypes && <p>{t("projects.tech.floorTypesLabel")}: {floorTypes}</p>}
-          {specialFinishes && (
-            <p>{t("projects.tech.specialFinishesLabel")}: {specialFinishes}</p>
-          )}
-        </div>
+        <ul className="space-y-2">
+          {techList.map((item, index) => (
+            <li key={index} className="text-muted-foreground">• {item}</li>
+          ))}
+        </ul>
       </section>
 
       {/* Results */}

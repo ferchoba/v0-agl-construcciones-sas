@@ -16,6 +16,8 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
+  // Next.js 15 puede intentar usar Pages/_document; forzamos app router puro
+  // y evitamos confusiones convirtiendo cualquier referencia a pages en inexistente
 };
 
 export default nextConfig;

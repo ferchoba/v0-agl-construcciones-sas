@@ -320,7 +320,7 @@
     }
   },
   "statistics": {
-    "title": "Why choose AGL CONSTRUCCIONES SAS?",
+    "title": "Why choose AGL CONSTRUCCIONES?",
     "experience": "Years of experience in the sector",
     "quality": "High quality materials",
     "team": "Expert professional team",
@@ -388,69 +388,45 @@
     }
   },
   "company": {
-    "name": "AGL CONSTRUCCIONES SAS",
+    "name": "AGL CONSTRUCCIONES",
     "description": "We are a company specialized in remodeling and construction of residential, commercial and office spaces. With years of experience in the sector, we have established ourselves as leaders in space transformation.",
     "mission_title": "Mission",
-    "mission": "Transform spaces with exceptional quality, providing personalized solutions that exceed our clients' expectations.",
+    "mission": "We turn ideas into successful projects: we plan, execute, and deliver works with innovative processes, rigorous quality control, and personalized attention. Our commitment is to maximize the client's investment, meet deadlines, and exceed expectations with solutions that provide durability, aesthetics, and return.",
+    "vision_title": "Vision",
+    "vision": "To be the preferred construction company for clients and investors, recognized for delivering profitable, innovative, and high-quality projects that generate immediate and sustainable value.",
     "values_title": "Values",
     "values": {
-      "quality": {
-        "title": "Quality",
-        "description": "We use premium materials and specialized techniques"
+      "calidad_exigente": {
+        "title": "Demanding quality",
+        "description": "We guarantee processes and finishes with rigorous controls to deliver projects that exceed expectations."
       },
-      "commitment": {
-        "title": "Commitment",
-        "description": "We meet agreed deadlines and budgets"
+      "innovacion_constructiva": {
+        "title": "Construction innovation",
+        "description": "We incorporate methods and materials that reduce time and improve efficiency without sacrificing robustness."
       },
-      "innovation": {
-        "title": "Innovation",
-        "description": "We incorporate the latest trends in design and construction"
+      "compromiso_con_el_cliente": {
+        "title": "Client commitment",
+        "description": "Personalized attention, meeting deadlines, and focusing on maximizing the client's return on investment."
       },
-      "trust": {
-        "title": "Trust",
-        "description": "We build lasting relationships with our clients"
+      "eficiencia_y_rentabilidad": {
+        "title": "Efficiency and profitability",
+        "description": "We optimize costs and resources to offer projects with the best cost-benefit ratio."
       },
-      "calidad": {
-        "title": "Quality",
-        "description": "We use premium materials and specialized techniques"
+      "seguridad_y_salud_ocupacional": {
+        "title": "Occupational health and safety",
+        "description": "We prioritize protocols and best practices to protect our team and clients on-site."
       },
-      "compromiso": {
-        "title": "Commitment",
-        "description": "We meet agreed deadlines and budgets"
+      "transparencia_y_cumplimiento": {
+        "title": "Transparency and compliance",
+        "description": "Clear reporting, document management, and regulatory compliance ensure trust and control."
       },
-      "innovación": {
-        "title": "Innovation",
-        "description": "We incorporate the latest trends in design and construction"
+      "sostenibilidad_y_responsabilidad": {
+        "title": "Sustainability and responsibility",
+        "description": "We integrate practices that reduce environmental impact and contribute to the well-being of communities."
       },
-      "confianza": {
-        "title": "Trust",
-        "description": "We build lasting relationships with our clients"
-      }
-    },
-    "services_overview_title": "Services",
-    "serviceCategories": {
-      "remodelaciones_integrales": {
-        "title": "Comprehensive Remodeling",
-        "description": "We completely transform your residential and commercial spaces with modern and functional designs.",
-        "features": []
-      },
-      "renovaciones_especializadas": {
-        "title": "Specialized Renovations",
-        "description": "",
-        "features": [
-          "Modern and functional kitchens",
-          "Bathrooms with contemporary designs",
-          "Optimized garages"
-        ]
-      },
-      "acabados_y_mantenimiento": {
-        "title": "Finishes and Maintenance",
-        "description": "",
-        "features": [
-          "Professional flooring installation",
-          "Specialized painting",
-          "Preventive maintenance"
-        ]
+      "trabajo_en_equipo_y_talento": {
+        "title": "Teamwork and talent",
+        "description": "We foster training, leadership, and collaboration to achieve better results."
       }
     },
     "why_choose_us": {
@@ -563,7 +539,7 @@
       "MAMPOSTERÍA": "MASONRY",
       "ACABADOS": "FINISHES"
     },
-    "completed_at": "Completed on:",
+    "completed_at": "Completed between:",
     "detailsTitle": "Project Description",
     "workScopeTitle": "Work Scope",
     "techSpecsTitle": "Technical Specifications",
@@ -576,8 +552,7 @@
     },
     "detailsCardTitle": "Project Details",
     "serviceTypeLabel": "Service type:",
-    "imagesLabel": "Images:",
-    "imagesUnit": "photos",
+    "locationLabel": "Location:",
     "view_details": "View Details",
     "view_service_label": "View service:",
     "total_projects_label": "Showing {count} projects in total",
@@ -600,6 +575,12 @@
         "completedDate": "October 14, 2024",
         "location": "Bogotá"
       },
+      "colegio-tapsandes": {
+        "title": "COLEGIO TAPSANDES",
+        "description": "Educational infrastructure executed with seismic standards and quality control.",
+        "completedDate": "June 2019 / March 2020",
+        "location": "Bogotá"
+      },
       "mega-colegio-san-marcos-funza": {
         "title": "MEGA COLEGIO SAN MARCOS FUNZA",
         "description": "Reinforced concrete structure for a large-scale educational complex. Includes columns, beams, slabs, and special structural elements designed to support large spans and loads, complying with current seismic regulations.",
@@ -612,18 +593,19 @@
         "completedDate": "August 1, 2024",
         "location": "Bogotá"
       },
-      "urbanza": {
-        "title": "URBANZA",
-        "description": "Foundation for a residential complex of twin towers. Construction of deep foundations with large-diameter piles, foundation beams, and retention systems for deep excavations in a dense urban area.",
-        "completedDate": "July 19, 2024",
-        "location": "Bogotá"
-      },
-      "edificio-0097": {
-        "title": "EDIFICIO 0097",
+      "edificio-q097": {
+        "title": "EDIFICIO Q097",
         "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
         "completedDate": "June 29, 2024",
         "location": "Bogotá"
+      ,
+      "condominio-altos-del-refugio": {
+        "title": "ALTOS DEL REFUGIO CONDOMINIUM",
+        "description": "Custom finishes for modern and functional spaces",
+        "completedDate": "October 2024 / In progress",
+        "location": "La Mesa, Cundinamarca"
       }
+    }
     },
     "details": {
       "altos-de-tundama": {
@@ -643,11 +625,15 @@
             "Interior and exterior painting",
             "Installation of doors and windows"
           ],
-          "technicalSpecs": {
-            "area": "3,500 m²",
-            "floorTypes": "Porcelain and ceramic",
-            "specialFinishes": "Integrated kitchens"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (columns, screens, and slabs)",
+            "Facade masonry (Santa Fe brick, grid-type)",
+            "Internal masonry (common block)",
+            "Facade plaster",
+            "Internal plaster",
+            "Final finishes (stucco, vinyl paint, and drywall ceilings)"
+          ],
           "results": "A project that combines structural solidity, functionality and aesthetics..."
         },
       "universidad-santo-tomas-tunja": {
@@ -667,11 +653,12 @@
             "Confined masonry",
             "Special institutional finishes"
           ],
-          "technicalSpecs": {
-            "area": "2,800 m²",
-            "floorTypes": "Polished concrete",
-            "specialFinishes": "Architectural brick facade"
-          },
+          "technicalSpecs": [
+            "Confined masonry (common block, columns, and joists)",
+            "Internal plastering",
+            "Facade plastering",
+            "Roof floor laying and preparation"
+          ],
           "results": "Modern academic block combining structural strength with institutional architectural design, complying with all educational and seismic regulations."
         },
         "entreparques": {
@@ -691,11 +678,11 @@
             "Decorative elements",
             "Special high-rise finishes"
           ],
-          "technicalSpecs": {
-            "area": "8,500 m²",
-            "floorTypes": "Rectified porcelain tile",
-            "specialFinishes": "Ventilated facade"
-          },
+          "technicalSpecs": [
+            "Internal masonry (common block)",
+            "Facade masonry (large-format Santa Fe brick, grid-type)",
+            "Internal plastering"
+          ],
           "results": "High-quality residential tower setting new standards in vertical construction, combining advanced masonry techniques with contemporary design."
         },
         "mega-colegio-san-marcos-funza": {
@@ -715,11 +702,14 @@
             "Seismic structural elements",
             "Structures for large spaces"
           ],
-          "technicalSpecs": {
-            "area": "12,000 m²",
-            "floorTypes": "Industrial concrete",
-            "specialFinishes": "Seismic-resistant structure"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (columns, screens, slabs, and stairs)",
+            "Exposed façade masonry (Santa Fe brick, grid-type)",
+            "Internal masonry (common block)",
+            "Internal plastering",
+            "Flooring"
+          ],
           "results": "Educational complex with a state-of-the-art structure enabling large open spaces, meeting the highest standards of seismic safety and educational functionality."
         },
         "urbanizacion-hacienda-los-lagos": {
@@ -739,42 +729,62 @@
             "Integrated drainage systems",
             "Specialized geotechnical studies"
           ],
-          "technicalSpecs": {
-            "area": "15,000 m²",
-            "floorTypes": "Deep foundation",
-            "specialFinishes": "Integrated drainage system"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (basements 1 and 2)",
+            "Industrialized structure"
+          ],
           "results": "Residential development with high-quality foundations ensuring long-term stability for 120 homes, overcoming the site's geotechnical challenges."
         },
-        "urbanza": {
-          "title": "URBANZA",
-          "description": "Foundation for a residential complex of twin towers. Construction of deep foundations with large-diameter piles, foundation beams, and retention systems for deep excavations in a dense urban area.",
-          "completionDate": "July 19, 2024",
-          "heroImage": { "alt": "Urbanza - Twin towers foundation" },
+        "colegio-tapsandes": {
+          "title": "COLEGIO TAPSANDES",
+          "description": "Structural works meeting seismic regulations and high quality standards.",
+          "completionDate": "June 2019 / March 2020",
+          "heroImage": { "alt": "Colegio Tapsandes - Structural works" },
           "thumbnails": [
-            { "alt": "Large-diameter piles" },
-            { "alt": "Foundation beams" },
-            { "alt": "Retention systems" }
+            { "alt": "View 1" },
+            { "alt": "View 2" },
+            { "alt": "View 3" }
           ],
           "workScope": [
-            "Large-diameter piles",
-            "Foundation beams",
-            "Retention systems",
-            "Deep urban excavations",
-            "Foundation for twin towers"
+            "Forming and pouring of reinforced concrete elements",
+            "Rebar installation",
+            "Quality and safety supervision on site"
           ],
-          "technicalSpecs": {
-            "area": "6,800 m²",
-            "floorTypes": "Specialized deep foundation",
-            "specialFinishes": "Urban retention system"
-          },
-          "results": "Robust foundation for twin towers enabling safe construction in a dense urban area, using advanced piling and retention technology."
+          "technicalSpecs": [
+            "Foundation",
+            "Structure (columns, screens, and slabs)",
+            "Seismic-resistant elements"
+          ],
+          "results": "Safe, high-quality educational infrastructure ready for academic operation."
         },
-        "edificio-0097": {
-          "title": "EDIFICIO 0097",
+        "puente-conjunto-residencial-la-calera": {
+          "title": "BRIDGE — LA CALERA RESIDENTIAL COMPLEX",
+          "description": "Internal bridge structure ensuring safe and functional connectivity within the complex.",
+          "completionDate": "January 2023 / April 2023",
+          "heroImage": { "alt": "Internal bridge — La Calera Residential Complex" },
+          "thumbnails": [
+            { "alt": "View 1" },
+            { "alt": "View 2" },
+            { "alt": "View 3" }
+          ],
+          "workScope": [
+            "Bridge foundations and supports",
+            "Reinforced concrete structure",
+            "Surface finishing and protection"
+          ],
+          "technicalSpecs": [
+            "Foundation",
+            "Reinforced concrete structure",
+            "Protective elements and finishes"
+          ],
+          "results": "Safe and functional internal connectivity within the residential complex."
+        },
+        "edificio-q097": {
+          "title": "EDIFICIO Q097",
           "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
           "completionDate": "June 29, 2024",
-          "heroImage": { "alt": "Edificio 0097 - Reinforced concrete structure" },
+          "heroImage": { "alt": "Edificio Q097 - Reinforced concrete structure" },
           "thumbnails": [
             { "alt": "Moment-resisting frames" },
             { "alt": "Lightweight slabs" },
@@ -787,12 +797,35 @@
             "Special elements",
             "Integrated architectural finishes"
           ],
-          "technicalSpecs": {
-            "area": "4,200 m²",
-            "floorTypes": "Lightweight slabs",
-            "specialFinishes": "Integrated architectural finishes"
-          },
+          "technicalSpecs": [
+            "Foundation",
+            "Exposed concrete structure (columns, screens, and slabs)",
+            "Internal masonry (common block)"
+          ],
           "results": "Residential building with an optimized structure combining construction efficiency with architectural quality, providing functional and safe spaces for 64 apartments."
+        }
+,
+        "condominio-altos-del-refugio": {
+          "title": "ALTOS DEL REFUGIO CONDOMINIUM",
+          "description": "Custom finishes for modern and functional spaces",
+          "completionDate": "October 2024 / In progress",
+          "heroImage": { "alt": "Altos del Refugio Condominium - Main view" },
+          "thumbnails": [
+            { "alt": "Finishes detail 1" },
+            { "alt": "Finishes detail 2" },
+            { "alt": "Finishes detail 3" }
+          ],
+          "workScope": [
+            "Installation of floors and tiling in social and private areas",
+            "Custom carpentry for kitchen and closets",
+            "Painting and decorative finishes on walls and ceilings"
+          ],
+          "technicalSpecs": [
+            "Tile installation",
+            "Plaster and paint",
+            "Wood and synthetic materials carpentry"
+          ],
+          "results": "Modern and functional spaces with high-quality custom finishes"
         }
       },
       "categories": {

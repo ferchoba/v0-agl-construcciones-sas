@@ -10,6 +10,7 @@ export function ProjectSidebar({ project }: ProjectSidebarProps) {
   const { t, tx } = useLanguage()
   const slug = project.slug
   const completionTx = tx(`projects.details.${slug}.completionDate`) as string | undefined
+  const locationTx = tx(`projects.items.${slug}.location`) as string | undefined
 
   return (
     <div className="space-y-6">
@@ -46,8 +47,8 @@ export function ProjectSidebar({ project }: ProjectSidebarProps) {
             <p className="text-foreground font-medium">{completionTx ?? project.completionDate}</p>
           </div>
           <div>
-            <span className="text-muted-foreground text-sm">{t("projects.imagesLabel")}</span>
-            <p className="text-foreground font-medium">{project.imageCount} {t("projects.imagesUnit")}</p>
+            <span className="text-muted-foreground text-sm">{t("projects.locationLabel")}</span>
+            <p className="text-foreground font-medium">{locationTx ?? project.location}</p>
           </div>
         </CardContent>
       </Card>

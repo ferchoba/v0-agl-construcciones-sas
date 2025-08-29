@@ -11,15 +11,11 @@ export interface ProjectDetail {
   category: string
   completionDate: string
   description: string
+  location: string
   heroImage: ProjectImage
   thumbnails: ProjectImage[]
   workScope: string[]
-  technicalSpecs: {
-    area?: string
-    apartments?: number
-    floorTypes?: string
-    specialFinishes?: string
-  }
+  technicalSpecs: string[]
   results: string
   serviceType: string
   imageCount: number
