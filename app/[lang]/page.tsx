@@ -4,6 +4,7 @@ import Services from '@/components/Services'
 import Statistics from '@/components/Statistics'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
+import ServicesHomeAnimated from '@/components/ServicesHomeAnimated'
 import type { Metadata } from 'next'
 import es from '@/messages/es.json'
 import en from '@/messages/en.json'
@@ -29,13 +30,15 @@ export function generateMetadata({ params }: PageProps): Metadata {
   }
 }
 
-export default function HomeLangPage() {
+export default function HomeLangPage({ params }: PageProps) {
+  const { lang } = params
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <Hero />
-      <Services />
-      <Statistics />
+      <ServicesHomeAnimated lang={lang} />
+      <Services />      
+      <Statistics />      
       <CTA />
       <Footer />
     </div>
