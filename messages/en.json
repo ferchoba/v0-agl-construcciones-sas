@@ -345,11 +345,11 @@
     "page_subtitle": "We're here to help you with your project",
     "alternative_contact_title": "Other ways to contact us",
     "email_title": "Email",
-    "email_value": "info@aglconstrucciones.com",
+    "email_value": "aglconstruccionesas@gmail.com",
     "whatsapp_title": "WhatsApp",
-    "whatsapp_value": "+57 301 257 1215",
+    "whatsapp_value": "+57 322 465 5732",
     "location_title": "Location",
-    "location_value": "Algeciras, Huila, Colombia"
+    "location_value": "Bogotá, Colombia"
   },
   "contact_form": {
     "title": "Contact Us",
@@ -365,7 +365,7 @@
       },
       "phone": {
         "label": "Phone",
-        "placeholder": "+57 300 123 4567"
+        "placeholder": "+57 300 xxx xxxx"
       },
       "message": {
         "label": "Message",
@@ -559,44 +559,44 @@
     "items": {
       "altos-de-tundama": {
         "title": "ALTOS DE TUNDAMA",
-        "description": "Comprehensive finishing project for the Altos de Tundama residential complex...",
-        "completedDate": "December 14, 2024",
-        "location": "Tundama"
+        "description": "Modern housing with quality construction and finishes ready to move in.",
+        "completedDate": "June 2016 / November 2017",
+        "location": "Duitama"
       },
       "universidad-santo-tomas-tunja": {
         "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
-        "description": "Structural masonry construction for a new 3-story academic block. Specialized work on load-bearing walls, exposed brick facades, and decorative architectural elements combining functionality with modern institutional design.",
-        "completedDate": "November 19, 2024",
+        "description": "Structural intervention and preparation of classrooms for final finishes.",
+        "completedDate": "May 2018 / September 2018",
         "location": "Tunja"
       },
       "entreparques": {
         "title": "ENTREPARQUES",
-        "description": "Masonry development for a 15-story residential tower. Construction of partition walls, ventilated facades, and complementary structural elements using advanced techniques and high-resistance materials to ensure durability and aesthetics.",
-        "completedDate": "October 14, 2024",
+        "description": "Apartments with large facades and spaces ready to personalize.",
+        "completedDate": "August 2018 / February 2019",
         "location": "Bogotá"
       },
       "colegio-tapsandes": {
         "title": "COLEGIO TAPSANDES",
-        "description": "Educational infrastructure executed with seismic standards and quality control.",
+        "description": "Long-lasting, ready-to-use educational spaces.",
         "completedDate": "June 2019 / March 2020",
         "location": "Bogotá"
       },
       "mega-colegio-san-marcos-funza": {
         "title": "MEGA COLEGIO SAN MARCOS FUNZA",
-        "description": "Reinforced concrete structure for a large-scale educational complex. Includes columns, beams, slabs, and special structural elements designed to support large spans and loads, complying with current seismic regulations.",
-        "completedDate": "September 6, 2024",
+        "description": "Robust, ready-to-operate educational infrastructure.",
+        "completedDate": "September 2020 / March 2021",
         "location": "Funza"
       },
       "urbanizacion-hacienda-los-lagos": {
         "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
-        "description": "Deep foundation for a residential development of 120 homes. Excavation, piling, and construction of strip footings with integrated drainage systems. Specialized technical work in soils with high geotechnical complexity.",
-        "completedDate": "August 1, 2024",
+        "description": "Completed basements and structure Industrialized structure ready for construction progress.",
+        "completedDate": "May 2022 / December 2022",
         "location": "Bogotá"
       },
       "edificio-q097": {
         "title": "EDIFICIO Q097",
-        "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
-        "completedDate": "June 29, 2024",
+        "description": "Exposed concrete structure prepared for the next phase of construction.",
+        "completedDate": "May 2023 / December 2023",
         "location": "Bogotá"
       ,
       "condominio-altos-del-refugio": {
@@ -610,8 +610,8 @@
     "details": {
       "altos-de-tundama": {
           "title": "ALTOS DE TUNDAMA",
-          "description": "Comprehensive finishing project for the Altos de Tundama residential complex...",
-          "completionDate": "December 14, 2024",
+          "description": "Modern home with quality construction and ready-to-move-in finishes.",
+          "completionDate": "June 2016 / November 2017",
           "heroImage": { "alt": "Altos de Tundama building - Main view" },
           "thumbnails": [
             { "alt": "Side view of the building" },
@@ -619,52 +619,44 @@
             { "alt": "Common area" }
           ],
           "workScope": [
-            "Installation of ceramic and porcelain floors",
-            "Tiling in bathrooms and kitchens",
-            "Wood carpentry",
-            "Interior and exterior painting",
-            "Installation of doors and windows"
+            "Project with exposed concrete structure, columns and screens, slab with conventional reinforcement lightened by Styrofoam socks. Internal masonry in common block with interior plaster; façade in Santa Fe brick, grid-like, which provides texture and ventilation. Apartments delivered stuccoed and finished with Type 1 vinyl paint. Drywall ceilings guarantee clean, contemporary finishes."
           ],
           "technicalSpecs": [
             "Foundation",
             "Structure (columns, screens, and slabs)",
-            "Facade masonry (Santa Fe brick, grid-type)",
+            "Facade masonry (Santa Fe grid-type brick)",
             "Internal masonry (common block)",
             "Facade plaster",
             "Internal plaster",
             "Final finishes (stucco, vinyl paint, and drywall ceilings)"
           ],
-          "results": "A project that combines structural solidity, functionality and aesthetics..."
+          "results": "Apartments delivered with stainless steel finishes, high-quality finishes, and ready for delivery to the owners. A development designed to offer durability, aesthetics, and comfort."
         },
       "universidad-santo-tomas-tunja": {
           "title": "UNIVERSIDAD SANTO TOMAS DE TUNJA",
-          "description": "Structural masonry construction for a new 3-story academic block. Specialized work on load-bearing walls, exposed brick facades, and decorative architectural elements combining functionality with modern institutional design.",
-          "completionDate": "November 19, 2024",
-          "heroImage": { "alt": "Universidad Santo Tomas de Tunja - Academic block construction" },
+          "description": "Structural intervention and preparation of classrooms for final finishes.",
+          "completionDate": "May 2018 / September 2018",
+          "heroImage": { "alt": "Universidad Santo Tomas de Tunja - Construction of the academic block" },
           "thumbnails": [
             { "alt": "Main facade under construction" },
             { "alt": "Masonry details" },
             { "alt": "Internal structure" }
           ],
           "workScope": [
-            "Construction of structural load-bearing walls",
-            "Exposed brick facades",
-            "Decorative architectural elements",
-            "Confined masonry",
-            "Special institutional finishes"
+            "Confined masonry intervention using common block, complemented with columns and joists to ensure structural rigidity and safety. Plasters were built both inside and on the facades. Performed the laying and preparation of the roof floors for the subsequent installation of the finishes."
           ],
           "technicalSpecs": [
             "Confined masonry (common block, columns, and joists)",
             "Internal plastering",
             "Facade plastering",
-            "Roof floor laying and preparation"
+            "Laying and preparation of roof floors"
           ],
-          "results": "Modern academic block combining structural strength with institutional architectural design, complying with all educational and seismic regulations."
+          "results": "Delivery of plastered and prepared classrooms, ready to receive the final finishes and be put into use by the institution. Work aimed at providing uniform surfaces and optimal conditions for finishes and equipment."
         },
         "entreparques": {
           "title": "ENTREPARQUES",
-          "description": "Masonry development for a 15-story residential tower. Construction of partition walls, ventilated facades, and complementary structural elements using advanced techniques and high-resistance materials to ensure durability and aesthetics.",
-          "completionDate": "October 14, 2024",
+          "description": "Apartments with large-format facades and spaces ready to be personalized.",
+          "completionDate": "August 2018 / February 2019",
           "heroImage": { "alt": "Entreparques Tower - Construction view" },
           "thumbnails": [
             { "alt": "Tower under construction" },
@@ -672,23 +664,19 @@
             { "alt": "Construction details" }
           ],
           "workScope": [
-            "Interior partition walls",
-            "Ventilated facades",
-            "Complementary structural masonry",
-            "Decorative elements",
-            "Special high-rise finishes"
+            "Common block masonry with internal plaster; exposed facades in large-format grid-type Santa Fe brick, which provide texture, ventilation, and architectural presence. The project included the preparation of the interiors for the finishing stage, ensuring uniform surfaces and optimal conditions for the finishing."
           ],
           "technicalSpecs": [
             "Internal masonry (common block)",
             "Facade masonry (large-format Santa Fe brick, grid-type)",
             "Internal plastering"
           ],
-          "results": "High-quality residential tower setting new standards in vertical construction, combining advanced masonry techniques with contemporary design."
+          "results": "Delivery of apartments in whitewashed condition, ready for final finishing according to the owners' requirements."
         },
         "mega-colegio-san-marcos-funza": {
           "title": "MEGA COLEGIO SAN MARCOS FUNZA",
-          "description": "Reinforced concrete structure for a large-scale educational complex. Includes columns, beams, slabs, and special structural elements designed to support large spans and loads, complying with current seismic regulations.",
-          "completionDate": "September 6, 2024",
+          "description": "Robust educational infrastructure ready for operation.",
+          "completionDate": "September 2020 / March 2021",
           "heroImage": { "alt": "Mega Colegio San Marcos Funza - Structure under construction" },
           "thumbnails": [
             { "alt": "Concrete structure" },
@@ -696,26 +684,22 @@
             { "alt": "Special slabs" }
           ],
           "workScope": [
-            "Reinforced concrete columns",
-            "Long-span beams",
-            "Special lightweight slabs",
-            "Seismic structural elements",
-            "Structures for large spaces"
+            "Execution of foundation and structure in exposed concrete, with embedding for tower crane; columns, screens, and stairs. Conventional reinforcement slab lightened by Styrofoam socks to optimize weight and insulation. Internal masonry in common block with Interior plastering and floor finishing. Facades executed in Santa Fe grid-style brick, which provides texture and ventilation to the building."
           ],
           "technicalSpecs": [
             "Foundation",
             "Structure (columns, screens, slabs, and stairs)",
-            "Exposed façade masonry (Santa Fe brick, grid-type)",
+            "Exposed facade masonry (Santa Fe grid-style brick)",
             "Internal masonry (common block)",
             "Internal plastering",
             "Flooring"
           ],
-          "results": "Educational complex with a state-of-the-art structure enabling large open spaces, meeting the highest standards of seismic safety and educational functionality."
+          "results": "School delivered and ready for use, with structure and finishes that guarantee durability, functionality, and comfort for the educational community."
         },
         "urbanizacion-hacienda-los-lagos": {
           "title": "URBANIZACIÓN HACIENDA LOS LAGOS",
-          "description": "Deep foundation for a residential development of 120 homes. Excavation, piling, and construction of strip footings with integrated drainage systems. Specialized technical work in soils with high geotechnical complexity.",
-          "completionDate": "August 1, 2024",
+          "description": "Basements completed and industrialized structure prepared for construction progress.",
+          "completionDate": "May 2022 / December 2022",
           "heroImage": { "alt": "Urbanización Hacienda Los Lagos - Foundation works" },
           "thumbnails": [
             { "alt": "Deep excavations" },
@@ -723,22 +707,18 @@
             { "alt": "Strip footings" }
           ],
           "workScope": [
-            "Controlled deep excavation",
-            "Large-diameter piling",
-            "Strip footings",
-            "Integrated drainage systems",
-            "Specialized geotechnical studies"
+            "Execution of foundations and structures in basements 1 and 2, complemented by an industrialized structural system to optimize construction time and quality. The work included the preparation of necessary support areas and points. for the continuity of the masonry and finishing stages."
           ],
           "technicalSpecs": [
             "Foundation",
             "Structure (basements 1 and 2)",
             "Industrialized structure"
           ],
-          "results": "Residential development with high-quality foundations ensuring long-term stability for 120 homes, overcoming the site's geotechnical challenges."
+          "results": "Delivery of the structure ready to begin masonry work and finishing, with adequate conditions for rapid and controlled installation."
         },
         "colegio-tapsandes": {
           "title": "COLEGIO TAPSANDES",
-          "description": "Structural works meeting seismic regulations and high quality standards.",
+          "description": "Long-lasting, ready-to-use educational spaces.",
           "completionDate": "June 2019 / March 2020",
           "heroImage": { "alt": "Colegio Tapsandes - Structural works" },
           "thumbnails": [
@@ -747,20 +727,22 @@
             { "alt": "View 3" }
           ],
           "workScope": [
-            "Forming and pouring of reinforced concrete elements",
-            "Rebar installation",
-            "Quality and safety supervision on site"
+            "Execution of foundation and structure in exposed concrete, including columns, screens, and stairs. Conventional reinforcement slab lightened by Styrofoam socks to optimize weight and insulation. Internal masonry in common block with interior plaster and floor screed; facade in Santa Fe brick, grid-type. It provides texture and ventilation. Classrooms are stuccoed and finished with type 1 vinyl paint, with finishes designed for institutional use."
           ],
           "technicalSpecs": [
             "Foundation",
             "Structure (columns, screens, and slabs)",
-            "Seismic-resistant elements"
+            "Facade masonry (Santa Fe grid-type brick)",
+            "Internal masonry (common block)",
+            "Facade plaster",
+            "Internal plaster",
+            "Floor finishing and screed"
           ],
-          "results": "Safe, high-quality educational infrastructure ready for academic operation."
+          "results": "Classrooms delivered ready for use, with quality finishes, uniform surfaces, and optimal conditions for educational activities. Project aimed at offering durability, comfort, and easy maintenance."
         },
         "puente-conjunto-residencial-la-calera": {
           "title": "BRIDGE — LA CALERA RESIDENTIAL COMPLEX",
-          "description": "Internal bridge structure ensuring safe and functional connectivity within the complex.",
+          "description": "Exposed concrete structural solution for internal connectivity.",
           "completionDate": "January 2023 / April 2023",
           "heroImage": { "alt": "Internal bridge — La Calera Residential Complex" },
           "thumbnails": [
@@ -769,21 +751,20 @@
             { "alt": "View 3" }
           ],
           "workScope": [
-            "Bridge foundations and supports",
-            "Reinforced concrete structure",
-            "Surface finishing and protection"
+            "Construction of exposed concrete tensioned beams with metal formwork, ironwork execution according to plans and use of 500 psi vibrated concrete. The intervention covered all the structural elements necessary to guarantee the strength and durability of the bridge."
           ],
           "technicalSpecs": [
+            "Location and layout",
             "Foundation",
-            "Reinforced concrete structure",
-            "Protective elements and finishes"
+            "Structure (tensioned beams, metal formwork, and ironwork)",
+            "Vibrated concrete casting (500 psi)"
           ],
-          "results": "Safe and functional internal connectivity within the residential complex."
+          "results": "Delivery of the bridge with exposed concrete and structural finishes, ready for use and with optimal safety and durability conditions."
         },
         "edificio-q097": {
           "title": "EDIFICIO Q097",
-          "description": "Complete reinforced concrete structure for an 8-story residential building. Construction of moment-resisting frames, lightweight slabs, stairs, and special structural elements with integrated architectural finishes.",
-          "completionDate": "June 29, 2024",
+          "description": "Exposed concrete structure prepared for the next phase of construction.",
+          "completionDate": "May 2023 / December 2023",
           "heroImage": { "alt": "Edificio Q097 - Reinforced concrete structure" },
           "thumbnails": [
             { "alt": "Moment-resisting frames" },
@@ -791,23 +772,19 @@
             { "alt": "Structural stairs" }
           ],
           "workScope": [
-            "Moment-resisting frames",
-            "Lightweight slabs",
-            "Structural stairs",
-            "Special elements",
-            "Integrated architectural finishes"
+            "Execution of an exposed concrete structure, consisting of columns and screens, and a slab with conventional reinforcement lightened by Styrofoam socks. The work included the installation of the internal masonry in common blocks and the arrangement of structural elements necessary for the completion of the finishing work."
           ],
           "technicalSpecs": [
             "Foundation",
             "Exposed concrete structure (columns, screens, and slabs)",
             "Internal masonry (common block)"
           ],
-          "results": "Residential building with an optimized structure combining construction efficiency with architectural quality, providing functional and safe spaces for 64 apartments."
+          "results": "Building delivered in its structural form, ready to begin masonry, plastering, and finishing work according to project specifications."
         }
 ,
         "condominio-altos-del-refugio": {
           "title": "ALTOS DEL REFUGIO CONDOMINIUM",
-          "description": "Custom finishes for modern and functional spaces",
+          "description": "Custom finishes for modern and functional spaces.",
           "completionDate": "October 2024 / In progress",
           "heroImage": { "alt": "Altos del Refugio Condominium - Main view" },
           "thumbnails": [
@@ -816,16 +793,16 @@
             { "alt": "Finishes detail 3" }
           ],
           "workScope": [
-            "Installation of floors and tiling in social and private areas",
-            "Custom carpentry for kitchen and closets",
-            "Painting and decorative finishes on walls and ceilings"
+            "Masonry work with interior and facade plastering, stucco and painting, installation of drywall ceilings, and application of porcelain tile tiling according to each owner's choice. The project is aimed at delivering spaces with high-quality finishes and customization."
           ],
           "technicalSpecs": [
-            "Tile installation",
-            "Plaster and paint",
-            "Wood and synthetic materials carpentry"
+            "Interior and facade masonry",
+            "Interior and facade plastering",
+            "Stucco and vinyl paint",
+            "Drywall ceilings",
+            "Porcelain tile veneers (owner's choice)"
           ],
-          "results": "Modern and functional spaces with high-quality custom finishes"
+          "results": "Project currently underway, with progress in finishes and customization of housing units for final delivery."
         }
       },
       "categories": {

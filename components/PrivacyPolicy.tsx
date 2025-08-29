@@ -50,7 +50,7 @@ export function PrivacyPolicy() {
           <h2 className="text-2xl font-bold text-foreground mb-4">5. Sus derechos</h2>
           <p className="text-muted-foreground leading-relaxed">
             Usted tiene derecho a acceder, rectificar y suprimir sus datos personales. Para ejercer estos derechos, puede
-            contactarnos a través del correo electrónico fercho.ba@gmail.com.
+            contactarnos a través del correo electrónico aglconstruccionesas@gmail.com.
           </p>
         </div>
 
@@ -79,8 +79,8 @@ export function PrivacyPolicy() {
           </p>
           <div className="bg-muted border border-border p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-foreground mb-2">Algeciras Construcciones</h3>
-            <p className="text-muted-foreground">Email: fercho.ba@gmail.com</p>
-            <p className="text-muted-foreground">Teléfono: +57 301 293 1285</p>
+            <p className="text-muted-foreground">Email: aglconstruccionesas@gmail.com</p>
+            <p className="text-muted-foreground">Teléfono: +57 322 465 5732</p>
           </div>
         </div>
 

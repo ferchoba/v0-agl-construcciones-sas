@@ -32,7 +32,7 @@ export async function submitContactForm(
   }
 }
 
-export async function sendWhatsAppMessage(message: string, phone = "+573012571215"): Promise<void> {
+export async function sendWhatsAppMessage(message: string, phone = "+573224655732"): Promise<void> {
   const encodedMessage = encodeURIComponent(message)
   const whatsappUrl = `https://wa.me/${phone.replace(/\D/g, "")}?text=${encodedMessage}`
   window.open(whatsappUrl, "_blank")

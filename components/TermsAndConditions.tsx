@@ -100,9 +100,9 @@ export function TermsAndConditions() {
                 Para preguntas sobre estos términos y condiciones, puede contactarnos en:
               </p>
               <div className="bg-muted border border-border rounded-lg p-4">
-                <p className="text-foreground font-semibold">AGL Construcciones SAS</p>
-                <p className="text-muted-foreground">Email: fercho.ba@gmail.com</p>
-                <p className="text-muted-foreground">Teléfono: +57 301 291 1219</p>
+                <p className="text-foreground font-semibold">AGL Construcciones</p>
+                <p className="text-muted-foreground">Email: aglconstruccionesas@gmail.com</p>
+                <p className="text-muted-foreground">Teléfono: +57 322 465 5732</p>
               </div>
             </div>
 

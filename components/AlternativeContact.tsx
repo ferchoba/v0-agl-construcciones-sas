@@ -11,7 +11,7 @@ const contactMethods: ContactMethod[] = [
     title: "contact.email_title",
     value: "contact.email_value",
     icon: "mail",
-    href: "mailto:info@aglconstrucciones.com",
+    href: "mailto:aglconstruccionesas@gmail.com",
   },
   {
     id: "whatsapp",
@@ -19,7 +19,7 @@ const contactMethods: ContactMethod[] = [
     title: "contact.whatsapp_title",
     value: "contact.whatsapp_value",
     icon: "phone",
-    href: "https://wa.me/573012571215",
+    href: "https://wa.me/3224655732",
   },
   {
     id: "location",

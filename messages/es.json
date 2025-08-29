@@ -338,11 +338,11 @@
     "page_subtitle": "Estamos aquí para ayudarte con tu proyecto",
     "alternative_contact_title": "Otras formas de contacto",
     "email_title": "Email",
-    "email_value": "info@aglconstrucciones.com",
+    "email_value": "aglconstruccionesas@gmail.com",
     "whatsapp_title": "WhatsApp",
-    "whatsapp_value": "+57 301 257 1215",
+    "whatsapp_value": "+57 322 465 5732",
     "location_title": "Ubicación",
-    "location_value": "Algeciras, Huila, Colombia"
+    "location_value": "Bogotá, Colombia"
   },
   "contact_form": {
     "title": "Contáctanos",
@@ -358,7 +358,7 @@
       },
       "phone": {
         "label": "Teléfono",
-        "placeholder": "+57 300 123 4567"
+        "placeholder": "+57 300 xxx xxxx"
       },
       "message": {
         "label": "Mensaje",
@@ -788,16 +788,16 @@
           { "alt": "Detalle de acabados 3" }
         ],
         "workScope": [
-          "Instalación de pisos y enchapes en áreas sociales y privadas",
-          "Carpintería personalizada en cocina y closets",
-          "Pintura y acabados decorativos en muros y cielos rasos"
+          "Ejecución de trabajos de mampostería con pañetes internos y de fachada, estuco y pintura, instalación de cielos rasos en drywall y aplicación de enchapes en porcelanato según la elección de cada propietario. El proyecto está orientado a entregar espacios con acabados de alta calidad y personalización."
         ],
         "technicalSpecs": [
-          "Instalación de enchapes",
-          "Estuco y pintura",
-          "Carpintería de madera y materiales sintéticos"
+          "Mampostería interna y de fachada",
+          "Pañetes internos y de fachada",
+          "Estuco y pintura vinílica",
+          "Cielos rasos en drywall",
+          "Enchapes en porcelanato (según elección del propietario)"
         ],
-        "results": "Espacios modernos y funcionales con acabados personalizados de alta calidad"
+        "results": "Proyecto actualmente en ejecución, con avances en acabados y personalización de unidades habitacionales para la entrega final."
       }
     },
 

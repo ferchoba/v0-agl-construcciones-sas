@@ -28,14 +28,14 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <span className="text-xl font-bold text-foreground">AGL CONSTRUCCIONES SAS</span>
+              <span className="text-xl font-bold text-foreground">AGL CONSTRUCCIONES</span>
             </div>
             <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
               {t("footer.company_description")}
             </p>
             <div className="mt-4 flex items-center gap-4" aria-label="Redes sociales">
               <a
-                href="https://wa.me/573012571215"
+                href="https://wa.me/3224655732"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
@@ -53,7 +53,7 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
                 </svg>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61579915674716"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -63,7 +63,7 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
                 <Facebook className="w-6 h-6" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/agl_construcciones/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -73,7 +73,7 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
                 <Instagram className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/agl-construcciones-7860a1380/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -105,11 +105,11 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+57 301 257 1215</span>
+                <span>+57 322 465 5732</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>hencho.bas@gmail.com</span>
+                <span>aglconstruccionesas@gmail.com</span>
               </div>
             </div>
           </div>
