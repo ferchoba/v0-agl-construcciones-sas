@@ -5,7 +5,8 @@ import type {
   ContactFormSubmission, 
   QuoteFormSubmission 
 } from '@/types/web3forms'
-import type { ContactFormData, QuoteFormData } from '@/types/forms'
+import type { ContactFormData } from '@/types/contact'
+import type { QuoteFormData } from '@/types/quote'
 
 export async function submitToWeb3Forms(
   data: Web3FormsSubmission

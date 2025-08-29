@@ -74,7 +74,7 @@ export const projectsData: Project[] = [
     description:
       "Estructura en concreto vista preparada para la siguiente fase de obra.",
     category: "ESTRUCTURA",
-    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380575/EdificioQ097_BN_1200x600_b7fav6.jpg",
+    image: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756439291/EdificioQ097v2_BN_1200x600_tluqp0.jpg",
     completedDate: "Mayo de 2023 / Diciembre de 2023",
     location: "Bogotá",
     slug: "edificio-q097",

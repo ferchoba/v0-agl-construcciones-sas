@@ -330,7 +330,7 @@ export const projectsContent: Record<string, ProjectDetail> = {
     description:
       "Estructura completa en concreto reforzado para edificio residencial de 8 pisos. Construcción de pórticos resistentes a momento, losas aligeradas, escaleras y elementos estructurales especiales con acabados arquitectónicos integrados.",
     heroImage: {
-      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756380575/EdificioQ097_BN_1200x600_b7fav6.jpg",
+      src: "https://res.cloudinary.com/dq5joejf7/image/upload/v1756439291/EdificioQ097v2_BN_1200x600_tluqp0.jpg",
       alt: "Edificio Q097 - Estructura en concreto reforzado",
       width: 800,
       height: 600,
