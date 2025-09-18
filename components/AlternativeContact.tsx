@@ -19,7 +19,7 @@ const contactMethods: ContactMethod[] = [
     title: "contact.whatsapp_title",
     value: "contact.whatsapp_value",
     icon: "phone",
-    href: "https://wa.me/3224655732",
+    href: "https://wa.me/+57 3224655732",
   },
   {
     id: "location",

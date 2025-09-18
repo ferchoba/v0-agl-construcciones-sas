@@ -35,7 +35,7 @@ const FooterComponent = ({ className = "" }: FooterProps) => {
             </p>
             <div className="mt-4 flex items-center gap-4" aria-label="Redes sociales">
               <a
-                href="https://wa.me/3224655732"
+                href="https://wa.me/+57 3224655732"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
